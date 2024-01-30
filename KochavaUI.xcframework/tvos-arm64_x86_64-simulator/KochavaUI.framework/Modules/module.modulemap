@@ -1,0 +1,11 @@
+framework module KochavaUI {
+  umbrella header "KochavaUI.h"
+  export *
+
+  module * { export * }
+}
+
+module KochavaUI.Swift {
+  header "KochavaUI-Swift.h"
+  requires objc
+}

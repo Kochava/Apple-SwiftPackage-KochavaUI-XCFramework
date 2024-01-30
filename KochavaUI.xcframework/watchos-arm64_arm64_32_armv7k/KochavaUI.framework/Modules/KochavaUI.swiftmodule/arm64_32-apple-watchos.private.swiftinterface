@@ -1,0 +1,193 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64_32-apple-watchos6.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name KochavaUI
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+import KochavaNetworking
+@_exported import KochavaUI
+import OSLog
+import Swift
+import UIKit
+import WatchKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc(KVAImage) final public class KVAImage : ObjectiveC.NSObject, KochavaUI.KVATableViewCellProviderProtocol {
+  public init(urlString: Swift.String?, accessabilityTextString: Swift.String?, displayWidthMaximumPercentageCGFloat: CoreFoundation.CGFloat?, displayHeightMaximumPercentageCGFloat: CoreFoundation.CGFloat?)
+  final public var execution: KochavaNetworking.Execution {
+    get
+  }
+  @objc(imageWithClosure_didComplete:) final public func image(closure_didComplete: ((_ image: UIKit.UIImage?) -> Swift.Void)?)
+  @objc public static func tableViewNibsDictionary() -> [Swift.String : Swift.AnyObject]?
+  @objc final public func tableViewReusableCellIdentifier() -> Swift.String?
+  final public var displayWidthMaximumPercentageCGFloat: CoreFoundation.CGFloat? {
+    get
+  }
+  final public var displayHeightMaximumPercentageCGFloat: CoreFoundation.CGFloat? {
+    get
+  }
+  @objc final public var urlString: Swift.String? {
+    get
+  }
+  @objc final public var accessabilityTextString: Swift.String? {
+    get
+  }
+  @objc final public var cachedImage: UIKit.UIImage? {
+    @objc get
+  }
+  @objc final public var cachedImage_sf_memory: UIKit.UIImage? {
+    get
+  }
+  @objc deinit
+}
+@objc(KVAUserInterfaceStyle) final public class KVAUserInterfaceStyle : ObjectiveC.NSObject {
+  @objc public static let dark: KochavaUI.KVAUserInterfaceStyle
+  @objc public static let light: KochavaUI.KVAUserInterfaceStyle
+  public init(nameString: Swift.String, defaultBackgroundColor: UIKit.UIColor, defaultForegroundColor: UIKit.UIColor, mutedForegroundColor: UIKit.UIColor, moderatelyMutedForegroundColor: UIKit.UIColor, veryMutedForegroundColor: UIKit.UIColor)
+  @objc public static var current: KochavaUI.KVAUserInterfaceStyle
+  final public let defaultBackgroundColor: UIKit.UIColor
+  final public let defaultForegroundColor: UIKit.UIColor
+  final public let mutedForegroundColor: UIKit.UIColor
+  final public let moderatelyMutedForegroundColor: UIKit.UIColor
+  final public let veryMutedForegroundColor: UIKit.UIColor
+  @objc deinit
+}
+@objc(KVAText) final public class KVAText : ObjectiveC.NSObject, KochavaNetworking.DecodableFrom, KochavaUI.KVATableViewCellProviderProtocol {
+  required public init(string: Swift.String? = nil, style: KochavaUI.KVATextStyle? = nil, alignmentString: Swift.String? = nil)
+  public static func from(_ object: Any?) -> Self?
+  public static let type_kochava: KochavaNetworking.Kochava_Type
+  @objc public static func tableViewNibsDictionary() -> [Swift.String : Swift.AnyObject]?
+  @objc final public func tableViewReusableCellIdentifier() -> Swift.String?
+  final public func alignment() -> UIKit.NSTextAlignment
+  final public func attributedString() -> Foundation.NSAttributedString?
+  final public func textColor() -> UIKit.UIColor
+  final public func font() -> UIKit.UIFont
+  final public func separatorLineAfterBool() -> Swift.Bool
+  final public func separatorLineHeightCGFloat() -> CoreFoundation.CGFloat
+  final public func spacingBeforePointCountCGFloat() -> CoreFoundation.CGFloat
+  final public func spacingAfterPointCountCGFloat() -> CoreFoundation.CGFloat
+  @objc deinit
+}
+public var shared: KochavaNetworking.Product {
+  get
+}
+@_inheritsConvenienceInitializers @objc(KochavaUI_Product) final public class Product : ObjectiveC.NSObject, KochavaNetworking.Logger_Provider, KochavaNetworking.SharedInstanceProvider {
+  @objc public static let shared: KochavaNetworking.Product
+  public static var sharedInstance: Swift.AnyObject {
+    get
+  }
+  @available(iOS 14.0, iOSApplicationExtension 14.0, macOS 11.0, tvOS 14.0, tvOSApplicationExtension 14.0, watchOS 7.0, *)
+  public static let logger: os.Logger
+  public static let moduleBundle: Foundation.Bundle
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension CoreFoundation.CGFloat : KochavaNetworking.DecodableFrom, KochavaNetworking.EncodableTo {
+  public static func from(_ object: Any?) -> CoreFoundation.CGFloat?
+  public func to(context: KochavaNetworking.Context?) -> Swift.AnyObject?
+  public static let type_kochava: KochavaNetworking.Kochava_Type
+}
+extension Foundation.NSMutableAttributedString {
+  convenience public init?(kva_styleMarkupString styleMarkupString: Swift.String?, defaultStyle: Foundation.NSAttributedString.KVAStyle)
+}
+@objc(KVATable) final public class KVATable : ObjectiveC.NSObject, Foundation.NSCopying, KochavaNetworking.DecodableFrom {
+  required public init(nameString: Swift.String?, sectionArray: [KochavaUI.KVATableSection]?, darkModeSupportedBool: Swift.Bool?)
+  @objc final public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  public static func from(_ object: Any?) -> Self?
+  public static let type_kochava: KochavaNetworking.Kochava_Type
+  final public var execution: KochavaNetworking.Execution {
+    get
+  }
+  final public func section(atSectionInt sectionInt: Swift.Int) -> KochavaUI.KVATableSection?
+  final public func sectionCount() -> Swift.Int
+  final public func appendSection(_ section: KochavaUI.KVATableSection?)
+  final public func appendElement(_ elementObject: Swift.AnyObject?)
+  final public func removeElement(atIndexPath: Foundation.IndexPath?)
+  final public func replaceElement(atIndexPath: Foundation.IndexPath?, withObject: Swift.AnyObject)
+  final public func lastIndexPath() -> Foundation.IndexPath?
+  final public func indexPath(forElementObject: Swift.AnyObject?) -> Foundation.IndexPath?
+  final public func removeAllSections()
+  final public var darkModeSupportedBool: Swift.Bool {
+    get
+  }
+  final public var nameString: Swift.String? {
+    get
+  }
+  final public var viewController: WatchKit.WKInterfaceController? {
+    get
+    set(viewController)
+  }
+  @objc deinit
+}
+public protocol ConfigureWithModelObjectTableViewProtocol {
+  func configure(modelObject: Swift.AnyObject?, tableView: Swift.AnyObject?)
+}
+@objc(KVATableSection) final public class KVATableSection : ObjectiveC.NSObject, Foundation.NSCopying, KochavaNetworking.DecodableFrom {
+  required public init(nameString: Swift.String? = nil, elementArray: [Swift.AnyObject]? = nil)
+  @objc final public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  public static func from(_ object: Any?) -> Self?
+  public static let type_kochava: KochavaNetworking.Kochava_Type
+  final public var execution: KochavaNetworking.Execution {
+    get
+  }
+  final public func element(atRowInt rowInt: Swift.Int) -> Swift.AnyObject?
+  final public func elementCount() -> Swift.Int
+  final public func firstRowInt(forElementObject: Swift.AnyObject?) -> Swift.Int?
+  final public var nameString: Swift.String?
+  final public func elementArray_append(_ anyObject: Swift.AnyObject?)
+  final public func elementArray_removeObject(at index: Swift.Int)
+  final public func elementArray_replaceObject(atIndex: Swift.Int, withObject: Swift.AnyObject)
+  @objc deinit
+}
+extension Foundation.NSAttributedString {
+  @objc @_hasMissingDesignatedInitializers final public class KVAStyle : ObjectiveC.NSObject {
+    public static let normal: Foundation.NSAttributedString.KVAStyle
+    public static let normalMuted: Foundation.NSAttributedString.KVAStyle
+    public static let normalModeratelyMuted: Foundation.NSAttributedString.KVAStyle
+    public static let normalVeryMuted: Foundation.NSAttributedString.KVAStyle
+    public static let goldLight: Foundation.NSAttributedString.KVAStyle
+    public static let goldMedium: Foundation.NSAttributedString.KVAStyle
+    public static let goldMediumMuted: Foundation.NSAttributedString.KVAStyle
+    public static let warning: Foundation.NSAttributedString.KVAStyle
+    final public var color: UIKit.UIColor? {
+      get
+    }
+    final public let darkModeColor: UIKit.UIColor?
+    final public let lightModeColor: UIKit.UIColor?
+    final public let markupTokenString: Swift.String
+    @objc deinit
+  }
+}
+@objc(KVATableViewCellProviderProtocol) public protocol KVATableViewCellProviderProtocol {
+  @objc(tableViewNibsDictionary) static func tableViewNibsDictionary() -> [Swift.String : Swift.AnyObject]?
+  @objc(tableViewReusableCellIdentifier) func tableViewReusableCellIdentifier() -> Swift.String?
+}
+extension KochavaNetworking.Adapter : KochavaUI.KVATableViewCellProviderProtocol {
+  @objc public static func tableViewNibsDictionary() -> [Swift.String : Swift.AnyObject]?
+  @objc final public func tableViewReusableCellIdentifier() -> Swift.String?
+}
+@_hasMissingDesignatedInitializers @objc(KVATextStyle) final public class KVATextStyle : ObjectiveC.NSObject, KochavaNetworking.DecodableFrom, KochavaNetworking.EncodableTo {
+  public static let normal: KochavaUI.KVATextStyle
+  public static let headline: KochavaUI.KVATextStyle
+  public static let title: KochavaUI.KVATextStyle
+  public static let subtitle: KochavaUI.KVATextStyle
+  public static let heading1: KochavaUI.KVATextStyle
+  public static let heading2: KochavaUI.KVATextStyle
+  public static let heading2WhenSubtitleFollows: KochavaUI.KVATextStyle
+  public static let heading2Subtitle: KochavaUI.KVATextStyle
+  public static let heading3: KochavaUI.KVATextStyle
+  public static let heading4: KochavaUI.KVATextStyle
+  public static func from(_ object: Any?) -> Self?
+  final public func to(context: KochavaNetworking.Context?) -> Swift.AnyObject?
+  public static let type_kochava: KochavaNetworking.Kochava_Type
+  final public func spacingAfterPointCountCGFloat(fontSizeCGFloat: CoreFoundation.CGFloat?, lineSpacingCGFloat: CoreFoundation.CGFloat) -> CoreFoundation.CGFloat
+  final public func spacingBeforePointCountCGFloat(fontSizeCGFloat: CoreFoundation.CGFloat?, lineSpacingCGFloat: CoreFoundation.CGFloat?) -> CoreFoundation.CGFloat
+  final public func textColor(userInterfaceStyle: KochavaUI.KVAUserInterfaceStyle = .current) -> UIKit.UIColor
+  final public let identifier: KochavaUI.KVATextStyle.Identifier
+  public typealias Identifier = Swift.String
+  final public let universalIdentifier: KochavaUI.KVATextStyle.UniversalIdentifier
+  public typealias UniversalIdentifier = Swift.String
+  final public let fontSizeCGFloat: CoreFoundation.CGFloat
+  final public let separatorLineAfterBool: Swift.Bool
+  @objc deinit
+}
