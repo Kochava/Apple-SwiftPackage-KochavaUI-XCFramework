@@ -7348,7 +7348,7 @@
       "kind": "StringLiteral",
       "offset": 2087,
       "length": 7,
-      "value": "\"8.0.0\""
+      "value": "\"8.1.0\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
@@ -7549,56 +7549,49 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/KVATable.swift",
       "kind": "IntegerLiteral",
-      "offset": 7289,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/KVATable.swift",
-      "kind": "IntegerLiteral",
-      "offset": 7403,
+      "offset": 7401,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/KVATable.swift",
       "kind": "IntegerLiteral",
-      "offset": 7555,
+      "offset": 7553,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/KVATable.swift",
       "kind": "IntegerLiteral",
-      "offset": 7669,
+      "offset": 7667,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/KVATable.swift",
       "kind": "IntegerLiteral",
-      "offset": 7766,
+      "offset": 7764,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/KVATable.swift",
       "kind": "IntegerLiteral",
-      "offset": 8761,
+      "offset": 8759,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/KVATable.swift",
       "kind": "IntegerLiteral",
-      "offset": 8962,
+      "offset": 8960,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/KVATable.swift",
       "kind": "BooleanLiteral",
-      "offset": 10195,
+      "offset": 10193,
       "length": 4,
       "value": "true"
     },
