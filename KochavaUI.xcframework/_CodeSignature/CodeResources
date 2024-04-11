@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/KochavaUI.framework/Headers/KochavaUI-Swift.h</key>
 		<data>
-		SV/swUTMzmwvSbDZOZGDXCJEX/s=
+		yMGmgGTW25Qa4CKfbeeILddqy/E=
 		</data>
 		<key>ios-arm64/KochavaUI.framework/Headers/KochavaUI.h</key>
 		<data>
@@ -14,39 +14,27 @@
 		</data>
 		<key>ios-arm64/KochavaUI.framework/Info.plist</key>
 		<data>
-		V27Ey3w8fl4UDrEGcc04jayrXdo=
-		</data>
-		<key>ios-arm64/KochavaUI.framework/KVABoolAdapterTableViewCell.nib</key>
-		<data>
-		xnNkmw5FReybs8Eon8rqaWoldHw=
-		</data>
-		<key>ios-arm64/KochavaUI.framework/KVAImageTableViewCell.nib</key>
-		<data>
-		0NCfUlyXNZOwWa7hE7RSdK8tGrQ=
-		</data>
-		<key>ios-arm64/KochavaUI.framework/KVATextTableViewCell.nib</key>
-		<data>
-		c10tIZIbTdcMnlHdhaITMqg3Krc=
+		6wFIorbcdrCyvVB6HpwZZCRk8Ww=
 		</data>
 		<key>ios-arm64/KochavaUI.framework/KochavaUI</key>
 		<data>
-		pYhlIZQ+oo9eNswlU9VB/RbZ8Ec=
+		vgZ3SpjIkKLjk5EzkNPMd/is+2E=
 		</data>
 		<key>ios-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		lnguF62blbTvBKb8YEwrG2w0Ah0=
+		I/DWb1pY3qcYMriDMMAJk9c/K7w=
 		</data>
 		<key>ios-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		AajpZtVLdtp+WgbqSDblYR5Lsc8=
+		LRiJZKPe2kf44q3DcFd8Mc9/aco=
 		</data>
 		<key>ios-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		YHQ0/q2AzSHsQB1ljlWt5p9wEtQ=
+		ePLRFVGri5hYh50nYJwibfHBGbY=
 		</data>
 		<key>ios-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		AajpZtVLdtp+WgbqSDblYR5Lsc8=
+		LRiJZKPe2kf44q3DcFd8Mc9/aco=
 		</data>
 		<key>ios-arm64/KochavaUI.framework/Modules/module.modulemap</key>
 		<data>
@@ -58,23 +46,23 @@
 		</data>
 		<key>ios-arm64/dSYMs/KochavaUI.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		TQlKtsfk2dLjhcLWf88M3Z43KFY=
+		HFgwiNm57oxNzD5Rx+ixRhwX3Fo=
 		</data>
 		<key>ios-arm64/dSYMs/KochavaUI.framework.dSYM/Contents/Resources/DWARF/KochavaUI</key>
 		<data>
-		hO4920HLi/flfMGDLIirI5I+HCg=
+		L7l1of/1u+RIueSHF7nPSI8DJ4Q=
 		</data>
 		<key>ios-arm64/dSYMs/KochavaUI.framework.dSYM/Contents/Resources/Relocations/aarch64/KochavaUI.yml</key>
 		<data>
-		AROPVMbgSsQnHXeAnVT3Mrpi+7Y=
+		WZVRxrsa0r9KS0VKdoCr4vcgK9Y=
 		</data>
 		<key>ios-arm64/dSYMs/KochavaUI.framework.dSYM/Contents/Resources/Swift/aarch64/KochavaNetworking.swiftinterface</key>
 		<data>
-		+jG9F7nOBb5ajfsFD5cgvD6ai5g=
+		BvmvPyf5l0WwEDbl/nAsHCcJG4A=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Headers/KochavaUI-Swift.h</key>
 		<data>
-		TuKm1ZtAs3+48fRzm5FQLNxU5lo=
+		4PwkfbydSFNnQxHOxpZbKd3+l70=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Headers/KochavaUI.h</key>
 		<data>
@@ -82,39 +70,39 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/KochavaUI</key>
 		<data>
-		ositWKzMW4nJdua1UOXFYL/bZVs=
+		h6qKGFYoPmeLrvaMEKY+iFT4vWE=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
 		<data>
-		KSXmBNQLQyAO8X4poryYaNNSRyY=
+		I/DWb1pY3qcYMriDMMAJk9c/K7w=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<data>
-		LbaA8+elRmqOa3nHhPPsOuuCews=
+		o92gQbH0qPYmFf21BiLfyG3iU/I=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<data>
-		9upW3BTkI0GIsGLdw1ThMtDCMCI=
+		LOqqYkyLUeHOuDjkEOa8EQW5L0w=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<data>
-		LbaA8+elRmqOa3nHhPPsOuuCews=
+		o92gQbH0qPYmFf21BiLfyG3iU/I=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<data>
-		KSXmBNQLQyAO8X4poryYaNNSRyY=
+		I/DWb1pY3qcYMriDMMAJk9c/K7w=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<data>
-		K1WUXWWRPtfK3HlKUlWehhjOukE=
+		2rLc+TlaofuXHhe8PkdAAf9Y2jE=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<data>
-		giQ/bsQiHxXhOXBqK3n6cDLMHrY=
+		yQ5LvoisG64NZLJUrLRINOVn4YM=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<data>
-		K1WUXWWRPtfK3HlKUlWehhjOukE=
+		2rLc+TlaofuXHhe8PkdAAf9Y2jE=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Modules/module.modulemap</key>
 		<data>
@@ -122,19 +110,7 @@
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		RFoVGlOTRQHbKxPsJmRtSVHCyEM=
-		</data>
-		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Resources/KVABoolAdapterTableViewCell.nib</key>
-		<data>
-		qMlKQEPKruJKS5xu2bBDykYGtPw=
-		</data>
-		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Resources/KVAImageTableViewCell.nib</key>
-		<data>
-		FRFWnZ/Axg5a+aDsfjuPV7bMCes=
-		</data>
-		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Resources/KVATextTableViewCell.nib</key>
-		<data>
-		brrmKRNJX/GNo+Vj7Z3dvGybLjA=
+		/p02CcpIEkwuBunQ72YnSpOzcI4=
 		</data>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -142,7 +118,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Headers/KochavaUI-Swift.h</key>
 		<data>
-		wiTrBQ5FZKmO7qtxEhnaHG0hVyE=
+		4PwkfbydSFNnQxHOxpZbKd3+l70=
 		</data>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Headers/KochavaUI.h</key>
 		<data>
@@ -150,55 +126,43 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Info.plist</key>
 		<data>
-		DsfLs1LXMMMMq6/+BAgVFiUZf/I=
-		</data>
-		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/KVABoolAdapterTableViewCell.nib</key>
-		<data>
-		xnNkmw5FReybs8Eon8rqaWoldHw=
-		</data>
-		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/KVAImageTableViewCell.nib</key>
-		<data>
-		0NCfUlyXNZOwWa7hE7RSdK8tGrQ=
-		</data>
-		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/KVATextTableViewCell.nib</key>
-		<data>
-		c10tIZIbTdcMnlHdhaITMqg3Krc=
+		MVuaJlZjvQWlbklBn9wWlxuZjAs=
 		</data>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/KochavaUI</key>
 		<data>
-		wuOm9CpjXNFOn9b7JZ0zbuJmBVA=
+		jGIK3mNL/KklTPqjib2ZpRiR6NU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		lnguF62blbTvBKb8YEwrG2w0Ah0=
+		I/DWb1pY3qcYMriDMMAJk9c/K7w=
 		</data>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		qgyTi++ef9Lg0cjH0/kL6U+iyi4=
+		3MZRvAFVofokoWUsR4BN9zNjqQk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		nvHgRw5ci9OQfg5m/hmxneac+O8=
+		MLrXOb4W3Wl4QfTRTCasmOiNkDA=
 		</data>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qgyTi++ef9Lg0cjH0/kL6U+iyi4=
+		3MZRvAFVofokoWUsR4BN9zNjqQk=
 		</data>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		lnguF62blbTvBKb8YEwrG2w0Ah0=
+		I/DWb1pY3qcYMriDMMAJk9c/K7w=
 		</data>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		+8WXDxQltR3HYVR1PR6FHE9z4y0=
+		XYr83wScN2Npwo80VWSymw4hVmY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		trsn9aR007SqDIrF/jhuEVisnbg=
+		xGB2DORLiSEi9VJ7nJEpsCjdva4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		+8WXDxQltR3HYVR1PR6FHE9z4y0=
+		XYr83wScN2Npwo80VWSymw4hVmY=
 		</data>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Modules/module.modulemap</key>
 		<data>
@@ -210,35 +174,35 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/_CodeSignature/CodeResources</key>
 		<data>
-		snzVTbo5rIk9ziDb6W78yon+gPE=
+		PCu+guwr2kdlPHF21cFvU6w/a30=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/KochavaUI.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		TQlKtsfk2dLjhcLWf88M3Z43KFY=
+		HFgwiNm57oxNzD5Rx+ixRhwX3Fo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/KochavaUI.framework.dSYM/Contents/Resources/DWARF/KochavaUI</key>
 		<data>
-		0rvmp/C2fj0jEMngG40AhoWtLKQ=
+		4VbtrC2zoSDoM+mKsshRLXThuS0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/KochavaUI.framework.dSYM/Contents/Resources/Relocations/aarch64/KochavaUI.yml</key>
 		<data>
-		uX7Zwcj9gCNhB+y2syH3C7gGCOk=
+		gvxbNvSOIHFtzAG7LbW5/oX+LTQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/KochavaUI.framework.dSYM/Contents/Resources/Relocations/x86_64/KochavaUI.yml</key>
 		<data>
-		X7eVv5dtJZe3zhHyXoXoyor1g3I=
+		J3QKxBDMWzWzMu/fz/KrSKlGNrU=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/KochavaUI.framework.dSYM/Contents/Resources/Swift/aarch64/KochavaNetworking.swiftinterface</key>
 		<data>
-		2mwJ4Ktnnza4LZuDBQajIFzrk7Y=
+		8X9hxx+47ibGmgHkJdqfMAIy1Yw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/KochavaUI.framework.dSYM/Contents/Resources/Swift/x86_64/KochavaNetworking.swiftinterface</key>
 		<data>
-		SoGqv0iNnt4Qd24yU363cV+ZCPw=
+		K/Ku6B4tw5WDutns2tyYQ/qXwsQ=
 		</data>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Headers/KochavaUI-Swift.h</key>
 		<data>
-		sz78s/2H/l0tvNWDX9uNg/e8bMI=
+		4PwkfbydSFNnQxHOxpZbKd3+l70=
 		</data>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Headers/KochavaUI.h</key>
 		<data>
@@ -246,39 +210,39 @@
 		</data>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/KochavaUI</key>
 		<data>
-		NFBu4odHRBV5zOAAi35drhPMLpQ=
+		8U+JhE7faOPSoUUWPauihqGJNj4=
 		</data>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/arm64-apple-macos.abi.json</key>
 		<data>
-		cOih5375IaHreBI28ninFLkJg74=
+		Y7bSdujvtLIlE4Iq4pMI96BNMUs=
 		</data>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<data>
-		7tlrDRLd6Qa/ecdAfwlpPRY8YBE=
+		wATpgCnqLgUlvS7SzMTm8LSVmic=
 		</data>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/arm64-apple-macos.swiftdoc</key>
 		<data>
-		6KXBf+U0tZj3oZl4m+nxWxze5Ak=
+		1AHM/fsnFnklXXwLFle1pZmcVfo=
 		</data>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/arm64-apple-macos.swiftinterface</key>
 		<data>
-		7tlrDRLd6Qa/ecdAfwlpPRY8YBE=
+		wATpgCnqLgUlvS7SzMTm8LSVmic=
 		</data>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<data>
-		cOih5375IaHreBI28ninFLkJg74=
+		Y7bSdujvtLIlE4Iq4pMI96BNMUs=
 		</data>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<data>
-		9Cfat3qkERKA/Z/05MtDW2YdCxg=
+		7IsJbb3Q1RmFTHU0SpX3TOsgznc=
 		</data>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<data>
-		WS92RL0UMNZODgUrnHzEyQAPtYM=
+		kO+EHVXFojE+B5251NITZY/+3R0=
 		</data>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<data>
-		9Cfat3qkERKA/Z/05MtDW2YdCxg=
+		7IsJbb3Q1RmFTHU0SpX3TOsgznc=
 		</data>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Modules/module.modulemap</key>
 		<data>
@@ -286,7 +250,7 @@
 		</data>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Resources/Info.plist</key>
 		<data>
-		1jk9uWzZQJMM9XU9RCbOFrqHGp4=
+		9/HQoiAYV4DduwX/VZXCZaDzl48=
 		</data>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Resources/PrivacyInfo.xcprivacy</key>
 		<data>
@@ -294,7 +258,7 @@
 		</data>
 		<key>tvos-arm64/KochavaUI.framework/Headers/KochavaUI-Swift.h</key>
 		<data>
-		O4HavQI6ZP8YQUenht66meIMAEY=
+		yMGmgGTW25Qa4CKfbeeILddqy/E=
 		</data>
 		<key>tvos-arm64/KochavaUI.framework/Headers/KochavaUI.h</key>
 		<data>
@@ -302,31 +266,27 @@
 		</data>
 		<key>tvos-arm64/KochavaUI.framework/Info.plist</key>
 		<data>
-		5mCb4U73DCbna9g10FGc6Iw4tyg=
-		</data>
-		<key>tvos-arm64/KochavaUI.framework/KVATextTableViewCell.tvOS.nib</key>
-		<data>
-		XHGb1LmN7wTM5h5qWcCYuNRXonU=
+		szRLZ0/mN9nc+I4nfHsdhgV7fpI=
 		</data>
 		<key>tvos-arm64/KochavaUI.framework/KochavaUI</key>
 		<data>
-		/L6CkV5SdeEgr1jI2umTn4XfVOA=
+		fPRN+VNZ7Y/ZXF6wQx/44OtIFU4=
 		</data>
 		<key>tvos-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-tvos.abi.json</key>
 		<data>
-		vnnr7eXKwEFVGKYWcfiglXCBaVE=
+		I/DWb1pY3qcYMriDMMAJk9c/K7w=
 		</data>
 		<key>tvos-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
 		<data>
-		JgDlc/iCnpjDm0TBj1EQpjLAPnE=
+		1IWSFBA6WI1qRkvRV36kiLQl+n0=
 		</data>
 		<key>tvos-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-tvos.swiftdoc</key>
 		<data>
-		6P70AQuXvxtnEUuFM8gqc1xA1W4=
+		/IjDGfjxNyGM797wq7yX/vNNoOQ=
 		</data>
 		<key>tvos-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-tvos.swiftinterface</key>
 		<data>
-		JgDlc/iCnpjDm0TBj1EQpjLAPnE=
+		1IWSFBA6WI1qRkvRV36kiLQl+n0=
 		</data>
 		<key>tvos-arm64/KochavaUI.framework/Modules/module.modulemap</key>
 		<data>
@@ -338,7 +298,7 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Headers/KochavaUI-Swift.h</key>
 		<data>
-		OrGOsT4tqQp3+u8m0VKfQFf3TIA=
+		4PwkfbydSFNnQxHOxpZbKd3+l70=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Headers/KochavaUI.h</key>
 		<data>
@@ -346,47 +306,43 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Info.plist</key>
 		<data>
-		7n3aysLPnmiH7dBnFb106onPKno=
-		</data>
-		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/KVATextTableViewCell.tvOS.nib</key>
-		<data>
-		XHGb1LmN7wTM5h5qWcCYuNRXonU=
+		dFEUV3NHTnpNMP7AYjyBFCYo6mg=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/KochavaUI</key>
 		<data>
-		i27fqJASNxi/fFHcf/SgnXGiUpE=
+		BDxIO+HVK0LXAVJNCsIq3vOf4Zo=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<data>
-		vnnr7eXKwEFVGKYWcfiglXCBaVE=
+		I/DWb1pY3qcYMriDMMAJk9c/K7w=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		bOyv9tWVPYiEIU9CuY3eqHojXj4=
+		VfqoU2j+2p1XwVljU+JUb5LGGHc=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		v68VZw/auL6ZDSo125DzDgxZiRg=
+		w/dkiVrqqvZErCRBWWOdDP8JXA4=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		bOyv9tWVPYiEIU9CuY3eqHojXj4=
+		VfqoU2j+2p1XwVljU+JUb5LGGHc=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<data>
-		vnnr7eXKwEFVGKYWcfiglXCBaVE=
+		I/DWb1pY3qcYMriDMMAJk9c/K7w=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<data>
-		bThhOE4XS/teB3jMdrW4TqOTMP8=
+		PJN4Jjnd5aG5SmTQV1K5eJbm5pk=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<data>
-		J/MMOL6lPju2huRXIgZvhVLaC28=
+		OnIJtY05Tww6/pJnyV9UkYHezbM=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<data>
-		bThhOE4XS/teB3jMdrW4TqOTMP8=
+		PJN4Jjnd5aG5SmTQV1K5eJbm5pk=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Modules/module.modulemap</key>
 		<data>
@@ -398,11 +354,11 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/_CodeSignature/CodeResources</key>
 		<data>
-		h/Nj1gQFDsO26vJHSiLAnC+YHkQ=
+		V8SK0d0NUD+YBDrS0D94TxifE30=
 		</data>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Headers/KochavaUI-Swift.h</key>
 		<data>
-		4zWaUPXRyy5MfV0/Yb1c2i4R0KA=
+		UNc2QTPPgZbQ9YcHLSupvcrFGFo=
 		</data>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Headers/KochavaUI.h</key>
 		<data>
@@ -410,59 +366,59 @@
 		</data>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Info.plist</key>
 		<data>
-		aIH0SOzDMDq/z58+WnvK2EIMNpI=
+		kArN8lV/9MR9hweW1SP0gaFGUZE=
 		</data>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/KochavaUI</key>
 		<data>
-		xHfSDTbXjD3hBH7ZbTwigi83REE=
+		ILH9cfHo2dKOSd5Wfe0DmBQ9gAM=
 		</data>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos.abi.json</key>
 		<data>
-		Jgq/3jfJWP7xXWfg+FoyPZ/3UsA=
+		D9PfNpo42eAtL48SFHk+0T9Az68=
 		</data>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos.private.swiftinterface</key>
 		<data>
-		4MZZKu+BaH8FLdYe8tyXvvge74k=
+		utvovt2dJtSQKcoCM1q0XitHxZY=
 		</data>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos.swiftdoc</key>
 		<data>
-		b56bCpy7Q1NpKmfXeTpnstNyCus=
+		FPbFL8sXl28fI3beDK+N2U3UiNs=
 		</data>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos.swiftinterface</key>
 		<data>
-		4MZZKu+BaH8FLdYe8tyXvvge74k=
+		utvovt2dJtSQKcoCM1q0XitHxZY=
 		</data>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64_32-apple-watchos.abi.json</key>
 		<data>
-		1SEj5ISgzv81pg8ekzD1HvxOHG4=
+		ArmyfQZVVE7iLLiLuTBqXfWdCwA=
 		</data>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64_32-apple-watchos.private.swiftinterface</key>
 		<data>
-		HYg4vGFW1YqrbNLgCksRwKNwAIU=
+		quYW7+2mUG7uniP8T4MR1KvzVF0=
 		</data>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64_32-apple-watchos.swiftdoc</key>
 		<data>
-		aj1cAiuniLZkg3DdXngUqbFDo3Q=
+		6K5ucgMqlq9qYYpJ1D1j+aJcUmg=
 		</data>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64_32-apple-watchos.swiftinterface</key>
 		<data>
-		HYg4vGFW1YqrbNLgCksRwKNwAIU=
+		quYW7+2mUG7uniP8T4MR1KvzVF0=
 		</data>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/armv7k-apple-watchos.abi.json</key>
 		<data>
-		1SEj5ISgzv81pg8ekzD1HvxOHG4=
+		ArmyfQZVVE7iLLiLuTBqXfWdCwA=
 		</data>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/armv7k-apple-watchos.private.swiftinterface</key>
 		<data>
-		KcMY/6wb1TRR41qVXpS5tbZYcYk=
+		qMC6n+ITWxfLy+gYsTK7Wyevrbw=
 		</data>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/armv7k-apple-watchos.swiftdoc</key>
 		<data>
-		oJM5xIu5Eagld7ITiQecYFkiF2Q=
+		8vZzKQ6xZjnxHTvwoMC7mCx2p4g=
 		</data>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/armv7k-apple-watchos.swiftinterface</key>
 		<data>
-		KcMY/6wb1TRR41qVXpS5tbZYcYk=
+		qMC6n+ITWxfLy+gYsTK7Wyevrbw=
 		</data>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/module.modulemap</key>
 		<data>
@@ -472,85 +428,69 @@
 		<data>
 		Fo7sebV/R02g8kqyPtqICO8eVyI=
 		</data>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Headers/KochavaUI-Swift.h</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Headers/KochavaUI-Swift.h</key>
 		<data>
-		eCtlgQmo8zw/Mu+wzZ44Vir+8kw=
+		4PwkfbydSFNnQxHOxpZbKd3+l70=
 		</data>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Headers/KochavaUI.h</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Headers/KochavaUI.h</key>
 		<data>
 		ElCTK2+tmPhgBkm6kuXKJJEfi34=
 		</data>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Info.plist</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Info.plist</key>
 		<data>
-		W4cqP8jubwiauBh3j5X7JF2yg5o=
+		SWpS9zlnLigN9JPc81tE9UW150M=
 		</data>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/KochavaUI</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/KochavaUI</key>
 		<data>
-		31/SwQS7awibNA2qtPs03yOll8k=
+		UdYDnsU+MsEm4xjXT43kJQ/V7gk=
 		</data>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<data>
-		Jgq/3jfJWP7xXWfg+FoyPZ/3UsA=
+		D9PfNpo42eAtL48SFHk+0T9Az68=
 		</data>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		K0fPVI9QcFRdkXQW3ah9eYuDjq0=
+		uTMTEgnsbJwbbEuIuLdZeaSyNEY=
 		</data>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		381LCS2C9MKFSlYe4PcPXO3p5PA=
+		jVDXXfaDCXitWeofPo9FjBNmZvk=
 		</data>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		K0fPVI9QcFRdkXQW3ah9eYuDjq0=
+		uTMTEgnsbJwbbEuIuLdZeaSyNEY=
 		</data>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/i386-apple-watchos-simulator.abi.json</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<data>
-		1SEj5ISgzv81pg8ekzD1HvxOHG4=
+		D9PfNpo42eAtL48SFHk+0T9Az68=
 		</data>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/i386-apple-watchos-simulator.private.swiftinterface</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		oCogqf5q6G8te3CZWDsytzRRliQ=
+		TAS3jBXXg09PEEc53MaOuMSCSxg=
 		</data>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/i386-apple-watchos-simulator.swiftdoc</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		BYRGzaeach7CLqfLWbIVlU7vkuw=
+		YEtH+rHZI53LdMyLkoJ67jLnQ58=
 		</data>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/i386-apple-watchos-simulator.swiftinterface</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		oCogqf5q6G8te3CZWDsytzRRliQ=
+		TAS3jBXXg09PEEc53MaOuMSCSxg=
 		</data>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
-		<data>
-		Jgq/3jfJWP7xXWfg+FoyPZ/3UsA=
-		</data>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
-		<data>
-		sT/0Ww7zGlLhROrzCKGmAD2yg5g=
-		</data>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
-		<data>
-		NMtDpKLWVdLaU0ELFViKF1XZkZ0=
-		</data>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
-		<data>
-		sT/0Ww7zGlLhROrzCKGmAD2yg5g=
-		</data>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/module.modulemap</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Modules/module.modulemap</key>
 		<data>
 		FhPVik8lgsHuyUJxXVzsFYB32YQ=
 		</data>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/PrivacyInfo.xcprivacy</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/PrivacyInfo.xcprivacy</key>
 		<data>
 		Fo7sebV/R02g8kqyPtqICO8eVyI=
 		</data>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/_CodeSignature/CodeResources</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/_CodeSignature/CodeResources</key>
 		<data>
-		h/buaUsDaurCeajdpYsSKnzWWQs=
+		PFPEuXViHeNZlf0OEAOEiBb23Zc=
 		</data>
 		<key>xros-arm64/KochavaUI.framework/Headers/KochavaUI-Swift.h</key>
 		<data>
-		kEIznWroA1YyazBse04CHyYqkFU=
+		yMGmgGTW25Qa4CKfbeeILddqy/E=
 		</data>
 		<key>xros-arm64/KochavaUI.framework/Headers/KochavaUI.h</key>
 		<data>
@@ -558,27 +498,27 @@
 		</data>
 		<key>xros-arm64/KochavaUI.framework/Info.plist</key>
 		<data>
-		V1RkLt99IdETmQ/9d7WRFgXEYUo=
+		fmWXD5rW0vFu7oJgkkADSxBHWlo=
 		</data>
 		<key>xros-arm64/KochavaUI.framework/KochavaUI</key>
 		<data>
-		9tm9YPeG0lpVZSOXIYlryOqM7po=
+		AeWey8pPfE+3Va1G6Tjm65SCooc=
 		</data>
 		<key>xros-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-xros.abi.json</key>
 		<data>
-		eXwbpwzYdums/F3GoK5DB4/iHX0=
+		I/DWb1pY3qcYMriDMMAJk9c/K7w=
 		</data>
 		<key>xros-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-xros.private.swiftinterface</key>
 		<data>
-		8Nk+jbpFZyyPBPS//9AJlMjP4nk=
+		Wdih9dGuBwR9qIOhKoPV4tqwz4Y=
 		</data>
 		<key>xros-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-xros.swiftdoc</key>
 		<data>
-		pNrq06oUoXLX6261k/3cNLCtmIk=
+		mUu+PyZY3UVNliijLi2mvyHf35I=
 		</data>
 		<key>xros-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-xros.swiftinterface</key>
 		<data>
-		8Nk+jbpFZyyPBPS//9AJlMjP4nk=
+		Wdih9dGuBwR9qIOhKoPV4tqwz4Y=
 		</data>
 		<key>xros-arm64/KochavaUI.framework/Modules/module.modulemap</key>
 		<data>
@@ -590,7 +530,7 @@
 		</data>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Headers/KochavaUI-Swift.h</key>
 		<data>
-		ddZmaW9vHu6omRFM/0Fyi+h+Txw=
+		4PwkfbydSFNnQxHOxpZbKd3+l70=
 		</data>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Headers/KochavaUI.h</key>
 		<data>
@@ -598,43 +538,43 @@
 		</data>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Info.plist</key>
 		<data>
-		Una6/mV9e6hh1yJN8Sla5zjt8U4=
+		sX3bd71faDwbpJZFtGBCmJkQaRc=
 		</data>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/KochavaUI</key>
 		<data>
-		Fw6COlJxpIOCR4zuk5CcTcInsqA=
+		xLTd5Ef6e6L0tY5JoZKrvPXJYEo=
 		</data>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
 		<data>
-		eXwbpwzYdums/F3GoK5DB4/iHX0=
+		I/DWb1pY3qcYMriDMMAJk9c/K7w=
 		</data>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-xros-simulator.private.swiftinterface</key>
 		<data>
-		EfPAraTxtulEqVhaQu19dOjkb2c=
+		v7u4lDKbeDRWjvnlfX2ag8pb7zs=
 		</data>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
 		<data>
-		blg5dIH12L22tIQ6mVCxOX7vj9k=
+		lXdZqbfC+fZAaworg5kpipvoSaE=
 		</data>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-xros-simulator.swiftinterface</key>
 		<data>
-		EfPAraTxtulEqVhaQu19dOjkb2c=
+		v7u4lDKbeDRWjvnlfX2ag8pb7zs=
 		</data>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-xros-simulator.abi.json</key>
 		<data>
-		eXwbpwzYdums/F3GoK5DB4/iHX0=
+		I/DWb1pY3qcYMriDMMAJk9c/K7w=
 		</data>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-xros-simulator.private.swiftinterface</key>
 		<data>
-		cBp27w5L+9uyagC9tBW+APlpZM0=
+		+HOCHdT19qy0xC5pf/RTjhpnnFU=
 		</data>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-xros-simulator.swiftdoc</key>
 		<data>
-		E8LkV59EyrmTbkgaoNxIY4sQXC0=
+		+m6UnVIIoJf/xTfMzq7cuovbTx4=
 		</data>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-xros-simulator.swiftinterface</key>
 		<data>
-		cBp27w5L+9uyagC9tBW+APlpZM0=
+		+HOCHdT19qy0xC5pf/RTjhpnnFU=
 		</data>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Modules/module.modulemap</key>
 		<data>
@@ -646,7 +586,7 @@
 		</data>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/_CodeSignature/CodeResources</key>
 		<data>
-		Q0r3lo38K+n1jq4GWkXEBIshxJs=
+		j9r/84EtoTxphdvFyOka+V2pjW0=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -655,11 +595,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SV/swUTMzmwvSbDZOZGDXCJEX/s=
+			yMGmgGTW25Qa4CKfbeeILddqy/E=
 			</data>
 			<key>hash2</key>
 			<data>
-			gDvXQKy7SUBBSX9HdsHe/KOl2dCxsNd2pa5o+547chk=
+			d/HERKoSYLkMwHghFSxB8wbbuTpvZqq31uPUt8slPkc=
 			</data>
 		</dict>
 		<key>ios-arm64/KochavaUI.framework/Headers/KochavaUI.h</key>
@@ -677,99 +617,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V27Ey3w8fl4UDrEGcc04jayrXdo=
+			6wFIorbcdrCyvVB6HpwZZCRk8Ww=
 			</data>
 			<key>hash2</key>
 			<data>
-			aCBBZg9NeJUaEYu1EwnVfu8s6R5ub8C3CVblAg0fahE=
-			</data>
-		</dict>
-		<key>ios-arm64/KochavaUI.framework/KVABoolAdapterTableViewCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xnNkmw5FReybs8Eon8rqaWoldHw=
-			</data>
-			<key>hash2</key>
-			<data>
-			NbKbP86fHcdeohmXvf84uZxn1lJAuxhzfrQ4NMgKYaY=
-			</data>
-		</dict>
-		<key>ios-arm64/KochavaUI.framework/KVAImageTableViewCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0NCfUlyXNZOwWa7hE7RSdK8tGrQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			1OIaiqSt+xAbjbB89Ajw8qYAd1FLKKxGexckdGPZ2+A=
-			</data>
-		</dict>
-		<key>ios-arm64/KochavaUI.framework/KVATextTableViewCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			c10tIZIbTdcMnlHdhaITMqg3Krc=
-			</data>
-			<key>hash2</key>
-			<data>
-			BbbtJxrTtJMli+nyIMZlBkE+V/Jqtkllh0YFdmG5Ld0=
+			hOL5IjYeVm/ip41+aTm0Fh3iFK7bBL819jbNMUaZwNg=
 			</data>
 		</dict>
 		<key>ios-arm64/KochavaUI.framework/KochavaUI</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pYhlIZQ+oo9eNswlU9VB/RbZ8Ec=
+			vgZ3SpjIkKLjk5EzkNPMd/is+2E=
 			</data>
 			<key>hash2</key>
 			<data>
-			W1j9S2tX8lryooRg7e68Xl97pY05Evx1LOH57eUgAWI=
+			q0aYBJ5t6rJTeCX00IES9tBTxKaVkkPohgMMN8mwds0=
 			</data>
 		</dict>
 		<key>ios-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-ios.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lnguF62blbTvBKb8YEwrG2w0Ah0=
+			I/DWb1pY3qcYMriDMMAJk9c/K7w=
 			</data>
 			<key>hash2</key>
 			<data>
-			UxltbN2bUZNpfg4dUahE1g2BDn+DvOLDc+tCB+lU6X8=
+			vIdkDu535MJ20rwhuT2TJJaL6zpQJNh3y2fcsrbTYws=
 			</data>
 		</dict>
 		<key>ios-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AajpZtVLdtp+WgbqSDblYR5Lsc8=
+			LRiJZKPe2kf44q3DcFd8Mc9/aco=
 			</data>
 			<key>hash2</key>
 			<data>
-			A6Ubr5YuZHx6aNsSmTTnn+7/jNq+eUecNfFYX8lK6SU=
+			6uCom1NNa8FWU/Xa1k0WchzV++oDsgnl1+mCHKjDB3I=
 			</data>
 		</dict>
 		<key>ios-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YHQ0/q2AzSHsQB1ljlWt5p9wEtQ=
+			ePLRFVGri5hYh50nYJwibfHBGbY=
 			</data>
 			<key>hash2</key>
 			<data>
-			NFEh0s2RaUr/yeJvVJUpesfnPzKprOPaBVAZGr7LDv0=
+			rzA1EykKdld9jLv67/zSa7/ImTywSrVdSfqGdsyK3gc=
 			</data>
 		</dict>
 		<key>ios-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AajpZtVLdtp+WgbqSDblYR5Lsc8=
+			LRiJZKPe2kf44q3DcFd8Mc9/aco=
 			</data>
 			<key>hash2</key>
 			<data>
-			A6Ubr5YuZHx6aNsSmTTnn+7/jNq+eUecNfFYX8lK6SU=
+			6uCom1NNa8FWU/Xa1k0WchzV++oDsgnl1+mCHKjDB3I=
 			</data>
 		</dict>
 		<key>ios-arm64/KochavaUI.framework/Modules/module.modulemap</key>
@@ -798,44 +705,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TQlKtsfk2dLjhcLWf88M3Z43KFY=
+			HFgwiNm57oxNzD5Rx+ixRhwX3Fo=
 			</data>
 			<key>hash2</key>
 			<data>
-			BNfRUDQDC3Hd/Ww6wsnvptr8xLBz6PrXxUpwhuBEp28=
+			MiKhieWWvNxo3ZVEoOrklhEcsI6GtwK6jSLL0/UTR20=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/KochavaUI.framework.dSYM/Contents/Resources/DWARF/KochavaUI</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hO4920HLi/flfMGDLIirI5I+HCg=
+			L7l1of/1u+RIueSHF7nPSI8DJ4Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			FC1dY0w1zGYCaG2rep71v0CCxfDRT0bQamGyDoFEY24=
+			dNWAcybK93scuqqyC45DZnT7Xs4Rq744BGLaSjg4x6E=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/KochavaUI.framework.dSYM/Contents/Resources/Relocations/aarch64/KochavaUI.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			AROPVMbgSsQnHXeAnVT3Mrpi+7Y=
+			WZVRxrsa0r9KS0VKdoCr4vcgK9Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			2qzhKNGU6s0mY5xHWX1tQoQAbm7tp+Snf2Tbb01URuE=
+			RzciCpHetXIhoX59cZyp7JXbAsDeTkj4qnNxOfSlq3Y=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/KochavaUI.framework.dSYM/Contents/Resources/Swift/aarch64/KochavaNetworking.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+jG9F7nOBb5ajfsFD5cgvD6ai5g=
+			BvmvPyf5l0WwEDbl/nAsHCcJG4A=
 			</data>
 			<key>hash2</key>
 			<data>
-			tMsHbPEolht60ztqUiJtid96acZRmynn7kG3DnDbruw=
+			vH14taKkjv6TLzEsyPmQYGX7ORPWT+/BRE+6zlFtwrc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Headers</key>
@@ -862,11 +769,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TuKm1ZtAs3+48fRzm5FQLNxU5lo=
+			4PwkfbydSFNnQxHOxpZbKd3+l70=
 			</data>
 			<key>hash2</key>
 			<data>
-			otEHXteu/w9NuAdOIXIp3zU//G+SkGbeSTPDKvzCU6M=
+			QGvk3uN2EMO2fR4xDMxBoJNXQNmh/QnCnvK9I1iq/gM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Headers/KochavaUI.h</key>
@@ -884,99 +791,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ositWKzMW4nJdua1UOXFYL/bZVs=
+			h6qKGFYoPmeLrvaMEKY+iFT4vWE=
 			</data>
 			<key>hash2</key>
 			<data>
-			IOl8brCfQhMJWb4E6nOPutyh3sfrM3KsaIh0BUkGBOs=
+			lhutolr9OKgFCWQsAIj5zhoSIIvbAChn2LAJGhIRlJM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/arm64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KSXmBNQLQyAO8X4poryYaNNSRyY=
+			I/DWb1pY3qcYMriDMMAJk9c/K7w=
 			</data>
 			<key>hash2</key>
 			<data>
-			5oTfTM4umRGkcOyhCPapbXzgGQENGEzRrLz0GbSD/SQ=
+			vIdkDu535MJ20rwhuT2TJJaL6zpQJNh3y2fcsrbTYws=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/arm64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LbaA8+elRmqOa3nHhPPsOuuCews=
+			o92gQbH0qPYmFf21BiLfyG3iU/I=
 			</data>
 			<key>hash2</key>
 			<data>
-			cpKot27QtQwfrA+758JRqxU0LN5kPiSe5GGBcO3Tq7E=
+			7lCLThN/dnm/7VfD5ygizmwRgv473EzQ+Au1qamyEfM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/arm64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9upW3BTkI0GIsGLdw1ThMtDCMCI=
+			LOqqYkyLUeHOuDjkEOa8EQW5L0w=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZrPr3AAfVUlpzBw2pB5lgxbykUOEne82HJKzFz2zfCU=
+			HYMNvCKV9QaWg5ZgLijgecZxJ8MM06j7frxVQ76F0Pc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/arm64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LbaA8+elRmqOa3nHhPPsOuuCews=
+			o92gQbH0qPYmFf21BiLfyG3iU/I=
 			</data>
 			<key>hash2</key>
 			<data>
-			cpKot27QtQwfrA+758JRqxU0LN5kPiSe5GGBcO3Tq7E=
+			7lCLThN/dnm/7VfD5ygizmwRgv473EzQ+Au1qamyEfM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/x86_64-apple-ios-macabi.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KSXmBNQLQyAO8X4poryYaNNSRyY=
+			I/DWb1pY3qcYMriDMMAJk9c/K7w=
 			</data>
 			<key>hash2</key>
 			<data>
-			5oTfTM4umRGkcOyhCPapbXzgGQENGEzRrLz0GbSD/SQ=
+			vIdkDu535MJ20rwhuT2TJJaL6zpQJNh3y2fcsrbTYws=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/x86_64-apple-ios-macabi.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K1WUXWWRPtfK3HlKUlWehhjOukE=
+			2rLc+TlaofuXHhe8PkdAAf9Y2jE=
 			</data>
 			<key>hash2</key>
 			<data>
-			/n1WIHsnDAXaDyPcmHhuBv+LWvYuXyLclYZpGx8T+A8=
+			aTs3LaE94BT04dRpaUlgdT7OUtrkfXsiC8UnxKScLWk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/x86_64-apple-ios-macabi.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			giQ/bsQiHxXhOXBqK3n6cDLMHrY=
+			yQ5LvoisG64NZLJUrLRINOVn4YM=
 			</data>
 			<key>hash2</key>
 			<data>
-			e5XW8bXJaxGi4q5/z6nOgjZiM5I4GDg/utMAcECZwoI=
+			pqr6I2oDCud1e2KtqN8OJ0TAK64mAWjiDl+qaNXSfPI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/x86_64-apple-ios-macabi.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K1WUXWWRPtfK3HlKUlWehhjOukE=
+			2rLc+TlaofuXHhe8PkdAAf9Y2jE=
 			</data>
 			<key>hash2</key>
 			<data>
-			/n1WIHsnDAXaDyPcmHhuBv+LWvYuXyLclYZpGx8T+A8=
+			aTs3LaE94BT04dRpaUlgdT7OUtrkfXsiC8UnxKScLWk=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Modules/module.modulemap</key>
@@ -994,44 +901,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			RFoVGlOTRQHbKxPsJmRtSVHCyEM=
+			/p02CcpIEkwuBunQ72YnSpOzcI4=
 			</data>
 			<key>hash2</key>
 			<data>
-			xGspEOR9J2mFQ/qay0AlVsu0iVpUcJtWcaZjqTAhvu4=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Resources/KVABoolAdapterTableViewCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qMlKQEPKruJKS5xu2bBDykYGtPw=
-			</data>
-			<key>hash2</key>
-			<data>
-			03XHj/oXO+hYFdu/TSGyr5sfbBWCwHYGbqE8fR7iOMk=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Resources/KVAImageTableViewCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FRFWnZ/Axg5a+aDsfjuPV7bMCes=
-			</data>
-			<key>hash2</key>
-			<data>
-			m0uVSrdqgzq83CGOTAncpgqFlaR1cdJ2GcfDrf8HMlw=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Resources/KVATextTableViewCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			brrmKRNJX/GNo+Vj7Z3dvGybLjA=
-			</data>
-			<key>hash2</key>
-			<data>
-			NZh6pD8R1H/UN3vi/FB+8c+/m7YtoZ3dlK0diGnZ9Pk=
+			m8MMEOfUajqOygRIeS2pdREHC0bD7q1dT2X5H0VjFVo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-maccatalyst/KochavaUI.framework/Versions/A/Resources/PrivacyInfo.xcprivacy</key>
@@ -1054,11 +928,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wiTrBQ5FZKmO7qtxEhnaHG0hVyE=
+			4PwkfbydSFNnQxHOxpZbKd3+l70=
 			</data>
 			<key>hash2</key>
 			<data>
-			BXjXxX7LaB7JgeYeYqvSVBTXk0ZgE+b82IfM32yEPEI=
+			QGvk3uN2EMO2fR4xDMxBoJNXQNmh/QnCnvK9I1iq/gM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Headers/KochavaUI.h</key>
@@ -1076,143 +950,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DsfLs1LXMMMMq6/+BAgVFiUZf/I=
+			MVuaJlZjvQWlbklBn9wWlxuZjAs=
 			</data>
 			<key>hash2</key>
 			<data>
-			IvvkMOe628UwINe5gk+YDa0zCh//I/Nym/bU3QO1fa4=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/KVABoolAdapterTableViewCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xnNkmw5FReybs8Eon8rqaWoldHw=
-			</data>
-			<key>hash2</key>
-			<data>
-			NbKbP86fHcdeohmXvf84uZxn1lJAuxhzfrQ4NMgKYaY=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/KVAImageTableViewCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			0NCfUlyXNZOwWa7hE7RSdK8tGrQ=
-			</data>
-			<key>hash2</key>
-			<data>
-			1OIaiqSt+xAbjbB89Ajw8qYAd1FLKKxGexckdGPZ2+A=
-			</data>
-		</dict>
-		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/KVATextTableViewCell.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			c10tIZIbTdcMnlHdhaITMqg3Krc=
-			</data>
-			<key>hash2</key>
-			<data>
-			BbbtJxrTtJMli+nyIMZlBkE+V/Jqtkllh0YFdmG5Ld0=
+			UOoZPT/MEajgxSrzViOd4CoRdQPIKW1nYBKXwgKM4Hs=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/KochavaUI</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wuOm9CpjXNFOn9b7JZ0zbuJmBVA=
+			jGIK3mNL/KklTPqjib2ZpRiR6NU=
 			</data>
 			<key>hash2</key>
 			<data>
-			syf8mCP6pubrj58mQ7wNBccFJcvBPkmpsIt+eOYLsqM=
+			7aC0T3BH1QG3hx/B2WVAubIVVeRp5wz2SymoymnF8uU=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lnguF62blbTvBKb8YEwrG2w0Ah0=
+			I/DWb1pY3qcYMriDMMAJk9c/K7w=
 			</data>
 			<key>hash2</key>
 			<data>
-			UxltbN2bUZNpfg4dUahE1g2BDn+DvOLDc+tCB+lU6X8=
+			vIdkDu535MJ20rwhuT2TJJaL6zpQJNh3y2fcsrbTYws=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qgyTi++ef9Lg0cjH0/kL6U+iyi4=
+			3MZRvAFVofokoWUsR4BN9zNjqQk=
 			</data>
 			<key>hash2</key>
 			<data>
-			EDbOsZ/Cw960ijJ2uYBmsFnJLDWWYKIQl+iDVWlkxp4=
+			Qdabhh0giGvy6JIlLQ00lb3J7W6rhuIJkR1faFXO/iI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			nvHgRw5ci9OQfg5m/hmxneac+O8=
+			MLrXOb4W3Wl4QfTRTCasmOiNkDA=
 			</data>
 			<key>hash2</key>
 			<data>
-			SEXw9nq5D4/s5qbrcOGeVvBFY4KSCO0ooc8KfqC8bjk=
+			/vMs8Okvj9LhExFdmmIYFifC+YTopEzoHGNPJuD/p/c=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			qgyTi++ef9Lg0cjH0/kL6U+iyi4=
+			3MZRvAFVofokoWUsR4BN9zNjqQk=
 			</data>
 			<key>hash2</key>
 			<data>
-			EDbOsZ/Cw960ijJ2uYBmsFnJLDWWYKIQl+iDVWlkxp4=
+			Qdabhh0giGvy6JIlLQ00lb3J7W6rhuIJkR1faFXO/iI=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lnguF62blbTvBKb8YEwrG2w0Ah0=
+			I/DWb1pY3qcYMriDMMAJk9c/K7w=
 			</data>
 			<key>hash2</key>
 			<data>
-			UxltbN2bUZNpfg4dUahE1g2BDn+DvOLDc+tCB+lU6X8=
+			vIdkDu535MJ20rwhuT2TJJaL6zpQJNh3y2fcsrbTYws=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+8WXDxQltR3HYVR1PR6FHE9z4y0=
+			XYr83wScN2Npwo80VWSymw4hVmY=
 			</data>
 			<key>hash2</key>
 			<data>
-			7KEZVCLDgRHJV47SssiHcUXQ6+w93eLwjcC3adC+FLg=
+			EWI/+IFFna/R1SBhGXeH5oQd6U3LWj8CmWPCPmZgWZ8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			trsn9aR007SqDIrF/jhuEVisnbg=
+			xGB2DORLiSEi9VJ7nJEpsCjdva4=
 			</data>
 			<key>hash2</key>
 			<data>
-			z7zuwi0xeaihmvM5gWZRRxq445Cc+Z7wFrwrzaS980E=
+			j+bG1igEYLbDs1F5p9HQs2+LTomzOi3r2+6lpWXYvTA=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+8WXDxQltR3HYVR1PR6FHE9z4y0=
+			XYr83wScN2Npwo80VWSymw4hVmY=
 			</data>
 			<key>hash2</key>
 			<data>
-			7KEZVCLDgRHJV47SssiHcUXQ6+w93eLwjcC3adC+FLg=
+			EWI/+IFFna/R1SBhGXeH5oQd6U3LWj8CmWPCPmZgWZ8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/KochavaUI.framework/Modules/module.modulemap</key>
@@ -1241,77 +1082,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			snzVTbo5rIk9ziDb6W78yon+gPE=
+			PCu+guwr2kdlPHF21cFvU6w/a30=
 			</data>
 			<key>hash2</key>
 			<data>
-			dZ9onlsDGWfg16klSCFEaCR3bYGa/1PlszDpcdzYNWc=
+			aEdlGzOEakZia5t0KhkvldsgPQBwqI8QFmy+s/U9tzQ=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/KochavaUI.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			TQlKtsfk2dLjhcLWf88M3Z43KFY=
+			HFgwiNm57oxNzD5Rx+ixRhwX3Fo=
 			</data>
 			<key>hash2</key>
 			<data>
-			BNfRUDQDC3Hd/Ww6wsnvptr8xLBz6PrXxUpwhuBEp28=
+			MiKhieWWvNxo3ZVEoOrklhEcsI6GtwK6jSLL0/UTR20=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/KochavaUI.framework.dSYM/Contents/Resources/DWARF/KochavaUI</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0rvmp/C2fj0jEMngG40AhoWtLKQ=
+			4VbtrC2zoSDoM+mKsshRLXThuS0=
 			</data>
 			<key>hash2</key>
 			<data>
-			mX+htBFfyIQ4BUqumj18gE5SLWpLShnZBPB0Eee0R8M=
+			uPHxSFO6q4RZ35eOZWhuQFIXSonCHwx05nxfmNreppE=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/KochavaUI.framework.dSYM/Contents/Resources/Relocations/aarch64/KochavaUI.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			uX7Zwcj9gCNhB+y2syH3C7gGCOk=
+			gvxbNvSOIHFtzAG7LbW5/oX+LTQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			38yQXX95cHh0UfPCXZWyDlEjJHpmernm7Rg77XjAZ5s=
+			OZpJ9pktY+gfXGH9Ic3Cbda5PQsnOvMfZC6FoLaNGRo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/KochavaUI.framework.dSYM/Contents/Resources/Relocations/x86_64/KochavaUI.yml</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			X7eVv5dtJZe3zhHyXoXoyor1g3I=
+			J3QKxBDMWzWzMu/fz/KrSKlGNrU=
 			</data>
 			<key>hash2</key>
 			<data>
-			EAO+1/MIWLt1tZBj0iEw3UQgdOUZsHe4GjxROulWf4s=
+			PNgAsOJ+uDUsal53CrNhf8DZAfiRX0v/2jMlbDSCgN8=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/KochavaUI.framework.dSYM/Contents/Resources/Swift/aarch64/KochavaNetworking.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2mwJ4Ktnnza4LZuDBQajIFzrk7Y=
+			8X9hxx+47ibGmgHkJdqfMAIy1Yw=
 			</data>
 			<key>hash2</key>
 			<data>
-			GeS6O3AQ17sWzzEF8YxDNOK4cBOr1Ui5csMIPff07eY=
+			/bPHaopjnV8BP8WHWcCK9sAdDL0npPhKnwrw0hNlgYg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/KochavaUI.framework.dSYM/Contents/Resources/Swift/x86_64/KochavaNetworking.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SoGqv0iNnt4Qd24yU363cV+ZCPw=
+			K/Ku6B4tw5WDutns2tyYQ/qXwsQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			meMkEP7nzpzn89YZHeDGOvdTsSrcqzj9Hy8p8+Y0ij8=
+			bzha9i2hDwU3U7ltl+cL8Ks4kbmJTr7H1+3eub8eETw=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Headers</key>
@@ -1338,11 +1179,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sz78s/2H/l0tvNWDX9uNg/e8bMI=
+			4PwkfbydSFNnQxHOxpZbKd3+l70=
 			</data>
 			<key>hash2</key>
 			<data>
-			QcLk2EDz68JtbH+hjVV9ZY0m6JN0sbqQLFcBW2WXam4=
+			QGvk3uN2EMO2fR4xDMxBoJNXQNmh/QnCnvK9I1iq/gM=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Headers/KochavaUI.h</key>
@@ -1360,99 +1201,99 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			NFBu4odHRBV5zOAAi35drhPMLpQ=
+			8U+JhE7faOPSoUUWPauihqGJNj4=
 			</data>
 			<key>hash2</key>
 			<data>
-			OaHbS2zlhsVluQfdzE5zpoDdxs777ZWQDR7/Mfi9ons=
+			+Apy2hXYkp+2dNFvBjDFZLpdpO5YLMgN2z827r5VMq8=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/arm64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cOih5375IaHreBI28ninFLkJg74=
+			Y7bSdujvtLIlE4Iq4pMI96BNMUs=
 			</data>
 			<key>hash2</key>
 			<data>
-			DgQlINPwM9aJlWUO/sDWndZNaf70BFRYTNi3dbe5gW0=
+			t9ww5Eqtrxk7LVGfm/zt95PV3UZRNDLpf1KkkxqknHY=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/arm64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7tlrDRLd6Qa/ecdAfwlpPRY8YBE=
+			wATpgCnqLgUlvS7SzMTm8LSVmic=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZzY5bp8KVoA6h45imXN5A8koYsTitI1M8tXHUKwRoG8=
+			1s5L/ABKvoIm0IDBiOcnzwdKejfgxJAcLGc2dMQGkoo=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/arm64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6KXBf+U0tZj3oZl4m+nxWxze5Ak=
+			1AHM/fsnFnklXXwLFle1pZmcVfo=
 			</data>
 			<key>hash2</key>
 			<data>
-			Rc400m21HsR8nzqfegTMkaNeCpXw4e+5aSdLZ1wJb90=
+			1UGWydC2TljdU7lCGMpnfwNMdZVyTM8VdgOcKFWC/uc=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/arm64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			7tlrDRLd6Qa/ecdAfwlpPRY8YBE=
+			wATpgCnqLgUlvS7SzMTm8LSVmic=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZzY5bp8KVoA6h45imXN5A8koYsTitI1M8tXHUKwRoG8=
+			1s5L/ABKvoIm0IDBiOcnzwdKejfgxJAcLGc2dMQGkoo=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/x86_64-apple-macos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cOih5375IaHreBI28ninFLkJg74=
+			Y7bSdujvtLIlE4Iq4pMI96BNMUs=
 			</data>
 			<key>hash2</key>
 			<data>
-			DgQlINPwM9aJlWUO/sDWndZNaf70BFRYTNi3dbe5gW0=
+			t9ww5Eqtrxk7LVGfm/zt95PV3UZRNDLpf1KkkxqknHY=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/x86_64-apple-macos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9Cfat3qkERKA/Z/05MtDW2YdCxg=
+			7IsJbb3Q1RmFTHU0SpX3TOsgznc=
 			</data>
 			<key>hash2</key>
 			<data>
-			plD94XpnD5edFeXow+FT/sm4vVqWmSMJ8XVuMWMWNTg=
+			TPjzfgcUDkdkupcwHHK8fbdHd6IVT1KskCov3v/63D8=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/x86_64-apple-macos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WS92RL0UMNZODgUrnHzEyQAPtYM=
+			kO+EHVXFojE+B5251NITZY/+3R0=
 			</data>
 			<key>hash2</key>
 			<data>
-			I2Iksg9zHQzIQaNApP9nF9XsUdstjOaDTllOV98v6/g=
+			3LcitbixUybPwZVoQu9jp5fjQo7E+QT9GSWUT+JPX6I=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Modules/KochavaUI.swiftmodule/x86_64-apple-macos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9Cfat3qkERKA/Z/05MtDW2YdCxg=
+			7IsJbb3Q1RmFTHU0SpX3TOsgznc=
 			</data>
 			<key>hash2</key>
 			<data>
-			plD94XpnD5edFeXow+FT/sm4vVqWmSMJ8XVuMWMWNTg=
+			TPjzfgcUDkdkupcwHHK8fbdHd6IVT1KskCov3v/63D8=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Modules/module.modulemap</key>
@@ -1470,11 +1311,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1jk9uWzZQJMM9XU9RCbOFrqHGp4=
+			9/HQoiAYV4DduwX/VZXCZaDzl48=
 			</data>
 			<key>hash2</key>
 			<data>
-			4hadkPAJ/XOQOQpUeTmh8SQnQZt1NaFB5ixz71+kXb8=
+			ptluVGdxbtADNEAEUVmIIL+OJuFtBLEKxG3uEjYMirA=
 			</data>
 		</dict>
 		<key>macos-arm64_x86_64/KochavaUI.framework/Versions/A/Resources/PrivacyInfo.xcprivacy</key>
@@ -1497,11 +1338,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			O4HavQI6ZP8YQUenht66meIMAEY=
+			yMGmgGTW25Qa4CKfbeeILddqy/E=
 			</data>
 			<key>hash2</key>
 			<data>
-			R9an2mRzhMdhL+5FzRqlVSscUIItNn4KuVL+/DsYhqU=
+			d/HERKoSYLkMwHghFSxB8wbbuTpvZqq31uPUt8slPkc=
 			</data>
 		</dict>
 		<key>tvos-arm64/KochavaUI.framework/Headers/KochavaUI.h</key>
@@ -1519,77 +1360,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			5mCb4U73DCbna9g10FGc6Iw4tyg=
+			szRLZ0/mN9nc+I4nfHsdhgV7fpI=
 			</data>
 			<key>hash2</key>
 			<data>
-			ENVsb5im27/CvpKqjdr1CUOGdlueMjPsgopswiO3o9M=
-			</data>
-		</dict>
-		<key>tvos-arm64/KochavaUI.framework/KVATextTableViewCell.tvOS.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			XHGb1LmN7wTM5h5qWcCYuNRXonU=
-			</data>
-			<key>hash2</key>
-			<data>
-			tUec6FppLjSN+dZkrumm/uzWbnC85xqtxvUSsBvZ9hg=
+			TSpr+YMvD9MiNJe7Qmo+GGTOZhq1vfxxj04tMbFiads=
 			</data>
 		</dict>
 		<key>tvos-arm64/KochavaUI.framework/KochavaUI</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/L6CkV5SdeEgr1jI2umTn4XfVOA=
+			fPRN+VNZ7Y/ZXF6wQx/44OtIFU4=
 			</data>
 			<key>hash2</key>
 			<data>
-			XVgDGQNpTonKuWBNPZetjQdX55vgWSllNirRQ4ziRmo=
+			k1ecrBrpuftNy6vBi6i6Gk1FOKepwpnfsroBW24/mCI=
 			</data>
 		</dict>
 		<key>tvos-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-tvos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vnnr7eXKwEFVGKYWcfiglXCBaVE=
+			I/DWb1pY3qcYMriDMMAJk9c/K7w=
 			</data>
 			<key>hash2</key>
 			<data>
-			vZaHR2ZHKIiapB9ZKqCwTOD+QPPeu2V0Fidr86l410g=
+			vIdkDu535MJ20rwhuT2TJJaL6zpQJNh3y2fcsrbTYws=
 			</data>
 		</dict>
 		<key>tvos-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-tvos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JgDlc/iCnpjDm0TBj1EQpjLAPnE=
+			1IWSFBA6WI1qRkvRV36kiLQl+n0=
 			</data>
 			<key>hash2</key>
 			<data>
-			y/Z5vDoSaJMW7liWyzbGH8IsM+qIdow3JhqGkiOa9AM=
+			CdYx+8E+soqqYDwN3lxkwWRjzp6ZE86tHWQwMrP/6iw=
 			</data>
 		</dict>
 		<key>tvos-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-tvos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6P70AQuXvxtnEUuFM8gqc1xA1W4=
+			/IjDGfjxNyGM797wq7yX/vNNoOQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			xgYWZTKIRxDtUNY3or7brVFlXVqj2taZDlfbZiyfQ48=
+			aarmLfAhIlcFVgIibJlmDQZ9EmD457j4UN3ctM3M9tg=
 			</data>
 		</dict>
 		<key>tvos-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-tvos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			JgDlc/iCnpjDm0TBj1EQpjLAPnE=
+			1IWSFBA6WI1qRkvRV36kiLQl+n0=
 			</data>
 			<key>hash2</key>
 			<data>
-			y/Z5vDoSaJMW7liWyzbGH8IsM+qIdow3JhqGkiOa9AM=
+			CdYx+8E+soqqYDwN3lxkwWRjzp6ZE86tHWQwMrP/6iw=
 			</data>
 		</dict>
 		<key>tvos-arm64/KochavaUI.framework/Modules/module.modulemap</key>
@@ -1618,11 +1448,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OrGOsT4tqQp3+u8m0VKfQFf3TIA=
+			4PwkfbydSFNnQxHOxpZbKd3+l70=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ai1uratiWY/t90cHTgdJUxVU1h5Q404Q9u6D58/2GlI=
+			QGvk3uN2EMO2fR4xDMxBoJNXQNmh/QnCnvK9I1iq/gM=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Headers/KochavaUI.h</key>
@@ -1640,121 +1470,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			7n3aysLPnmiH7dBnFb106onPKno=
+			dFEUV3NHTnpNMP7AYjyBFCYo6mg=
 			</data>
 			<key>hash2</key>
 			<data>
-			4OUFRChYE+SdiL2zJ8X7ncyXZCa7i472rBjRUEwogYs=
-			</data>
-		</dict>
-		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/KVATextTableViewCell.tvOS.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			XHGb1LmN7wTM5h5qWcCYuNRXonU=
-			</data>
-			<key>hash2</key>
-			<data>
-			tUec6FppLjSN+dZkrumm/uzWbnC85xqtxvUSsBvZ9hg=
+			4zMQFcEf/lpvF0FN3P+gGaakdguaVXl4qv6nxP1rleE=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/KochavaUI</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			i27fqJASNxi/fFHcf/SgnXGiUpE=
+			BDxIO+HVK0LXAVJNCsIq3vOf4Zo=
 			</data>
 			<key>hash2</key>
 			<data>
-			06LdJJUQkwOHPjbQhlKbKvTkKtUQM8eK97mfFAe/DBA=
+			FC3UyVyd/tUrese09fT1Dq6Xlv1fG8VDjM7O4YT4oTE=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vnnr7eXKwEFVGKYWcfiglXCBaVE=
+			I/DWb1pY3qcYMriDMMAJk9c/K7w=
 			</data>
 			<key>hash2</key>
 			<data>
-			vZaHR2ZHKIiapB9ZKqCwTOD+QPPeu2V0Fidr86l410g=
+			vIdkDu535MJ20rwhuT2TJJaL6zpQJNh3y2fcsrbTYws=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bOyv9tWVPYiEIU9CuY3eqHojXj4=
+			VfqoU2j+2p1XwVljU+JUb5LGGHc=
 			</data>
 			<key>hash2</key>
 			<data>
-			QekilONXTZKG/bhSRd61C1SMydS6A/SVseJuropg39U=
+			iwJ5b4Dk0BCxAQjNpJfKeoqdMY95GgADgmVM1oplKkk=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			v68VZw/auL6ZDSo125DzDgxZiRg=
+			w/dkiVrqqvZErCRBWWOdDP8JXA4=
 			</data>
 			<key>hash2</key>
 			<data>
-			8B0yGwRqU7H7huoFHbdodiKGD4ieXe5ybuJ6agJH9jI=
+			qTrOKnVbQqFefxuAedCRY2d2/wn255511uTv9AEqR8o=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bOyv9tWVPYiEIU9CuY3eqHojXj4=
+			VfqoU2j+2p1XwVljU+JUb5LGGHc=
 			</data>
 			<key>hash2</key>
 			<data>
-			QekilONXTZKG/bhSRd61C1SMydS6A/SVseJuropg39U=
+			iwJ5b4Dk0BCxAQjNpJfKeoqdMY95GgADgmVM1oplKkk=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-tvos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			vnnr7eXKwEFVGKYWcfiglXCBaVE=
+			I/DWb1pY3qcYMriDMMAJk9c/K7w=
 			</data>
 			<key>hash2</key>
 			<data>
-			vZaHR2ZHKIiapB9ZKqCwTOD+QPPeu2V0Fidr86l410g=
+			vIdkDu535MJ20rwhuT2TJJaL6zpQJNh3y2fcsrbTYws=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-tvos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bThhOE4XS/teB3jMdrW4TqOTMP8=
+			PJN4Jjnd5aG5SmTQV1K5eJbm5pk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Qt5Lyi9buxiha+ZrX824LR1aDcr00+IQROLR6AyJM5Q=
+			5AbWf0UeHtZfaq/cmN2YYCw+eJfUGaW2SAzD4/6ob8E=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-tvos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			J/MMOL6lPju2huRXIgZvhVLaC28=
+			OnIJtY05Tww6/pJnyV9UkYHezbM=
 			</data>
 			<key>hash2</key>
 			<data>
-			Dc84DnCgQ2CtI2Os03U9ZG1KZPHG2Zj+kfqze3S5RPg=
+			xyIyOuZTOHWrnJE7UBMaGRvWyC2TPQpkT3Du9e2mz8Y=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-tvos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bThhOE4XS/teB3jMdrW4TqOTMP8=
+			PJN4Jjnd5aG5SmTQV1K5eJbm5pk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Qt5Lyi9buxiha+ZrX824LR1aDcr00+IQROLR6AyJM5Q=
+			5AbWf0UeHtZfaq/cmN2YYCw+eJfUGaW2SAzD4/6ob8E=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/KochavaUI.framework/Modules/module.modulemap</key>
@@ -1783,22 +1602,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			h/Nj1gQFDsO26vJHSiLAnC+YHkQ=
+			V8SK0d0NUD+YBDrS0D94TxifE30=
 			</data>
 			<key>hash2</key>
 			<data>
-			7p8W2PHA03deS02/OOXl6t9pY589RXMBRt6X7U2m7cA=
+			YsiW6BzsPsQGfXWb7pmDuEkRYafqRmiVTQbTE/ECl/M=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Headers/KochavaUI-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4zWaUPXRyy5MfV0/Yb1c2i4R0KA=
+			UNc2QTPPgZbQ9YcHLSupvcrFGFo=
 			</data>
 			<key>hash2</key>
 			<data>
-			6aTWZrawKHJZXC05+oAG3tB+7r1G6Xy9K5hMkq6IKKQ=
+			Yd+JRCNtO9wKIV1IqNw70MCchSrfSS4993iTbc5Mzzs=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Headers/KochavaUI.h</key>
@@ -1816,154 +1635,154 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aIH0SOzDMDq/z58+WnvK2EIMNpI=
+			kArN8lV/9MR9hweW1SP0gaFGUZE=
 			</data>
 			<key>hash2</key>
 			<data>
-			p2B6Y2ozUd8U194rt2i0OdGnhQflkBLeIk0Jj7/iodk=
+			scEgL17c+rcqLM2VXv1TAu4tLeAqFJmNi8hHBr+u460=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/KochavaUI</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xHfSDTbXjD3hBH7ZbTwigi83REE=
+			ILH9cfHo2dKOSd5Wfe0DmBQ9gAM=
 			</data>
 			<key>hash2</key>
 			<data>
-			9HqmSTAflXX5HwEkQ34iw+uKLvlkpnPxNGHYYKH9XWY=
+			7Z8lVzyAxK8pUrbfeTiFl9W4HWS/l5Ak8kKFRPdbPpY=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Jgq/3jfJWP7xXWfg+FoyPZ/3UsA=
+			D9PfNpo42eAtL48SFHk+0T9Az68=
 			</data>
 			<key>hash2</key>
 			<data>
-			8rXrSjVL29sQJfMHxdoTPgkDzLM+f2TsCGvqvCBlUwA=
+			2Zk48rLCQIR9q9ItOCSpTOwBogK729Q1ZKIXizxjqWo=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4MZZKu+BaH8FLdYe8tyXvvge74k=
+			utvovt2dJtSQKcoCM1q0XitHxZY=
 			</data>
 			<key>hash2</key>
 			<data>
-			RLskz1UiIJhp5YelpOy1SkHcIKkFdw3ZoyNATTaMcNo=
+			rSo5Z6BWu2sgNtaspe5Dpsb/4lIv0z4PCuwqKUTieeg=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			b56bCpy7Q1NpKmfXeTpnstNyCus=
+			FPbFL8sXl28fI3beDK+N2U3UiNs=
 			</data>
 			<key>hash2</key>
 			<data>
-			zuXVWGHZMzyz7h7jSSEyvOGy/3dS1qsS2vtx3WX5n6I=
+			7xjDN4HuZJkY1p/SijHWWTS/b15QwMcHjtiFil4IR/E=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4MZZKu+BaH8FLdYe8tyXvvge74k=
+			utvovt2dJtSQKcoCM1q0XitHxZY=
 			</data>
 			<key>hash2</key>
 			<data>
-			RLskz1UiIJhp5YelpOy1SkHcIKkFdw3ZoyNATTaMcNo=
+			rSo5Z6BWu2sgNtaspe5Dpsb/4lIv0z4PCuwqKUTieeg=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64_32-apple-watchos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1SEj5ISgzv81pg8ekzD1HvxOHG4=
+			ArmyfQZVVE7iLLiLuTBqXfWdCwA=
 			</data>
 			<key>hash2</key>
 			<data>
-			/YzA24iul6oySGiEAO9lqZI5aMJMKZk9oKHxfvfTrD4=
+			WAAFkkXiB0RRZp8XVC6WWCVWUW9nte1X7j5jocDn9KE=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64_32-apple-watchos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HYg4vGFW1YqrbNLgCksRwKNwAIU=
+			quYW7+2mUG7uniP8T4MR1KvzVF0=
 			</data>
 			<key>hash2</key>
 			<data>
-			FZRNoBEIER/kHuLeLNh4sTUJaAFgD2MMepo3ODzmmLE=
+			MEWyF+oNV66WdWluFI6bvaEelIkbD3VJQNjQeH/yfG0=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64_32-apple-watchos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aj1cAiuniLZkg3DdXngUqbFDo3Q=
+			6K5ucgMqlq9qYYpJ1D1j+aJcUmg=
 			</data>
 			<key>hash2</key>
 			<data>
-			1SQWi9eJuZ6EA+ZEm5ThV7+dgN21C+s0zh1arb912v8=
+			DOQVraxD1u0Z96PnQ+pDkTixaWVJiRVpnthVcWbOEBI=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64_32-apple-watchos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			HYg4vGFW1YqrbNLgCksRwKNwAIU=
+			quYW7+2mUG7uniP8T4MR1KvzVF0=
 			</data>
 			<key>hash2</key>
 			<data>
-			FZRNoBEIER/kHuLeLNh4sTUJaAFgD2MMepo3ODzmmLE=
+			MEWyF+oNV66WdWluFI6bvaEelIkbD3VJQNjQeH/yfG0=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/armv7k-apple-watchos.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1SEj5ISgzv81pg8ekzD1HvxOHG4=
+			ArmyfQZVVE7iLLiLuTBqXfWdCwA=
 			</data>
 			<key>hash2</key>
 			<data>
-			/YzA24iul6oySGiEAO9lqZI5aMJMKZk9oKHxfvfTrD4=
+			WAAFkkXiB0RRZp8XVC6WWCVWUW9nte1X7j5jocDn9KE=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/armv7k-apple-watchos.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KcMY/6wb1TRR41qVXpS5tbZYcYk=
+			qMC6n+ITWxfLy+gYsTK7Wyevrbw=
 			</data>
 			<key>hash2</key>
 			<data>
-			i7+eUNjoWVR/ECDuGMxDv415jMUT40tKvwY6a8Mieg0=
+			5ZsHWxgfluIv5KuXPYbiGVCV+wOE74zaoRt2S8PxM2Y=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/armv7k-apple-watchos.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oJM5xIu5Eagld7ITiQecYFkiF2Q=
+			8vZzKQ6xZjnxHTvwoMC7mCx2p4g=
 			</data>
 			<key>hash2</key>
 			<data>
-			xQnqoVOFdNfkAiZqTsNX0VGDfOagqqJY2XLe3mMyIh8=
+			pE3wBxBBG8+BfDM+M8pXWk6v3823j206SRBPcpHWyH0=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/KochavaUI.swiftmodule/armv7k-apple-watchos.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			KcMY/6wb1TRR41qVXpS5tbZYcYk=
+			qMC6n+ITWxfLy+gYsTK7Wyevrbw=
 			</data>
 			<key>hash2</key>
 			<data>
-			i7+eUNjoWVR/ECDuGMxDv415jMUT40tKvwY6a8Mieg0=
+			5ZsHWxgfluIv5KuXPYbiGVCV+wOE74zaoRt2S8PxM2Y=
 			</data>
 		</dict>
 		<key>watchos-arm64_arm64_32_armv7k/KochavaUI.framework/Modules/module.modulemap</key>
@@ -1988,18 +1807,18 @@
 			ZFIpWmrSklTJLGaAOPLGos/UQMB82oH4FOmWrCFbhBU=
 			</data>
 		</dict>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Headers/KochavaUI-Swift.h</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Headers/KochavaUI-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eCtlgQmo8zw/Mu+wzZ44Vir+8kw=
+			4PwkfbydSFNnQxHOxpZbKd3+l70=
 			</data>
 			<key>hash2</key>
 			<data>
-			0sdVP0lBP9uWcOpL3QDfHngVcvlKlw2tX+usi5DJvI4=
+			QGvk3uN2EMO2fR4xDMxBoJNXQNmh/QnCnvK9I1iq/gM=
 			</data>
 		</dict>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Headers/KochavaUI.h</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Headers/KochavaUI.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2010,161 +1829,117 @@
 			yxk/an1XnlRHL5bsZJxup8p63ICUyw4yWmrpMVcnbA0=
 			</data>
 		</dict>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Info.plist</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			W4cqP8jubwiauBh3j5X7JF2yg5o=
+			SWpS9zlnLigN9JPc81tE9UW150M=
 			</data>
 			<key>hash2</key>
 			<data>
-			TSPh4BdcpnE8IJfslfJombKx3Z3gpH6EtA6ZhhAvMok=
+			fnl29FKc/5r+kYdJXHhL/8h00YQk1qCeP+uDUJbAIJs=
 			</data>
 		</dict>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/KochavaUI</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/KochavaUI</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			31/SwQS7awibNA2qtPs03yOll8k=
+			UdYDnsU+MsEm4xjXT43kJQ/V7gk=
 			</data>
 			<key>hash2</key>
 			<data>
-			TLL92t7JPkNg7yY72aOAUAHnIu/HUG6P6gU7kYNBqYY=
+			YLJCRL8n19ADU2z6Qk6WSwtwfnLoPi4EDMOryfsToMo=
 			</data>
 		</dict>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Jgq/3jfJWP7xXWfg+FoyPZ/3UsA=
+			D9PfNpo42eAtL48SFHk+0T9Az68=
 			</data>
 			<key>hash2</key>
 			<data>
-			8rXrSjVL29sQJfMHxdoTPgkDzLM+f2TsCGvqvCBlUwA=
+			2Zk48rLCQIR9q9ItOCSpTOwBogK729Q1ZKIXizxjqWo=
 			</data>
 		</dict>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K0fPVI9QcFRdkXQW3ah9eYuDjq0=
+			uTMTEgnsbJwbbEuIuLdZeaSyNEY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Tfn4Hat/gixVnxAz6AQ0iMcvSPt+Ll3MGO0bT/dms2c=
+			kR+p17lLKUacvY78B780g6wFwzCosvHkK/sgNDXOwHs=
 			</data>
 		</dict>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			381LCS2C9MKFSlYe4PcPXO3p5PA=
+			jVDXXfaDCXitWeofPo9FjBNmZvk=
 			</data>
 			<key>hash2</key>
 			<data>
-			yvMC4aPSyzXbpxAENyfF5Dr0+EyAmKOtroCD18iwlXI=
+			TUXgsprTkyX6dL6fqQzon9B0B65+x7fhMHm/LwZIIsU=
 			</data>
 		</dict>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			K0fPVI9QcFRdkXQW3ah9eYuDjq0=
+			uTMTEgnsbJwbbEuIuLdZeaSyNEY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Tfn4Hat/gixVnxAz6AQ0iMcvSPt+Ll3MGO0bT/dms2c=
+			kR+p17lLKUacvY78B780g6wFwzCosvHkK/sgNDXOwHs=
 			</data>
 		</dict>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/i386-apple-watchos-simulator.abi.json</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			1SEj5ISgzv81pg8ekzD1HvxOHG4=
+			D9PfNpo42eAtL48SFHk+0T9Az68=
 			</data>
 			<key>hash2</key>
 			<data>
-			/YzA24iul6oySGiEAO9lqZI5aMJMKZk9oKHxfvfTrD4=
+			2Zk48rLCQIR9q9ItOCSpTOwBogK729Q1ZKIXizxjqWo=
 			</data>
 		</dict>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/i386-apple-watchos-simulator.private.swiftinterface</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oCogqf5q6G8te3CZWDsytzRRliQ=
+			TAS3jBXXg09PEEc53MaOuMSCSxg=
 			</data>
 			<key>hash2</key>
 			<data>
-			SAS8Gzg/WtiaXsjD9RUZP3XGKpqveWbIixhHkRuUiGw=
+			2H3ZhJAVU2NJ5rCmc438awr3gqMqgE+86l/eSmh8biQ=
 			</data>
 		</dict>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/i386-apple-watchos-simulator.swiftdoc</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			BYRGzaeach7CLqfLWbIVlU7vkuw=
+			YEtH+rHZI53LdMyLkoJ67jLnQ58=
 			</data>
 			<key>hash2</key>
 			<data>
-			CP+EwnmfUOcKKJMM+KmMmUFSGZK8CLq7pRAX5slK8FY=
+			PE91SHTvxr+BJfDkbs/AQhxjmXmc4W3Ex+Baq9dlROM=
 			</data>
 		</dict>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/i386-apple-watchos-simulator.swiftinterface</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			oCogqf5q6G8te3CZWDsytzRRliQ=
+			TAS3jBXXg09PEEc53MaOuMSCSxg=
 			</data>
 			<key>hash2</key>
 			<data>
-			SAS8Gzg/WtiaXsjD9RUZP3XGKpqveWbIixhHkRuUiGw=
+			2H3ZhJAVU2NJ5rCmc438awr3gqMqgE+86l/eSmh8biQ=
 			</data>
 		</dict>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Jgq/3jfJWP7xXWfg+FoyPZ/3UsA=
-			</data>
-			<key>hash2</key>
-			<data>
-			8rXrSjVL29sQJfMHxdoTPgkDzLM+f2TsCGvqvCBlUwA=
-			</data>
-		</dict>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sT/0Ww7zGlLhROrzCKGmAD2yg5g=
-			</data>
-			<key>hash2</key>
-			<data>
-			9PFD+p5jJlQMZr9ZsZERiWhExapPTXjQ+EG9ecSflUY=
-			</data>
-		</dict>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			NMtDpKLWVdLaU0ELFViKF1XZkZ0=
-			</data>
-			<key>hash2</key>
-			<data>
-			fPoLZNf+SMenP4BR1++PtVtx5G/d89sXH/uU82N30KE=
-			</data>
-		</dict>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			sT/0Ww7zGlLhROrzCKGmAD2yg5g=
-			</data>
-			<key>hash2</key>
-			<data>
-			9PFD+p5jJlQMZr9ZsZERiWhExapPTXjQ+EG9ecSflUY=
-			</data>
-		</dict>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/Modules/module.modulemap</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/Modules/module.modulemap</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2175,7 +1950,7 @@
 			Z4uCl5gxHBWeOS/I5JfoHjDx6n7KqPIeS34URxABo4w=
 			</data>
 		</dict>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/PrivacyInfo.xcprivacy</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
 			<key>hash</key>
 			<data>
@@ -2186,26 +1961,26 @@
 			ZFIpWmrSklTJLGaAOPLGos/UQMB82oH4FOmWrCFbhBU=
 			</data>
 		</dict>
-		<key>watchos-arm64_i386_x86_64-simulator/KochavaUI.framework/_CodeSignature/CodeResources</key>
+		<key>watchos-arm64_x86_64-simulator/KochavaUI.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			h/buaUsDaurCeajdpYsSKnzWWQs=
+			PFPEuXViHeNZlf0OEAOEiBb23Zc=
 			</data>
 			<key>hash2</key>
 			<data>
-			prcUJl/sJVyKHGagPqq3LUcN2JP8CBHPv/nlJVwxKEo=
+			Ooac8Fy5JQyL/83MsgwEIW13ZQfXSzVekZZskoCGLVY=
 			</data>
 		</dict>
 		<key>xros-arm64/KochavaUI.framework/Headers/KochavaUI-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kEIznWroA1YyazBse04CHyYqkFU=
+			yMGmgGTW25Qa4CKfbeeILddqy/E=
 			</data>
 			<key>hash2</key>
 			<data>
-			ef09dJSQ6KykYBat09AwpkyTmgCgpzV00ck1+j9YF7E=
+			d/HERKoSYLkMwHghFSxB8wbbuTpvZqq31uPUt8slPkc=
 			</data>
 		</dict>
 		<key>xros-arm64/KochavaUI.framework/Headers/KochavaUI.h</key>
@@ -2223,66 +1998,66 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			V1RkLt99IdETmQ/9d7WRFgXEYUo=
+			fmWXD5rW0vFu7oJgkkADSxBHWlo=
 			</data>
 			<key>hash2</key>
 			<data>
-			9qucj10oQMPTFx+xGCRK9OTgeUWIVQMkkjwEw4u+Lq0=
+			yzZtDoLz3Z2WXTpXKtSrk0Dk2j6tQlBMOt7Pl4iXu8E=
 			</data>
 		</dict>
 		<key>xros-arm64/KochavaUI.framework/KochavaUI</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9tm9YPeG0lpVZSOXIYlryOqM7po=
+			AeWey8pPfE+3Va1G6Tjm65SCooc=
 			</data>
 			<key>hash2</key>
 			<data>
-			/2meWWSL4dl1jphrv38GYiCI3y6D0WIIr+Nn9ZB8prk=
+			2ZgVjsn60c3F+6GMZqJK68+mTFlMxZhJ7NxrQ7SO6Tc=
 			</data>
 		</dict>
 		<key>xros-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-xros.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eXwbpwzYdums/F3GoK5DB4/iHX0=
+			I/DWb1pY3qcYMriDMMAJk9c/K7w=
 			</data>
 			<key>hash2</key>
 			<data>
-			AI4O29bO7HSn9ku8+pf3geyoP2fCOEVWLIR+BJE0FKM=
+			vIdkDu535MJ20rwhuT2TJJaL6zpQJNh3y2fcsrbTYws=
 			</data>
 		</dict>
 		<key>xros-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-xros.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8Nk+jbpFZyyPBPS//9AJlMjP4nk=
+			Wdih9dGuBwR9qIOhKoPV4tqwz4Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			fy/TZnvOg0DBz1eApxIWN9eA/SnvJwbDqJQ5/qrMc78=
+			UbRMIBeyajDHMFPNKhenMC17UpvIcBBMpOXbSx9Gg6o=
 			</data>
 		</dict>
 		<key>xros-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-xros.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pNrq06oUoXLX6261k/3cNLCtmIk=
+			mUu+PyZY3UVNliijLi2mvyHf35I=
 			</data>
 			<key>hash2</key>
 			<data>
-			rNuUZfkHCK8ZHzy+UR/3oqG7rjD4MNrVPX1NIW+9330=
+			9iHuU4avPScXSKhtkqNQYAwcbmLyUcZoE8AiLkTEm8Q=
 			</data>
 		</dict>
 		<key>xros-arm64/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-xros.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			8Nk+jbpFZyyPBPS//9AJlMjP4nk=
+			Wdih9dGuBwR9qIOhKoPV4tqwz4Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			fy/TZnvOg0DBz1eApxIWN9eA/SnvJwbDqJQ5/qrMc78=
+			UbRMIBeyajDHMFPNKhenMC17UpvIcBBMpOXbSx9Gg6o=
 			</data>
 		</dict>
 		<key>xros-arm64/KochavaUI.framework/Modules/module.modulemap</key>
@@ -2311,11 +2086,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ddZmaW9vHu6omRFM/0Fyi+h+Txw=
+			4PwkfbydSFNnQxHOxpZbKd3+l70=
 			</data>
 			<key>hash2</key>
 			<data>
-			6g8YHEuC/MN9Zwo3G+RVLcn0YKbHPTBT2wt0VTjj97I=
+			QGvk3uN2EMO2fR4xDMxBoJNXQNmh/QnCnvK9I1iq/gM=
 			</data>
 		</dict>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Headers/KochavaUI.h</key>
@@ -2333,110 +2108,110 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Una6/mV9e6hh1yJN8Sla5zjt8U4=
+			sX3bd71faDwbpJZFtGBCmJkQaRc=
 			</data>
 			<key>hash2</key>
 			<data>
-			vefNfuEpbtbotetHzoHu5MZXXT57tmO51PnSaI+XS58=
+			7vbvYtw0YRhcM+0QOizMn+IXOc6dS4hFCmsN2uY2p2Y=
 			</data>
 		</dict>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/KochavaUI</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Fw6COlJxpIOCR4zuk5CcTcInsqA=
+			xLTd5Ef6e6L0tY5JoZKrvPXJYEo=
 			</data>
 			<key>hash2</key>
 			<data>
-			p9YM29OEMthZzlMTGvRVBSynBQ8jDtVXs+baR/G8W7s=
+			RkYPTabybTAonQMRVwd6BYPluL9Al8GdwVWHYE4H7rQ=
 			</data>
 		</dict>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eXwbpwzYdums/F3GoK5DB4/iHX0=
+			I/DWb1pY3qcYMriDMMAJk9c/K7w=
 			</data>
 			<key>hash2</key>
 			<data>
-			AI4O29bO7HSn9ku8+pf3geyoP2fCOEVWLIR+BJE0FKM=
+			vIdkDu535MJ20rwhuT2TJJaL6zpQJNh3y2fcsrbTYws=
 			</data>
 		</dict>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-xros-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EfPAraTxtulEqVhaQu19dOjkb2c=
+			v7u4lDKbeDRWjvnlfX2ag8pb7zs=
 			</data>
 			<key>hash2</key>
 			<data>
-			ie8cfONvYt1ursxi0dND3VvRWgA/tiFBxnPfuR/3Wac=
+			0veFlqEMnhb1WkKjR6JmNIvuv7p+R8LIVIgSERIMT1E=
 			</data>
 		</dict>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			blg5dIH12L22tIQ6mVCxOX7vj9k=
+			lXdZqbfC+fZAaworg5kpipvoSaE=
 			</data>
 			<key>hash2</key>
 			<data>
-			j3/fI3gj+XI7dNdrIRziKYsn/k4t8ZeOQsVf+/dtuGE=
+			pJFr4yliwbQ01Fa52HECOzmvSiFSmzNqzM3rDgxMT5k=
 			</data>
 		</dict>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/arm64-apple-xros-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EfPAraTxtulEqVhaQu19dOjkb2c=
+			v7u4lDKbeDRWjvnlfX2ag8pb7zs=
 			</data>
 			<key>hash2</key>
 			<data>
-			ie8cfONvYt1ursxi0dND3VvRWgA/tiFBxnPfuR/3Wac=
+			0veFlqEMnhb1WkKjR6JmNIvuv7p+R8LIVIgSERIMT1E=
 			</data>
 		</dict>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-xros-simulator.abi.json</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			eXwbpwzYdums/F3GoK5DB4/iHX0=
+			I/DWb1pY3qcYMriDMMAJk9c/K7w=
 			</data>
 			<key>hash2</key>
 			<data>
-			AI4O29bO7HSn9ku8+pf3geyoP2fCOEVWLIR+BJE0FKM=
+			vIdkDu535MJ20rwhuT2TJJaL6zpQJNh3y2fcsrbTYws=
 			</data>
 		</dict>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-xros-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cBp27w5L+9uyagC9tBW+APlpZM0=
+			+HOCHdT19qy0xC5pf/RTjhpnnFU=
 			</data>
 			<key>hash2</key>
 			<data>
-			kM44taUHSUgR811AQW7sO7Lruw6kwROWKoi3lm8WURc=
+			UWfJ6NN13kzaNm20shEXaywDWacBKoXpsECK4hViYWU=
 			</data>
 		</dict>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-xros-simulator.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			E8LkV59EyrmTbkgaoNxIY4sQXC0=
+			+m6UnVIIoJf/xTfMzq7cuovbTx4=
 			</data>
 			<key>hash2</key>
 			<data>
-			FTHtL5eZak7TUcRv7KweDg9WoW6mwWKLpQJwIqv/iiU=
+			VbRpKz2G81Y/BzBNqng4J3zHLcnkVAhIbtby5xUNU34=
 			</data>
 		</dict>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Modules/KochavaUI.swiftmodule/x86_64-apple-xros-simulator.swiftinterface</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			cBp27w5L+9uyagC9tBW+APlpZM0=
+			+HOCHdT19qy0xC5pf/RTjhpnnFU=
 			</data>
 			<key>hash2</key>
 			<data>
-			kM44taUHSUgR811AQW7sO7Lruw6kwROWKoi3lm8WURc=
+			UWfJ6NN13kzaNm20shEXaywDWacBKoXpsECK4hViYWU=
 			</data>
 		</dict>
 		<key>xros-arm64_x86_64-simulator/KochavaUI.framework/Modules/module.modulemap</key>
@@ -2465,11 +2240,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Q0r3lo38K+n1jq4GWkXEBIshxJs=
+			j9r/84EtoTxphdvFyOka+V2pjW0=
 			</data>
 			<key>hash2</key>
 			<data>
-			y3g92O2bJaEeI1gXQDhlnGdmK39khZv7Vxs6xAVqHL0=
+			fdaJxvwEarAr4DTRH0ZN7YjR2NMor3RDwxQkWWs30yM=
 			</data>
 		</dict>
 	</dict>

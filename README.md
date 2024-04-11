@@ -12,13 +12,16 @@ The KochavaUI framework is an SDK providing declarative user interface support. 
 
 ## Built on
 
-* Xcode 15.2
+* Xcode 15.3
 
 ## Platforms
 
-* iOS 13.0
-* macCatalyst 13.0
-* tvOS 13.0
+* iOS 15.0
+* macCatalyst 15.0
+* macOS 12.0
+* tvOS 16.0
+* visionOS 1.0
+* watchOS 8.0
 
 ## Dependencies
 
