@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		SWpS9zlnLigN9JPc81tE9UW150M=
+		4JKMk/FdSjoZMZP6T5NDtyAQYqQ=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<data>
-		D9PfNpo42eAtL48SFHk+0T9Az68=
+		Ws48OBhJ2ylpBpKfVfYAGeq7/V0=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		uTMTEgnsbJwbbEuIuLdZeaSyNEY=
+		0gHOscaF9nkis/tblEqwkRiuQGk=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		jVDXXfaDCXitWeofPo9FjBNmZvk=
+		JHlgqDy8ZAfI9bmdmxQV/Ye5170=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		uTMTEgnsbJwbbEuIuLdZeaSyNEY=
+		0gHOscaF9nkis/tblEqwkRiuQGk=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		FFCzgYyQRyLc2F0iMw032JjOlnY=
+		AudyAK5FHU7ON5mmzQGwSs4xmbw=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<data>
-		D9PfNpo42eAtL48SFHk+0T9Az68=
+		Ws48OBhJ2ylpBpKfVfYAGeq7/V0=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		TAS3jBXXg09PEEc53MaOuMSCSxg=
+		BfubuaZwkUX6YqA82uRMvYDFL3U=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		YEtH+rHZI53LdMyLkoJ67jLnQ58=
+		IHxClnDij3fg5yhxWi9Qh5wWa2U=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		TAS3jBXXg09PEEc53MaOuMSCSxg=
+		BfubuaZwkUX6YqA82uRMvYDFL3U=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<data>
-		KqzZBPbqlnpWmN4WNUNoFL7OmI4=
+		72VLB51fT7FxGwXV3aVywI7c/dA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,70 +85,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Zk48rLCQIR9q9ItOCSpTOwBogK729Q1ZKIXizxjqWo=
+			01moZMfH9CuJEROjp3/bQgjSlZjOEsUlp3UrLoAOBU8=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kR+p17lLKUacvY78B780g6wFwzCosvHkK/sgNDXOwHs=
+			ENoP7pyrXbUcimvv3/rWKkhhh69LliS1zYZ5+xPy+Mk=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TUXgsprTkyX6dL6fqQzon9B0B65+x7fhMHm/LwZIIsU=
+			pZ/9UlQZqBNnCCKzYulEo0TZY2q05DcqWxPhTEyTV1c=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kR+p17lLKUacvY78B780g6wFwzCosvHkK/sgNDXOwHs=
+			ENoP7pyrXbUcimvv3/rWKkhhh69LliS1zYZ5+xPy+Mk=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gEFAlO3B4oME+YoGv6i6UbJuf/GSSpjtdw2os8RzLRA=
+			UMiQElDSxBAJ3c/w71Hifg6i2DJnvXOTibiC27dHtfM=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2Zk48rLCQIR9q9ItOCSpTOwBogK729Q1ZKIXizxjqWo=
+			01moZMfH9CuJEROjp3/bQgjSlZjOEsUlp3UrLoAOBU8=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2H3ZhJAVU2NJ5rCmc438awr3gqMqgE+86l/eSmh8biQ=
+			B8eTwC50kGn9ad/DkI9EfF1Ki2FF1/HdnmqX0S2NHLQ=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PE91SHTvxr+BJfDkbs/AQhxjmXmc4W3Ex+Baq9dlROM=
+			MMbt9CtiYAsyiOdLvLnv1PjIUBVnwHJno/wF5222qDc=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2H3ZhJAVU2NJ5rCmc438awr3gqMqgE+86l/eSmh8biQ=
+			B8eTwC50kGn9ad/DkI9EfF1Ki2FF1/HdnmqX0S2NHLQ=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			P/1sM9xHzRy/DWD62ZkKM8XPexnKiNvddC85cmOUNTI=
+			ahN8FZNnJgHs3l651xNx3U4XR6IZLSI4rysfFOH2Odo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
