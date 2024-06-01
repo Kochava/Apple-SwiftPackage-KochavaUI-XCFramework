@@ -250,15 +250,10 @@ extension SwiftUI.Text {
 }
 extension KochavaNetworking.Adapter : KochavaUI.Topic.Delegate, KochavaUI.Viewable {
   final public func view(elementBool: Swift.Bool?, table: KochavaUI.Table?) -> SwiftUI.AnyView
-  final public func topic_iconImage(closure_didComplete: @escaping ((KochavaUI.Topic.IconImage?) -> Swift.Void))
   final public func topic_title(closure_didComplete: @escaping ((KochavaUI.Topic.Title?) -> Swift.Void))
   final public func topic_subtitle(closure_didComplete: @escaping ((KochavaUI.Topic.Subtitle?) -> Swift.Void))
   final public func topic_microtitle(closure_didComplete: @escaping ((_ microtitle: KochavaUI.Topic.Microtitle?) -> Swift.Void))
   final public func topic_info(closure_didComplete: @escaping ((KochavaUI.Topic.Info?) -> Swift.Void))
-  final public func topic_description(closure_didComplete: @escaping ((_ subtitle: KochavaUI.Topic.Description?) -> Swift.Void))
-  final public func topic_reducedBool(closure_didComplete: @escaping ((_ reducedBool: Swift.Bool?) -> Swift.Void))
-  final public func topic_dividersBool(closure_didComplete: @escaping ((_ reducedBool: Swift.Bool?) -> Swift.Void))
-  final public func topic_expandedViewableArray(closure_didComplete: @escaping ((_ expandedViewableArray: KochavaUI.Topic.ExpandedViewableArray?) -> Swift.Void))
   final public func topic_didSelectNavigationDestinationViewable(closure_didComplete: @escaping ((_ viewable: (any KochavaUI.Viewable)?) -> Swift.Void))
 }
 final public class Separator : Swift.Identifiable, KochavaNetworking.DecodableFrom, KochavaUI.Viewable {
@@ -275,7 +270,7 @@ extension SwiftUI.Alignment : KochavaNetworking.DecodableFrom {
   public static let type_kochava: KochavaNetworking.Kochava_Type
 }
 public class Topic : KochavaNetworking.DecodableFrom, KochavaNetworking.Executor, Swift.Identifiable, Combine.ObservableObject, KochavaNetworking.Typed, KochavaUI.Viewable {
-  required public init(iconImage: KochavaUI.Topic.IconImage? = nil, title: KochavaUI.Topic.Title? = nil, subtitle: KochavaUI.Topic.Subtitle? = nil, microtitle: KochavaUI.Topic.Microtitle? = nil, info: KochavaUI.Topic.Info? = nil, description: KochavaUI.Topic.Description? = nil, reducedBool: Swift.Bool? = nil, expandedViewableArray: KochavaUI.Topic.ExpandedViewableArray? = nil, dividersBool: Swift.Bool? = nil, didSelectNavigationDestinationViewable: (any KochavaUI.Viewable)? = nil, delegate: (any KochavaUI.Topic.Delegate)? = nil)
+  required public init(iconImage: KochavaUI.Topic.IconImage? = nil, title: KochavaUI.Topic.Title? = nil, subtitle: KochavaUI.Topic.Subtitle? = nil, microtitle: KochavaUI.Topic.Microtitle? = nil, info: KochavaUI.Topic.Info? = nil, description: KochavaUI.Topic.Description? = nil, bodyViewableArray: KochavaUI.Topic.BodyViewableArray? = nil, reducedBool: Swift.Bool? = nil, expandedViewableArray: KochavaUI.Topic.ExpandedViewableArray? = nil, backgroundBool: Swift.Bool? = nil, backgroundColor: SwiftUI.Color? = nil, dividersBool: Swift.Bool? = nil, didSelectNavigationDestinationViewable: (any KochavaUI.Viewable)? = nil, delegate: (any KochavaUI.Topic.Delegate)? = nil, closure_execute: KochavaUI.Topic.Closure_Execute? = nil)
   public static func from(_ object: Any?) -> Self?
   public func view(elementBool: Swift.Bool?, table: KochavaUI.Table?) -> SwiftUI.AnyView
   final public let id: Swift.String
@@ -373,6 +368,21 @@ public class Topic : KochavaNetworking.DecodableFrom, KochavaNetworking.Executor
   }
   public var description_parameter_sf: KochavaUI.Topic.Description?
   public typealias Description = Swift.String
+  @Combine.Published @_projectedValueProperty($bodyViewableArray_main) public var bodyViewableArray_main: KochavaUI.Topic.BodyViewableArray? {
+    get
+  }
+  public var $bodyViewableArray_main: Combine.Published<KochavaUI.Topic.BodyViewableArray?>.Publisher {
+    get
+  }
+  public var bodyViewableArray: KochavaUI.Topic.BodyViewableArray? {
+    get
+  }
+  public var bodyViewableArray_parameter: KochavaUI.Topic.BodyViewableArray? {
+    get
+    set(bodyViewableArray_parameter)
+  }
+  public var bodyViewableArray_parameter_sf: KochavaUI.Topic.BodyViewableArray?
+  public typealias BodyViewableArray = [any KochavaUI.Viewable & Swift.Identifiable]
   @Combine.Published @_projectedValueProperty($reducedBool_main) public var reducedBool_main: Swift.Bool? {
     get
   }
@@ -402,6 +412,34 @@ public class Topic : KochavaNetworking.DecodableFrom, KochavaNetworking.Executor
   }
   public var expandedViewableArray_parameter_sf: KochavaUI.Topic.ExpandedViewableArray?
   public typealias ExpandedViewableArray = [any KochavaUI.Viewable & Swift.Identifiable]
+  @Combine.Published @_projectedValueProperty($backgroundBool_main) public var backgroundBool_main: Swift.Bool? {
+    get
+  }
+  public var $backgroundBool_main: Combine.Published<Swift.Bool?>.Publisher {
+    get
+  }
+  public var backgroundBool: Swift.Bool? {
+    get
+  }
+  public var backgroundBool_parameter: Swift.Bool? {
+    get
+    set(backgroundBool_parameter)
+  }
+  public var backgroundBool_parameter_sf: Swift.Bool?
+  @Combine.Published @_projectedValueProperty($backgroundColor_main) public var backgroundColor_main: SwiftUI.Color? {
+    get
+  }
+  public var $backgroundColor_main: Combine.Published<SwiftUI.Color?>.Publisher {
+    get
+  }
+  public var backgroundColor: SwiftUI.Color? {
+    get
+  }
+  public var backgroundColor_parameter: SwiftUI.Color? {
+    get
+    set(backgroundColor_parameter)
+  }
+  public var backgroundColor_parameter_sf: SwiftUI.Color?
   @Combine.Published @_projectedValueProperty($dividersBool_main) public var dividersBool_main: Swift.Bool? {
     get
   }
@@ -431,6 +469,21 @@ public class Topic : KochavaNetworking.DecodableFrom, KochavaNetworking.Executor
   }
   public var didSelectNavigationDestinationViewable_parameter_sf: (any KochavaUI.Viewable)?
   public typealias DidSelectNavigationDestinationViewable = KochavaUI.Viewable
+  @Combine.Published @_projectedValueProperty($closure_execute_main) public var closure_execute_main: KochavaUI.Topic.Closure_Execute? {
+    get
+  }
+  public var $closure_execute_main: Combine.Published<KochavaUI.Topic.Closure_Execute?>.Publisher {
+    get
+  }
+  public var closure_execute: KochavaUI.Topic.Closure_Execute? {
+    get
+  }
+  public var closure_execute_parameter: KochavaUI.Topic.Closure_Execute? {
+    get
+    set(closure_execute_parameter)
+  }
+  public var closure_execute_parameter_sf: KochavaUI.Topic.Closure_Execute?
+  public typealias Closure_Execute = (_ view: any SwiftUI.View) -> Swift.Void
   public var delegate: (any KochavaUI.Topic.Delegate)? {
     get
     set(delegate)
@@ -438,17 +491,21 @@ public class Topic : KochavaNetworking.DecodableFrom, KochavaNetworking.Executor
   public protocol Composing {
     var topic: KochavaUI.Topic { get }
   }
-  public protocol Delegate {
+  public protocol Delegate : KochavaNetworking.Executor {
     func topic_iconImage(closure_didComplete: @escaping ((_ iconImage: KochavaUI.Topic.IconImage?) -> Swift.Void))
     func topic_title(closure_didComplete: @escaping ((_ title: KochavaUI.Topic.Title?) -> Swift.Void))
     func topic_subtitle(closure_didComplete: @escaping ((_ subtitle: KochavaUI.Topic.Subtitle?) -> Swift.Void))
     func topic_microtitle(closure_didComplete: @escaping ((_ microtitle: KochavaUI.Topic.Microtitle?) -> Swift.Void))
     func topic_info(closure_didComplete: @escaping ((_ info: KochavaUI.Topic.Info?) -> Swift.Void))
     func topic_description(closure_didComplete: @escaping ((_ subtitle: KochavaUI.Topic.Description?) -> Swift.Void))
+    func topic_bodyViewableArray(closure_didComplete: @escaping ((_ bodyViewableArray: KochavaUI.Topic.BodyViewableArray?) -> Swift.Void))
     func topic_reducedBool(closure_didComplete: @escaping ((_ reducedBool: Swift.Bool?) -> Swift.Void))
     func topic_expandedViewableArray(closure_didComplete: @escaping ((_ expandedViewableArray: KochavaUI.Topic.ExpandedViewableArray?) -> Swift.Void))
-    func topic_dividersBool(closure_didComplete: @escaping ((_ reducedBool: Swift.Bool?) -> Swift.Void))
+    func topic_backgroundBool(closure_didComplete: @escaping ((_ backgroundBool: Swift.Bool?) -> Swift.Void))
+    func topic_backgroundColor(closure_didComplete: @escaping ((_ backgroundColor: SwiftUI.Color?) -> Swift.Void))
+    func topic_dividersBool(closure_didComplete: @escaping ((_ dividersBool: Swift.Bool?) -> Swift.Void))
     func topic_didSelectNavigationDestinationViewable(closure_didComplete: @escaping ((_ viewable: (any KochavaUI.Viewable)?) -> Swift.Void))
+    func topic_closure_execute(closure_didComplete: @escaping ((_ closure_execute: KochavaUI.Topic.Closure_Execute?) -> Swift.Void))
   }
   public typealias ID = Swift.String
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
@@ -461,10 +518,14 @@ extension KochavaUI.Topic.Delegate {
   public func topic_microtitle(closure_didComplete: @escaping ((_ microtitle: KochavaUI.Topic.Microtitle?) -> Swift.Void))
   public func topic_info(closure_didComplete: @escaping ((_ info: KochavaUI.Topic.Info?) -> Swift.Void))
   public func topic_description(closure_didComplete: @escaping ((_ subtitle: KochavaUI.Topic.Description?) -> Swift.Void))
+  public func topic_bodyViewableArray(closure_didComplete: @escaping ((_ bodyViewableArray: KochavaUI.Topic.BodyViewableArray?) -> Swift.Void))
   public func topic_reducedBool(closure_didComplete: @escaping ((_ reducedBool: Swift.Bool?) -> Swift.Void))
   public func topic_expandedViewableArray(closure_didComplete: @escaping ((_ expandedViewableArray: KochavaUI.Topic.ExpandedViewableArray?) -> Swift.Void))
+  public func topic_backgroundBool(closure_didComplete: @escaping ((_ backgroundBool: Swift.Bool?) -> Swift.Void))
+  public func topic_backgroundColor(closure_didComplete: @escaping ((_ backgroundColor: SwiftUI.Color?) -> Swift.Void))
   public func topic_dividersBool(closure_didComplete: @escaping ((_ reducedBool: Swift.Bool?) -> Swift.Void))
   public func topic_didSelectNavigationDestinationViewable(closure_didComplete: @escaping ((_ viewable: (any KochavaUI.Viewable)?) -> Swift.Void))
+  public func topic_closure_execute(closure_didComplete: @escaping ((_ closure_execute: KochavaUI.Topic.Closure_Execute?) -> Swift.Void))
 }
 extension KochavaUI.Table {
   final public class Section : KochavaNetworking.DecodableFrom, Swift.Equatable, Swift.Identifiable, Foundation.ObservableObject {

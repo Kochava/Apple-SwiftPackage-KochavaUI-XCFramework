@@ -7095,7 +7095,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(iconImage:title:subtitle:microtitle:info:description:reducedBool:expandedViewableArray:dividersBool:didSelectNavigationDestinationViewable:delegate:)",
+            "printedName": "init(iconImage:title:subtitle:microtitle:info:description:bodyViewableArray:reducedBool:expandedViewableArray:backgroundBool:backgroundColor:dividersBool:didSelectNavigationDestinationViewable:delegate:closure_execute:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -7196,6 +7196,28 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "any KochavaUI.Viewable & Swift.Identifiable"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "Swift.Bool?",
                 "children": [
                   {
@@ -7248,6 +7270,36 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
+                "printedName": "SwiftUI.Color?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
                 "printedName": "(any KochavaUI.Viewable)?",
                 "children": [
                   {
@@ -7274,11 +7326,38 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((any SwiftUI.View) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any SwiftUI.View) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "any SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9KochavaUI5TopicC9iconImage5title8subtitle10microtitle4info11description11reducedBool21expandedViewableArray08dividersL0030didSelectNavigationDestinationN08delegateAcA0E0CSg_SSSgA4RSbSgSayAA0N0_s12IdentifiablepGSgAsaT_pSgAC8Delegate_pSgtcfc",
-            "mangledName": "$s9KochavaUI5TopicC9iconImage5title8subtitle10microtitle4info11description11reducedBool21expandedViewableArray08dividersL0030didSelectNavigationDestinationN08delegateAcA0E0CSg_SSSgA4RSbSgSayAA0N0_s12IdentifiablepGSgAsaT_pSgAC8Delegate_pSgtcfc",
+            "usr": "s:9KochavaUI5TopicC9iconImage5title8subtitle10microtitle4info11description17bodyViewableArray11reducedBool08expandedlM0010backgroundO00Q5Color08dividersO0030didSelectNavigationDestinationL08delegate15closure_executeAcA0E0CSg_SSSgA4VSayAA0L0_s12IdentifiablepGSgSbSgAZA_05SwiftB00R0VSgA_AaW_pSgAC8Delegate_pSgyA0_4View_pcSgtcfc",
+            "mangledName": "$s9KochavaUI5TopicC9iconImage5title8subtitle10microtitle4info11description17bodyViewableArray11reducedBool08expandedlM0010backgroundO00Q5Color08dividersO0030didSelectNavigationDestinationL08delegate15closure_executeAcA0E0CSg_SSSgA4VSayAA0L0_s12IdentifiablepGSgSbSgAZA_05SwiftB00R0VSgA_AaW_pSgAC8Delegate_pSgyA0_4View_pcSgtcfc",
             "moduleName": "KochavaUI",
             "declAttributes": [
               "Required",
@@ -9785,6 +9864,452 @@
           },
           {
             "kind": "Var",
+            "name": "bodyViewableArray_main",
+            "printedName": "bodyViewableArray_main",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "any KochavaUI.Viewable & Swift.Identifiable"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI5TopicC22bodyViewableArray_mainSayAA0E0_s12IdentifiablepGSgvp",
+            "mangledName": "$s9KochavaUI5TopicC22bodyViewableArray_mainSayAA0E0_s12IdentifiablepGSgvp",
+            "moduleName": "KochavaUI",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "any KochavaUI.Viewable & Swift.Identifiable"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC22bodyViewableArray_mainSayAA0E0_s12IdentifiablepGSgvg",
+                "mangledName": "$s9KochavaUI5TopicC22bodyViewableArray_mainSayAA0E0_s12IdentifiablepGSgvg",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$bodyViewableArray_main",
+            "printedName": "$bodyViewableArray_main",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<Swift.Array<any KochavaUI.Viewable & Swift.Identifiable>>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI5TopicC23$bodyViewableArray_main7Combine9PublishedV9PublisherVySayAA0E0_s12IdentifiablepGSg_Gvp",
+            "mangledName": "$s9KochavaUI5TopicC23$bodyViewableArray_main7Combine9PublishedV9PublisherVySayAA0E0_s12IdentifiablepGSg_Gvp",
+            "moduleName": "KochavaUI",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Swift.Array<any KochavaUI.Viewable & Swift.Identifiable>>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC23$bodyViewableArray_main7Combine9PublishedV9PublisherVySayAA0E0_s12IdentifiablepGSg_Gvg",
+                "mangledName": "$s9KochavaUI5TopicC23$bodyViewableArray_main7Combine9PublishedV9PublisherVySayAA0E0_s12IdentifiablepGSg_Gvg",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bodyViewableArray",
+            "printedName": "bodyViewableArray",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "any KochavaUI.Viewable & Swift.Identifiable"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI5TopicC17bodyViewableArraySayAA0E0_s12IdentifiablepGSgvp",
+            "mangledName": "$s9KochavaUI5TopicC17bodyViewableArraySayAA0E0_s12IdentifiablepGSgvp",
+            "moduleName": "KochavaUI",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "any KochavaUI.Viewable & Swift.Identifiable"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC17bodyViewableArraySayAA0E0_s12IdentifiablepGSgvg",
+                "mangledName": "$s9KochavaUI5TopicC17bodyViewableArraySayAA0E0_s12IdentifiablepGSgvg",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bodyViewableArray_parameter",
+            "printedName": "bodyViewableArray_parameter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "any KochavaUI.Viewable & Swift.Identifiable"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI5TopicC27bodyViewableArray_parameterSayAA0E0_s12IdentifiablepGSgvp",
+            "mangledName": "$s9KochavaUI5TopicC27bodyViewableArray_parameterSayAA0E0_s12IdentifiablepGSgvp",
+            "moduleName": "KochavaUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "any KochavaUI.Viewable & Swift.Identifiable"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC27bodyViewableArray_parameterSayAA0E0_s12IdentifiablepGSgvg",
+                "mangledName": "$s9KochavaUI5TopicC27bodyViewableArray_parameterSayAA0E0_s12IdentifiablepGSgvg",
+                "moduleName": "KochavaUI",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "any KochavaUI.Viewable & Swift.Identifiable"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC27bodyViewableArray_parameterSayAA0E0_s12IdentifiablepGSgvs",
+                "mangledName": "$s9KochavaUI5TopicC27bodyViewableArray_parameterSayAA0E0_s12IdentifiablepGSgvs",
+                "moduleName": "KochavaUI",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC27bodyViewableArray_parameterSayAA0E0_s12IdentifiablepGSgvM",
+                "mangledName": "$s9KochavaUI5TopicC27bodyViewableArray_parameterSayAA0E0_s12IdentifiablepGSgvM",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bodyViewableArray_parameter_sf",
+            "printedName": "bodyViewableArray_parameter_sf",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "any KochavaUI.Viewable & Swift.Identifiable"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI5TopicC30bodyViewableArray_parameter_sfSayAA0E0_s12IdentifiablepGSgvp",
+            "mangledName": "$s9KochavaUI5TopicC30bodyViewableArray_parameter_sfSayAA0E0_s12IdentifiablepGSgvp",
+            "moduleName": "KochavaUI",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "any KochavaUI.Viewable & Swift.Identifiable"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC30bodyViewableArray_parameter_sfSayAA0E0_s12IdentifiablepGSgvg",
+                "mangledName": "$s9KochavaUI5TopicC30bodyViewableArray_parameter_sfSayAA0E0_s12IdentifiablepGSgvg",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "any KochavaUI.Viewable & Swift.Identifiable"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC30bodyViewableArray_parameter_sfSayAA0E0_s12IdentifiablepGSgvs",
+                "mangledName": "$s9KochavaUI5TopicC30bodyViewableArray_parameter_sfSayAA0E0_s12IdentifiablepGSgvs",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC30bodyViewableArray_parameter_sfSayAA0E0_s12IdentifiablepGSgvM",
+                "mangledName": "$s9KochavaUI5TopicC30bodyViewableArray_parameter_sfSayAA0E0_s12IdentifiablepGSgvM",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "reducedBool_main",
             "printedName": "reducedBool_main",
             "children": [
@@ -10607,6 +11132,758 @@
           },
           {
             "kind": "Var",
+            "name": "backgroundBool_main",
+            "printedName": "backgroundBool_main",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI5TopicC19backgroundBool_mainSbSgvp",
+            "mangledName": "$s9KochavaUI5TopicC19backgroundBool_mainSbSgvp",
+            "moduleName": "KochavaUI",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC19backgroundBool_mainSbSgvg",
+                "mangledName": "$s9KochavaUI5TopicC19backgroundBool_mainSbSgvg",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$backgroundBool_main",
+            "printedName": "$backgroundBool_main",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<Swift.Bool>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI5TopicC20$backgroundBool_main7Combine9PublishedV9PublisherVySbSg_Gvp",
+            "mangledName": "$s9KochavaUI5TopicC20$backgroundBool_main7Combine9PublishedV9PublisherVySbSg_Gvp",
+            "moduleName": "KochavaUI",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<Swift.Bool>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC20$backgroundBool_main7Combine9PublishedV9PublisherVySbSg_Gvg",
+                "mangledName": "$s9KochavaUI5TopicC20$backgroundBool_main7Combine9PublishedV9PublisherVySbSg_Gvg",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundBool",
+            "printedName": "backgroundBool",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI5TopicC14backgroundBoolSbSgvp",
+            "mangledName": "$s9KochavaUI5TopicC14backgroundBoolSbSgvp",
+            "moduleName": "KochavaUI",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC14backgroundBoolSbSgvg",
+                "mangledName": "$s9KochavaUI5TopicC14backgroundBoolSbSgvg",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundBool_parameter",
+            "printedName": "backgroundBool_parameter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI5TopicC24backgroundBool_parameterSbSgvp",
+            "mangledName": "$s9KochavaUI5TopicC24backgroundBool_parameterSbSgvp",
+            "moduleName": "KochavaUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC24backgroundBool_parameterSbSgvg",
+                "mangledName": "$s9KochavaUI5TopicC24backgroundBool_parameterSbSgvg",
+                "moduleName": "KochavaUI",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC24backgroundBool_parameterSbSgvs",
+                "mangledName": "$s9KochavaUI5TopicC24backgroundBool_parameterSbSgvs",
+                "moduleName": "KochavaUI",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC24backgroundBool_parameterSbSgvM",
+                "mangledName": "$s9KochavaUI5TopicC24backgroundBool_parameterSbSgvM",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundBool_parameter_sf",
+            "printedName": "backgroundBool_parameter_sf",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI5TopicC27backgroundBool_parameter_sfSbSgvp",
+            "mangledName": "$s9KochavaUI5TopicC27backgroundBool_parameter_sfSbSgvp",
+            "moduleName": "KochavaUI",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC27backgroundBool_parameter_sfSbSgvg",
+                "mangledName": "$s9KochavaUI5TopicC27backgroundBool_parameter_sfSbSgvg",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC27backgroundBool_parameter_sfSbSgvs",
+                "mangledName": "$s9KochavaUI5TopicC27backgroundBool_parameter_sfSbSgvs",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC27backgroundBool_parameter_sfSbSgvM",
+                "mangledName": "$s9KochavaUI5TopicC27backgroundBool_parameter_sfSbSgvM",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundColor_main",
+            "printedName": "backgroundColor_main",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Color?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI5TopicC20backgroundColor_main05SwiftB00E0VSgvp",
+            "mangledName": "$s9KochavaUI5TopicC20backgroundColor_main05SwiftB00E0VSgvp",
+            "moduleName": "KochavaUI",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Color?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC20backgroundColor_main05SwiftB00E0VSgvg",
+                "mangledName": "$s9KochavaUI5TopicC20backgroundColor_main05SwiftB00E0VSgvg",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$backgroundColor_main",
+            "printedName": "$backgroundColor_main",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<SwiftUI.Color>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI5TopicC21$backgroundColor_main7Combine9PublishedV9PublisherVy05SwiftB00E0VSg_Gvp",
+            "mangledName": "$s9KochavaUI5TopicC21$backgroundColor_main7Combine9PublishedV9PublisherVy05SwiftB00E0VSg_Gvp",
+            "moduleName": "KochavaUI",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<SwiftUI.Color>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC21$backgroundColor_main7Combine9PublishedV9PublisherVy05SwiftB00E0VSg_Gvg",
+                "mangledName": "$s9KochavaUI5TopicC21$backgroundColor_main7Combine9PublishedV9PublisherVy05SwiftB00E0VSg_Gvg",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundColor",
+            "printedName": "backgroundColor",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Color?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI5TopicC15backgroundColor05SwiftB00E0VSgvp",
+            "mangledName": "$s9KochavaUI5TopicC15backgroundColor05SwiftB00E0VSgvp",
+            "moduleName": "KochavaUI",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Color?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC15backgroundColor05SwiftB00E0VSgvg",
+                "mangledName": "$s9KochavaUI5TopicC15backgroundColor05SwiftB00E0VSgvg",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundColor_parameter",
+            "printedName": "backgroundColor_parameter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Color?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI5TopicC25backgroundColor_parameter05SwiftB00E0VSgvp",
+            "mangledName": "$s9KochavaUI5TopicC25backgroundColor_parameter05SwiftB00E0VSgvp",
+            "moduleName": "KochavaUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Color?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC25backgroundColor_parameter05SwiftB00E0VSgvg",
+                "mangledName": "$s9KochavaUI5TopicC25backgroundColor_parameter05SwiftB00E0VSgvg",
+                "moduleName": "KochavaUI",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Color?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC25backgroundColor_parameter05SwiftB00E0VSgvs",
+                "mangledName": "$s9KochavaUI5TopicC25backgroundColor_parameter05SwiftB00E0VSgvs",
+                "moduleName": "KochavaUI",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC25backgroundColor_parameter05SwiftB00E0VSgvM",
+                "mangledName": "$s9KochavaUI5TopicC25backgroundColor_parameter05SwiftB00E0VSgvM",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "backgroundColor_parameter_sf",
+            "printedName": "backgroundColor_parameter_sf",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SwiftUI.Color?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Color",
+                    "printedName": "SwiftUI.Color",
+                    "usr": "s:7SwiftUI5ColorV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI5TopicC28backgroundColor_parameter_sf05SwiftB00E0VSgvp",
+            "mangledName": "$s9KochavaUI5TopicC28backgroundColor_parameter_sf05SwiftB00E0VSgvp",
+            "moduleName": "KochavaUI",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Color?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC28backgroundColor_parameter_sf05SwiftB00E0VSgvg",
+                "mangledName": "$s9KochavaUI5TopicC28backgroundColor_parameter_sf05SwiftB00E0VSgvg",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "SwiftUI.Color?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Color",
+                        "printedName": "SwiftUI.Color",
+                        "usr": "s:7SwiftUI5ColorV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC28backgroundColor_parameter_sf05SwiftB00E0VSgvs",
+                "mangledName": "$s9KochavaUI5TopicC28backgroundColor_parameter_sf05SwiftB00E0VSgvs",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC28backgroundColor_parameter_sf05SwiftB00E0VSgvM",
+                "mangledName": "$s9KochavaUI5TopicC28backgroundColor_parameter_sf05SwiftB00E0VSgvM",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "dividersBool_main",
             "printedName": "dividersBool_main",
             "children": [
@@ -11359,6 +12636,502 @@
           },
           {
             "kind": "Var",
+            "name": "closure_execute_main",
+            "printedName": "closure_execute_main",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((any SwiftUI.View) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any SwiftUI.View) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "any SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI5TopicC20closure_execute_mainy05SwiftB04View_pcSgvp",
+            "mangledName": "$s9KochavaUI5TopicC20closure_execute_mainy05SwiftB04View_pcSgvp",
+            "moduleName": "KochavaUI",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "SetterAccess",
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((any SwiftUI.View) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any SwiftUI.View) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "View",
+                            "printedName": "any SwiftUI.View",
+                            "usr": "s:7SwiftUI4ViewP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC20closure_execute_mainy05SwiftB04View_pcSgvg",
+                "mangledName": "$s9KochavaUI5TopicC20closure_execute_mainy05SwiftB04View_pcSgvg",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$closure_execute_main",
+            "printedName": "$closure_execute_main",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<Swift.Optional<(any SwiftUI.View) -> ()>>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI5TopicC21$closure_execute_main7Combine9PublishedV9PublisherVyy05SwiftB04View_pcSg_Gvp",
+            "mangledName": "$s9KochavaUI5TopicC21$closure_execute_main7Combine9PublishedV9PublisherVyy05SwiftB04View_pcSg_Gvp",
+            "moduleName": "KochavaUI",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<Swift.Optional<(any SwiftUI.View) -> ()>>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC21$closure_execute_main7Combine9PublishedV9PublisherVyy05SwiftB04View_pcSg_Gvg",
+                "mangledName": "$s9KochavaUI5TopicC21$closure_execute_main7Combine9PublishedV9PublisherVyy05SwiftB04View_pcSg_Gvg",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "closure_execute",
+            "printedName": "closure_execute",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((any SwiftUI.View) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any SwiftUI.View) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "any SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI5TopicC15closure_executey05SwiftB04View_pcSgvp",
+            "mangledName": "$s9KochavaUI5TopicC15closure_executey05SwiftB04View_pcSgvp",
+            "moduleName": "KochavaUI",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((any SwiftUI.View) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any SwiftUI.View) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "View",
+                            "printedName": "any SwiftUI.View",
+                            "usr": "s:7SwiftUI4ViewP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC15closure_executey05SwiftB04View_pcSgvg",
+                "mangledName": "$s9KochavaUI5TopicC15closure_executey05SwiftB04View_pcSgvg",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "closure_execute_parameter",
+            "printedName": "closure_execute_parameter",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((any SwiftUI.View) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any SwiftUI.View) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "any SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI5TopicC25closure_execute_parametery05SwiftB04View_pcSgvp",
+            "mangledName": "$s9KochavaUI5TopicC25closure_execute_parametery05SwiftB04View_pcSgvp",
+            "moduleName": "KochavaUI",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((any SwiftUI.View) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any SwiftUI.View) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "View",
+                            "printedName": "any SwiftUI.View",
+                            "usr": "s:7SwiftUI4ViewP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC25closure_execute_parametery05SwiftB04View_pcSgvg",
+                "mangledName": "$s9KochavaUI5TopicC25closure_execute_parametery05SwiftB04View_pcSgvg",
+                "moduleName": "KochavaUI",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((any SwiftUI.View) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any SwiftUI.View) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "View",
+                            "printedName": "any SwiftUI.View",
+                            "usr": "s:7SwiftUI4ViewP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC25closure_execute_parametery05SwiftB04View_pcSgvs",
+                "mangledName": "$s9KochavaUI5TopicC25closure_execute_parametery05SwiftB04View_pcSgvs",
+                "moduleName": "KochavaUI",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC25closure_execute_parametery05SwiftB04View_pcSgvM",
+                "mangledName": "$s9KochavaUI5TopicC25closure_execute_parametery05SwiftB04View_pcSgvM",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "closure_execute_parameter_sf",
+            "printedName": "closure_execute_parameter_sf",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((any SwiftUI.View) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(any SwiftUI.View) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "View",
+                        "printedName": "any SwiftUI.View",
+                        "usr": "s:7SwiftUI4ViewP"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI5TopicC28closure_execute_parameter_sfy05SwiftB04View_pcSgvp",
+            "mangledName": "$s9KochavaUI5TopicC28closure_execute_parameter_sfy05SwiftB04View_pcSgvp",
+            "moduleName": "KochavaUI",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((any SwiftUI.View) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any SwiftUI.View) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "View",
+                            "printedName": "any SwiftUI.View",
+                            "usr": "s:7SwiftUI4ViewP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC28closure_execute_parameter_sfy05SwiftB04View_pcSgvg",
+                "mangledName": "$s9KochavaUI5TopicC28closure_execute_parameter_sfy05SwiftB04View_pcSgvg",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((any SwiftUI.View) -> ())?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(any SwiftUI.View) -> ()",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Void",
+                            "printedName": "()"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "View",
+                            "printedName": "any SwiftUI.View",
+                            "usr": "s:7SwiftUI4ViewP"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC28closure_execute_parameter_sfy05SwiftB04View_pcSgvs",
+                "mangledName": "$s9KochavaUI5TopicC28closure_execute_parameter_sfy05SwiftB04View_pcSgvs",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI5TopicC28closure_execute_parameter_sfy05SwiftB04View_pcSgvM",
+                "mangledName": "$s9KochavaUI5TopicC28closure_execute_parameter_sfy05SwiftB04View_pcSgvM",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "delegate",
             "printedName": "delegate",
             "children": [
@@ -11809,6 +13582,60 @@
               },
               {
                 "kind": "Function",
+                "name": "topic_bodyViewableArray",
+                "printedName": "topic_bodyViewableArray(closure_didComplete:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([any KochavaUI.Viewable & Swift.Identifiable]?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "any KochavaUI.Viewable & Swift.Identifiable"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9KochavaUI5TopicC8DelegateP23topic_bodyViewableArray19closure_didCompleteyySayAA0G0_s12IdentifiablepGSgc_tF",
+                "mangledName": "$s9KochavaUI5TopicC8DelegateP23topic_bodyViewableArray19closure_didCompleteyySayAA0G0_s12IdentifiablepGSgc_tF",
+                "moduleName": "KochavaUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : KochavaUI.Topic.Delegate>",
+                "sugared_genericSig": "<Self where Self : KochavaUI.Topic.Delegate>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
                 "name": "topic_reducedBool",
                 "printedName": "topic_reducedBool(closure_didComplete:)",
                 "children": [
@@ -11910,6 +13737,100 @@
               },
               {
                 "kind": "Function",
+                "name": "topic_backgroundBool",
+                "printedName": "topic_backgroundBool(closure_didComplete:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9KochavaUI5TopicC8DelegateP20topic_backgroundBool19closure_didCompleteyySbSgc_tF",
+                "mangledName": "$s9KochavaUI5TopicC8DelegateP20topic_backgroundBool19closure_didCompleteyySbSgc_tF",
+                "moduleName": "KochavaUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : KochavaUI.Topic.Delegate>",
+                "sugared_genericSig": "<Self where Self : KochavaUI.Topic.Delegate>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "topic_backgroundColor",
+                "printedName": "topic_backgroundColor(closure_didComplete:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftUI.Color?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "SwiftUI.Color?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Color",
+                            "printedName": "SwiftUI.Color",
+                            "usr": "s:7SwiftUI5ColorV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9KochavaUI5TopicC8DelegateP21topic_backgroundColor19closure_didCompleteyy05SwiftB00G0VSgc_tF",
+                "mangledName": "$s9KochavaUI5TopicC8DelegateP21topic_backgroundColor19closure_didCompleteyy05SwiftB00G0VSgc_tF",
+                "moduleName": "KochavaUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : KochavaUI.Topic.Delegate>",
+                "sugared_genericSig": "<Self where Self : KochavaUI.Topic.Delegate>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
                 "name": "topic_dividersBool",
                 "printedName": "topic_dividersBool(closure_didComplete:)",
                 "children": [
@@ -11995,6 +13916,65 @@
                 "declKind": "Func",
                 "usr": "s:9KochavaUI5TopicC8DelegateP44topic_didSelectNavigationDestinationViewable08closure_F8CompleteyyAA0J0_pSgc_tF",
                 "mangledName": "$s9KochavaUI5TopicC8DelegateP44topic_didSelectNavigationDestinationViewable08closure_F8CompleteyyAA0J0_pSgc_tF",
+                "moduleName": "KochavaUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : KochavaUI.Topic.Delegate>",
+                "sugared_genericSig": "<Self where Self : KochavaUI.Topic.Delegate>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "topic_closure_execute",
+                "printedName": "topic_closure_execute(closure_didComplete:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(((any SwiftUI.View) -> ())?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "((any SwiftUI.View) -> ())?",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(any SwiftUI.View) -> ()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "View",
+                                "printedName": "any SwiftUI.View",
+                                "usr": "s:7SwiftUI4ViewP"
+                              }
+                            ]
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9KochavaUI5TopicC8DelegateP21topic_closure_execute0F12_didCompleteyyy05SwiftB04View_pcSgc_tF",
+                "mangledName": "$s9KochavaUI5TopicC8DelegateP21topic_closure_execute0F12_didCompleteyyy05SwiftB04View_pcSgc_tF",
                 "moduleName": "KochavaUI",
                 "genericSig": "<τ_0_0 where τ_0_0 : KochavaUI.Topic.Delegate>",
                 "sugared_genericSig": "<Self where Self : KochavaUI.Topic.Delegate>",
@@ -12280,6 +14260,59 @@
               },
               {
                 "kind": "Function",
+                "name": "topic_bodyViewableArray",
+                "printedName": "topic_bodyViewableArray(closure_didComplete:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "([any KochavaUI.Viewable & Swift.Identifiable]?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Array",
+                            "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "ProtocolComposition",
+                                "printedName": "any KochavaUI.Viewable & Swift.Identifiable"
+                              }
+                            ],
+                            "usr": "s:Sa"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9KochavaUI5TopicC8DelegatePAAE23topic_bodyViewableArray19closure_didCompleteyySayAA0G0_s12IdentifiablepGSgc_tF",
+                "mangledName": "$s9KochavaUI5TopicC8DelegatePAAE23topic_bodyViewableArray19closure_didCompleteyySayAA0G0_s12IdentifiablepGSgc_tF",
+                "moduleName": "KochavaUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : KochavaUI.Topic.Delegate>",
+                "sugared_genericSig": "<Self where Self : KochavaUI.Topic.Delegate>",
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
                 "name": "topic_reducedBool",
                 "printedName": "topic_reducedBool(closure_didComplete:)",
                 "children": [
@@ -12379,6 +14412,98 @@
               },
               {
                 "kind": "Function",
+                "name": "topic_backgroundBool",
+                "printedName": "topic_backgroundBool(closure_didComplete:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.Bool?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Swift.Bool?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9KochavaUI5TopicC8DelegatePAAE20topic_backgroundBool19closure_didCompleteyySbSgc_tF",
+                "mangledName": "$s9KochavaUI5TopicC8DelegatePAAE20topic_backgroundBool19closure_didCompleteyySbSgc_tF",
+                "moduleName": "KochavaUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : KochavaUI.Topic.Delegate>",
+                "sugared_genericSig": "<Self where Self : KochavaUI.Topic.Delegate>",
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "topic_backgroundColor",
+                "printedName": "topic_backgroundColor(closure_didComplete:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SwiftUI.Color?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "SwiftUI.Color?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Color",
+                            "printedName": "SwiftUI.Color",
+                            "usr": "s:7SwiftUI5ColorV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9KochavaUI5TopicC8DelegatePAAE21topic_backgroundColor19closure_didCompleteyy05SwiftB00G0VSgc_tF",
+                "mangledName": "$s9KochavaUI5TopicC8DelegatePAAE21topic_backgroundColor19closure_didCompleteyy05SwiftB00G0VSgc_tF",
+                "moduleName": "KochavaUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : KochavaUI.Topic.Delegate>",
+                "sugared_genericSig": "<Self where Self : KochavaUI.Topic.Delegate>",
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
                 "name": "topic_dividersBool",
                 "printedName": "topic_dividersBool(closure_didComplete:)",
                 "children": [
@@ -12468,15 +14593,84 @@
                 "sugared_genericSig": "<Self where Self : KochavaUI.Topic.Delegate>",
                 "isFromExtension": true,
                 "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "topic_closure_execute",
+                "printedName": "topic_closure_execute(closure_didComplete:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(((any SwiftUI.View) -> ())?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "((any SwiftUI.View) -> ())?",
+                        "children": [
+                          {
+                            "kind": "TypeFunc",
+                            "name": "Function",
+                            "printedName": "(any SwiftUI.View) -> ()",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "Void",
+                                "printedName": "()"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "View",
+                                "printedName": "any SwiftUI.View",
+                                "usr": "s:7SwiftUI4ViewP"
+                              }
+                            ]
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:9KochavaUI5TopicC8DelegatePAAE21topic_closure_execute0F12_didCompleteyyy05SwiftB04View_pcSgc_tF",
+                "mangledName": "$s9KochavaUI5TopicC8DelegatePAAE21topic_closure_execute0F12_didCompleteyyy05SwiftB04View_pcSgc_tF",
+                "moduleName": "KochavaUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : KochavaUI.Topic.Delegate>",
+                "sugared_genericSig": "<Self where Self : KochavaUI.Topic.Delegate>",
+                "isFromExtension": true,
+                "funcSelfKind": "NonMutating"
               }
             ],
             "declKind": "Protocol",
             "usr": "s:9KochavaUI5TopicC8DelegateP",
             "mangledName": "$s9KochavaUI5TopicC8DelegateP",
             "moduleName": "KochavaUI",
+            "genericSig": "<τ_0_0 : KochavaNetworking.Executor>",
+            "sugared_genericSig": "<Self : KochavaNetworking.Executor>",
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Executor",
+                "printedName": "Executor",
+                "usr": "s:17KochavaNetworking8ExecutorP",
+                "mangledName": "$s17KochavaNetworking8ExecutorP"
+              }
             ]
           },
           {
@@ -16050,55 +18244,6 @@
           },
           {
             "kind": "Function",
-            "name": "topic_iconImage",
-            "printedName": "topic_iconImage(closure_didComplete:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(KochavaUI.Image?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "KochavaUI.Image?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Image",
-                        "printedName": "KochavaUI.Image",
-                        "usr": "s:9KochavaUI5ImageC"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17KochavaNetworking7AdapterC0A2UIE15topic_iconImage19closure_didCompleteyyAD0G0CSgc_tF",
-            "mangledName": "$s17KochavaNetworking7AdapterC0A2UIE15topic_iconImage19closure_didCompleteyyAD0G0CSgc_tF",
-            "moduleName": "KochavaUI",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
             "name": "topic_title",
             "printedName": "topic_title(closure_didComplete:)",
             "children": [
@@ -16140,7 +18285,8 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "Final",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
@@ -16281,205 +18427,6 @@
             "declKind": "Func",
             "usr": "s:17KochavaNetworking7AdapterC0A2UIE10topic_info19closure_didCompleteyySSSgc_tF",
             "mangledName": "$s17KochavaNetworking7AdapterC0A2UIE10topic_info19closure_didCompleteyySSSgc_tF",
-            "moduleName": "KochavaUI",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "topic_description",
-            "printedName": "topic_description(closure_didComplete:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.String?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.String?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "String",
-                        "printedName": "Swift.String",
-                        "usr": "s:SS"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17KochavaNetworking7AdapterC0A2UIE17topic_description19closure_didCompleteyySSSgc_tF",
-            "mangledName": "$s17KochavaNetworking7AdapterC0A2UIE17topic_description19closure_didCompleteyySSSgc_tF",
-            "moduleName": "KochavaUI",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "topic_reducedBool",
-            "printedName": "topic_reducedBool(closure_didComplete:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Bool?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17KochavaNetworking7AdapterC0A2UIE17topic_reducedBool19closure_didCompleteyySbSgc_tF",
-            "mangledName": "$s17KochavaNetworking7AdapterC0A2UIE17topic_reducedBool19closure_didCompleteyySbSgc_tF",
-            "moduleName": "KochavaUI",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "topic_dividersBool",
-            "printedName": "topic_dividersBool(closure_didComplete:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(Swift.Bool?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Swift.Bool?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Bool",
-                        "printedName": "Swift.Bool",
-                        "usr": "s:Sb"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17KochavaNetworking7AdapterC0A2UIE18topic_dividersBool19closure_didCompleteyySbSgc_tF",
-            "mangledName": "$s17KochavaNetworking7AdapterC0A2UIE18topic_dividersBool19closure_didCompleteyySbSgc_tF",
-            "moduleName": "KochavaUI",
-            "declAttributes": [
-              "Final",
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Function",
-            "name": "topic_expandedViewableArray",
-            "printedName": "topic_expandedViewableArray(closure_didComplete:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "([any KochavaUI.Viewable & Swift.Identifiable]?) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[any KochavaUI.Viewable & Swift.Identifiable]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "ProtocolComposition",
-                            "printedName": "any KochavaUI.Viewable & Swift.Identifiable"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17KochavaNetworking7AdapterC0A2UIE27topic_expandedViewableArray19closure_didCompleteyySayAD0G0_s12IdentifiablepGSgc_tF",
-            "mangledName": "$s17KochavaNetworking7AdapterC0A2UIE27topic_expandedViewableArray19closure_didCompleteyySayAD0G0_s12IdentifiablepGSgc_tF",
             "moduleName": "KochavaUI",
             "declAttributes": [
               "Final",
@@ -17827,35 +19774,42 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.swift",
       "kind": "StringLiteral",
-      "offset": 4029,
+      "offset": 5330,
       "length": 17,
       "value": "\"KochavaUI.Topic\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.swift",
       "kind": "Array",
-      "offset": 4554,
+      "offset": 5855,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.swift",
       "kind": "StringLiteral",
-      "offset": 4639,
+      "offset": 5940,
       "length": 7,
       "value": "\"Topic\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.swift",
       "kind": "Array",
-      "offset": 6063,
+      "offset": 7356,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.swift",
+      "kind": "Array",
+      "offset": 7771,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.swift",
       "kind": "StringLiteral",
-      "offset": 6710,
+      "offset": 8447,
       "length": 12,
       "value": "\"Components\""
     },
@@ -18688,14 +20642,14 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 13729,
+      "offset": 16215,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 13787,
+      "offset": 16273,
       "length": 5,
       "value": "false"
     },
