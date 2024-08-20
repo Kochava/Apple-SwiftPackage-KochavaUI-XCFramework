@@ -19718,14 +19718,14 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
       "kind": "StringLiteral",
-      "offset": 4088,
+      "offset": 4087,
       "length": 18,
       "value": "\"KochavaUI.Prouct\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
       "kind": "StringLiteral",
-      "offset": 4414,
+      "offset": 4413,
       "length": 33,
       "value": "\"UI.Product.executionTokenString\""
     },
