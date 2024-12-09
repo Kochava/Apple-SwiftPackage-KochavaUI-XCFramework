@@ -1,8 +1,8 @@
 {
   "ABIRoot": {
     "kind": "Root",
-    "name": "TopLevel",
-    "printedName": "TopLevel",
+    "name": "KochavaUI",
+    "printedName": "KochavaUI",
     "children": [
       {
         "kind": "Import",
@@ -79,6 +79,22 @@
         "moduleName": "KochavaUI",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -165,9 +181,26 @@
         "mangledName": "$s9KochavaUI19Viewable_ConformingC",
         "moduleName": "KochavaUI",
         "declAttributes": [
+          "Final",
           "AccessControl"
         ],
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "Import",
@@ -1344,6 +1377,7 @@
                 "mangledName": "$s9KochavaUI5ImageC4ViewV5image5tableAeC_AA5TableCSgtcfc",
                 "moduleName": "KochavaUI",
                 "declAttributes": [
+                  "Preconcurrency",
                   "Custom",
                   "AccessControl"
                 ],
@@ -1373,6 +1407,7 @@
                 "mangledName": "$s9KochavaUI5ImageC4ViewV4bodyQrvp",
                 "moduleName": "KochavaUI",
                 "declAttributes": [
+                  "Preconcurrency",
                   "Custom",
                   "AccessControl"
                 ],
@@ -1410,10 +1445,25 @@
             "mangledName": "$s9KochavaUI5ImageC4ViewV",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "View",
@@ -1442,6 +1492,13 @@
                 ],
                 "usr": "s:7SwiftUI4ViewP",
                 "mangledName": "$s7SwiftUI4ViewP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
               }
             ]
           }
@@ -1455,6 +1512,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Identifiable",
@@ -2273,6 +2344,20 @@
         "conformances": [
           {
             "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "DecodableFrom",
             "printedName": "DecodableFrom",
             "usr": "s:17KochavaNetworking13DecodableFromP",
@@ -2830,6 +2915,8 @@
                 "mangledName": "$s9KochavaUI4TextC4ViewV4text5tableAeC_AA5TableCSgtcfc",
                 "moduleName": "KochavaUI",
                 "declAttributes": [
+                  "Preconcurrency",
+                  "Custom",
                   "AccessControl"
                 ],
                 "init_kind": "Designated"
@@ -2858,6 +2945,7 @@
                 "mangledName": "$s9KochavaUI4TextC4ViewV4bodyQrvp",
                 "moduleName": "KochavaUI",
                 "declAttributes": [
+                  "Preconcurrency",
                   "Custom",
                   "AccessControl"
                 ],
@@ -2894,8 +2982,26 @@
             "usr": "s:9KochavaUI4TextC4ViewV",
             "mangledName": "$s9KochavaUI4TextC4ViewV",
             "moduleName": "KochavaUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "View",
@@ -2924,6 +3030,13 @@
                 ],
                 "usr": "s:7SwiftUI4ViewP",
                 "mangledName": "$s7SwiftUI4ViewP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
               }
             ]
           },
@@ -2957,6 +3070,7 @@
                 "moduleName": "KochavaUI",
                 "static": true,
                 "declAttributes": [
+                  "Preconcurrency",
                   "Custom",
                   "AccessControl"
                 ],
@@ -2995,10 +3109,25 @@
             "mangledName": "$s9KochavaUI4TextC13View_PreviewsV",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "PreviewProvider",
@@ -3034,6 +3163,13 @@
                 "printedName": "_PreviewProvider",
                 "usr": "s:7SwiftUI16_PreviewProviderP",
                 "mangledName": "$s7SwiftUI16_PreviewProviderP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
               }
             ]
           },
@@ -4043,6 +4179,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "DecodableFrom",
                 "printedName": "DecodableFrom",
                 "usr": "s:17KochavaNetworking13DecodableFromP",
@@ -4074,6 +4224,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "DecodableFrom",
@@ -4459,22 +4623,11 @@
             "mangledName": "$s9KochavaUI7ProductC6logger2os6LoggerVvpZ",
             "moduleName": "KochavaUI",
             "static": true,
-            "intro_Macosx": "11.0",
-            "intro_iOS": "14.0",
-            "intro_tvOS": "14.0",
-            "intro_watchOS": "7.0",
             "declAttributes": [
               "HasInitialValue",
               "Final",
               "HasStorage",
               "AccessControl",
-              "Available",
-              "Available",
-              "Available",
-              "Available",
-              "Available",
-              "Available",
-              "Available",
               "RawDocComment"
             ],
             "isLet": true,
@@ -4551,10 +4704,10 @@
         "conformances": [
           {
             "kind": "Conformance",
-            "name": "Logger_Provider",
-            "printedName": "Logger_Provider",
-            "usr": "s:17KochavaNetworking15Logger_ProviderP",
-            "mangledName": "$s17KochavaNetworking15Logger_ProviderP"
+            "name": "Provider",
+            "printedName": "Provider",
+            "usr": "s:2os6LoggerV17KochavaNetworkingE8ProviderP",
+            "mangledName": "$s2os6LoggerV17KochavaNetworkingE8ProviderP"
           },
           {
             "kind": "Conformance",
@@ -4562,6 +4715,20 @@
             "printedName": "SharedInstanceProvider",
             "usr": "s:17KochavaNetworking22SharedInstanceProviderP",
             "mangledName": "$s17KochavaNetworking22SharedInstanceProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -5427,6 +5594,7 @@
                 "mangledName": "$s9KochavaUI5TableC4ViewV5tableAeC_tcfc",
                 "moduleName": "KochavaUI",
                 "declAttributes": [
+                  "Preconcurrency",
                   "Custom",
                   "AccessControl"
                 ],
@@ -5456,6 +5624,7 @@
                 "mangledName": "$s9KochavaUI5TableC4ViewV4bodyQrvp",
                 "moduleName": "KochavaUI",
                 "declAttributes": [
+                  "Preconcurrency",
                   "Custom",
                   "AccessControl"
                 ],
@@ -5493,10 +5662,25 @@
             "mangledName": "$s9KochavaUI5TableC4ViewV",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "View",
@@ -5525,6 +5709,13 @@
                 ],
                 "usr": "s:7SwiftUI4ViewP",
                 "mangledName": "$s7SwiftUI4ViewP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
               }
             ]
           },
@@ -5557,6 +5748,7 @@
                 "mangledName": "$s9KochavaUI5TableC16BottomMarginViewV4bodyQrvp",
                 "moduleName": "KochavaUI",
                 "declAttributes": [
+                  "Preconcurrency",
                   "Custom",
                   "AccessControl"
                 ],
@@ -5594,10 +5786,26 @@
             "mangledName": "$s9KochavaUI5TableC16BottomMarginViewV",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "RawDocComment"
             ],
             "isFromExtension": true,
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "View",
@@ -5626,6 +5834,13 @@
                 ],
                 "usr": "s:7SwiftUI4ViewP",
                 "mangledName": "$s7SwiftUI4ViewP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
               }
             ]
           },
@@ -5659,6 +5874,7 @@
                 "moduleName": "KochavaUI",
                 "static": true,
                 "declAttributes": [
+                  "Preconcurrency",
                   "Custom",
                   "AccessControl"
                 ],
@@ -5697,10 +5913,25 @@
             "mangledName": "$s9KochavaUI5TableC0C13View_PreviewsV",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "PreviewProvider",
@@ -5736,6 +5967,13 @@
                 "printedName": "_PreviewProvider",
                 "usr": "s:7SwiftUI16_PreviewProviderP",
                 "mangledName": "$s7SwiftUI16_PreviewProviderP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
               }
             ]
           },
@@ -6358,6 +6596,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "DecodableFrom",
                 "printedName": "DecodableFrom",
                 "usr": "s:17KochavaNetworking13DecodableFromP",
@@ -6433,6 +6685,20 @@
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "DecodableFrom",
@@ -6819,6 +7085,7 @@
                 "mangledName": "$s9KochavaUI9SeparatorC4ViewV4bodyQrvp",
                 "moduleName": "KochavaUI",
                 "declAttributes": [
+                  "Preconcurrency",
                   "Custom",
                   "AccessControl"
                 ],
@@ -6855,8 +7122,26 @@
             "usr": "s:9KochavaUI9SeparatorC4ViewV",
             "mangledName": "$s9KochavaUI9SeparatorC4ViewV",
             "moduleName": "KochavaUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "View",
@@ -6885,6 +7170,13 @@
                 ],
                 "usr": "s:7SwiftUI4ViewP",
                 "mangledName": "$s7SwiftUI4ViewP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
               }
             ]
           },
@@ -6918,6 +7210,7 @@
                 "moduleName": "KochavaUI",
                 "static": true,
                 "declAttributes": [
+                  "Preconcurrency",
                   "Custom",
                   "AccessControl"
                 ],
@@ -6956,10 +7249,25 @@
             "mangledName": "$s9KochavaUI9SeparatorC13View_PreviewsV",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "PreviewProvider",
@@ -6995,6 +7303,13 @@
                 "printedName": "_PreviewProvider",
                 "usr": "s:7SwiftUI16_PreviewProviderP",
                 "mangledName": "$s7SwiftUI16_PreviewProviderP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
               }
             ]
           }
@@ -7004,10 +7319,24 @@
         "mangledName": "$s9KochavaUI9SeparatorC",
         "moduleName": "KochavaUI",
         "declAttributes": [
-          "AccessControl",
-          "Final"
+          "Final",
+          "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "Identifiable",
@@ -7462,6 +7791,7 @@
             "mangledName": "$s9KochavaUI5TopicC4view11elementBool5table05SwiftB07AnyViewVSbSg_AA5TableCSgtF",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "AccessControl",
               "RawDocComment"
             ],
@@ -7586,6 +7916,7 @@
             "mangledName": "$s9KochavaUI5TopicC9execution0A10Networking9ExecutionCvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "Lazy",
               "SetterAccess",
               "AccessControl",
@@ -7609,6 +7940,9 @@
                 "mangledName": "$s9KochavaUI5TopicC9execution0A10Networking9ExecutionCvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -7638,6 +7972,7 @@
             "mangledName": "$s9KochavaUI5TopicC14iconImage_mainAA0E0CSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "ProjectedValueProperty",
               "SetterAccess",
               "AccessControl",
@@ -7670,6 +8005,9 @@
                 "mangledName": "$s9KochavaUI5TopicC14iconImage_mainAA0E0CSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -7691,6 +8029,9 @@
             "mangledName": "$s9KochavaUI5TopicC15$iconImage_main7Combine9PublishedV9PublisherVyAA0E0CSg_Gvp",
             "moduleName": "KochavaUI",
             "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -7709,6 +8050,9 @@
                 "mangledName": "$s9KochavaUI5TopicC15$iconImage_main7Combine9PublishedV9PublisherVyAA0E0CSg_Gvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -7739,6 +8083,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "SetterAccess",
               "AccessControl"
@@ -7770,6 +8115,9 @@
                 "mangledName": "$s9KochavaUI5TopicC9iconImageAA0E0CSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -7799,6 +8147,7 @@
             "mangledName": "$s9KochavaUI5TopicC19iconImage_parameterAA0E0CSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "accessors": [
@@ -7826,6 +8175,9 @@
                 "usr": "s:9KochavaUI5TopicC19iconImage_parameterAA0E0CSgvg",
                 "mangledName": "$s9KochavaUI5TopicC19iconImage_parameterAA0E0CSgvg",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -7857,6 +8209,9 @@
                 "usr": "s:9KochavaUI5TopicC19iconImage_parameterAA0E0CSgvs",
                 "mangledName": "$s9KochavaUI5TopicC19iconImage_parameterAA0E0CSgvs",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -7875,6 +8230,9 @@
                 "mangledName": "$s9KochavaUI5TopicC19iconImage_parameterAA0E0CSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -7905,6 +8263,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "AccessControl"
             ],
@@ -7935,6 +8294,9 @@
                 "mangledName": "$s9KochavaUI5TopicC22iconImage_parameter_sfAA0E0CSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -7967,6 +8329,9 @@
                 "mangledName": "$s9KochavaUI5TopicC22iconImage_parameter_sfAA0E0CSgvs",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -7985,6 +8350,9 @@
                 "mangledName": "$s9KochavaUI5TopicC22iconImage_parameter_sfAA0E0CSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -8014,6 +8382,7 @@
             "mangledName": "$s9KochavaUI5TopicC10title_mainSSSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "ProjectedValueProperty",
               "SetterAccess",
               "AccessControl",
@@ -8046,6 +8415,9 @@
                 "mangledName": "$s9KochavaUI5TopicC10title_mainSSSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -8067,6 +8439,9 @@
             "mangledName": "$s9KochavaUI5TopicC11$title_main7Combine9PublishedV9PublisherVySSSg_Gvp",
             "moduleName": "KochavaUI",
             "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -8085,6 +8460,9 @@
                 "mangledName": "$s9KochavaUI5TopicC11$title_main7Combine9PublishedV9PublisherVySSSg_Gvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -8115,6 +8493,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "SetterAccess",
               "AccessControl"
@@ -8146,6 +8525,9 @@
                 "mangledName": "$s9KochavaUI5TopicC5titleSSSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -8175,6 +8557,7 @@
             "mangledName": "$s9KochavaUI5TopicC15title_parameterSSSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "accessors": [
@@ -8202,6 +8585,9 @@
                 "usr": "s:9KochavaUI5TopicC15title_parameterSSSgvg",
                 "mangledName": "$s9KochavaUI5TopicC15title_parameterSSSgvg",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -8233,6 +8619,9 @@
                 "usr": "s:9KochavaUI5TopicC15title_parameterSSSgvs",
                 "mangledName": "$s9KochavaUI5TopicC15title_parameterSSSgvs",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -8251,6 +8640,9 @@
                 "mangledName": "$s9KochavaUI5TopicC15title_parameterSSSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -8281,6 +8673,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "AccessControl"
             ],
@@ -8311,6 +8704,9 @@
                 "mangledName": "$s9KochavaUI5TopicC18title_parameter_sfSSSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -8343,6 +8739,9 @@
                 "mangledName": "$s9KochavaUI5TopicC18title_parameter_sfSSSgvs",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -8361,6 +8760,9 @@
                 "mangledName": "$s9KochavaUI5TopicC18title_parameter_sfSSSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -8390,6 +8792,7 @@
             "mangledName": "$s9KochavaUI5TopicC13subtitle_mainSSSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "ProjectedValueProperty",
               "SetterAccess",
               "AccessControl",
@@ -8422,6 +8825,9 @@
                 "mangledName": "$s9KochavaUI5TopicC13subtitle_mainSSSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -8443,6 +8849,9 @@
             "mangledName": "$s9KochavaUI5TopicC14$subtitle_main7Combine9PublishedV9PublisherVySSSg_Gvp",
             "moduleName": "KochavaUI",
             "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -8461,6 +8870,9 @@
                 "mangledName": "$s9KochavaUI5TopicC14$subtitle_main7Combine9PublishedV9PublisherVySSSg_Gvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -8491,6 +8903,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "SetterAccess",
               "AccessControl"
@@ -8522,6 +8935,9 @@
                 "mangledName": "$s9KochavaUI5TopicC8subtitleSSSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -8551,6 +8967,7 @@
             "mangledName": "$s9KochavaUI5TopicC18subtitle_parameterSSSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "accessors": [
@@ -8578,6 +8995,9 @@
                 "usr": "s:9KochavaUI5TopicC18subtitle_parameterSSSgvg",
                 "mangledName": "$s9KochavaUI5TopicC18subtitle_parameterSSSgvg",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -8609,6 +9029,9 @@
                 "usr": "s:9KochavaUI5TopicC18subtitle_parameterSSSgvs",
                 "mangledName": "$s9KochavaUI5TopicC18subtitle_parameterSSSgvs",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -8627,6 +9050,9 @@
                 "mangledName": "$s9KochavaUI5TopicC18subtitle_parameterSSSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -8657,6 +9083,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "AccessControl"
             ],
@@ -8687,6 +9114,9 @@
                 "mangledName": "$s9KochavaUI5TopicC21subtitle_parameter_sfSSSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -8719,6 +9149,9 @@
                 "mangledName": "$s9KochavaUI5TopicC21subtitle_parameter_sfSSSgvs",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -8737,6 +9170,9 @@
                 "mangledName": "$s9KochavaUI5TopicC21subtitle_parameter_sfSSSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -8766,6 +9202,7 @@
             "mangledName": "$s9KochavaUI5TopicC15microtitle_mainSSSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "ProjectedValueProperty",
               "SetterAccess",
               "AccessControl",
@@ -8798,6 +9235,9 @@
                 "mangledName": "$s9KochavaUI5TopicC15microtitle_mainSSSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -8819,6 +9259,9 @@
             "mangledName": "$s9KochavaUI5TopicC16$microtitle_main7Combine9PublishedV9PublisherVySSSg_Gvp",
             "moduleName": "KochavaUI",
             "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -8837,6 +9280,9 @@
                 "mangledName": "$s9KochavaUI5TopicC16$microtitle_main7Combine9PublishedV9PublisherVySSSg_Gvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -8867,6 +9313,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "SetterAccess",
               "AccessControl"
@@ -8898,6 +9345,9 @@
                 "mangledName": "$s9KochavaUI5TopicC10microtitleSSSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -8927,6 +9377,7 @@
             "mangledName": "$s9KochavaUI5TopicC20microtitle_parameterSSSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "accessors": [
@@ -8954,6 +9405,9 @@
                 "usr": "s:9KochavaUI5TopicC20microtitle_parameterSSSgvg",
                 "mangledName": "$s9KochavaUI5TopicC20microtitle_parameterSSSgvg",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -8985,6 +9439,9 @@
                 "usr": "s:9KochavaUI5TopicC20microtitle_parameterSSSgvs",
                 "mangledName": "$s9KochavaUI5TopicC20microtitle_parameterSSSgvs",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -9003,6 +9460,9 @@
                 "mangledName": "$s9KochavaUI5TopicC20microtitle_parameterSSSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -9033,6 +9493,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "AccessControl"
             ],
@@ -9063,6 +9524,9 @@
                 "mangledName": "$s9KochavaUI5TopicC23microtitle_parameter_sfSSSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -9095,6 +9559,9 @@
                 "mangledName": "$s9KochavaUI5TopicC23microtitle_parameter_sfSSSgvs",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -9113,6 +9580,9 @@
                 "mangledName": "$s9KochavaUI5TopicC23microtitle_parameter_sfSSSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -9142,6 +9612,7 @@
             "mangledName": "$s9KochavaUI5TopicC9info_mainSSSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "ProjectedValueProperty",
               "SetterAccess",
               "AccessControl",
@@ -9174,6 +9645,9 @@
                 "mangledName": "$s9KochavaUI5TopicC9info_mainSSSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -9195,6 +9669,9 @@
             "mangledName": "$s9KochavaUI5TopicC10$info_main7Combine9PublishedV9PublisherVySSSg_Gvp",
             "moduleName": "KochavaUI",
             "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -9213,6 +9690,9 @@
                 "mangledName": "$s9KochavaUI5TopicC10$info_main7Combine9PublishedV9PublisherVySSSg_Gvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -9243,6 +9723,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "SetterAccess",
               "AccessControl"
@@ -9274,6 +9755,9 @@
                 "mangledName": "$s9KochavaUI5TopicC4infoSSSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -9303,6 +9787,7 @@
             "mangledName": "$s9KochavaUI5TopicC14info_parameterSSSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "accessors": [
@@ -9330,6 +9815,9 @@
                 "usr": "s:9KochavaUI5TopicC14info_parameterSSSgvg",
                 "mangledName": "$s9KochavaUI5TopicC14info_parameterSSSgvg",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -9361,6 +9849,9 @@
                 "usr": "s:9KochavaUI5TopicC14info_parameterSSSgvs",
                 "mangledName": "$s9KochavaUI5TopicC14info_parameterSSSgvs",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -9379,6 +9870,9 @@
                 "mangledName": "$s9KochavaUI5TopicC14info_parameterSSSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -9409,6 +9903,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "AccessControl"
             ],
@@ -9439,6 +9934,9 @@
                 "mangledName": "$s9KochavaUI5TopicC17info_parameter_sfSSSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -9471,6 +9969,9 @@
                 "mangledName": "$s9KochavaUI5TopicC17info_parameter_sfSSSgvs",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -9489,6 +9990,9 @@
                 "mangledName": "$s9KochavaUI5TopicC17info_parameter_sfSSSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -9518,6 +10022,7 @@
             "mangledName": "$s9KochavaUI5TopicC16description_mainSSSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "ProjectedValueProperty",
               "SetterAccess",
               "AccessControl",
@@ -9550,6 +10055,9 @@
                 "mangledName": "$s9KochavaUI5TopicC16description_mainSSSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -9571,6 +10079,9 @@
             "mangledName": "$s9KochavaUI5TopicC17$description_main7Combine9PublishedV9PublisherVySSSg_Gvp",
             "moduleName": "KochavaUI",
             "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -9589,6 +10100,9 @@
                 "mangledName": "$s9KochavaUI5TopicC17$description_main7Combine9PublishedV9PublisherVySSSg_Gvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -9619,6 +10133,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "SetterAccess",
               "AccessControl"
@@ -9650,6 +10165,9 @@
                 "mangledName": "$s9KochavaUI5TopicC11descriptionSSSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -9679,6 +10197,7 @@
             "mangledName": "$s9KochavaUI5TopicC21description_parameterSSSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "accessors": [
@@ -9706,6 +10225,9 @@
                 "usr": "s:9KochavaUI5TopicC21description_parameterSSSgvg",
                 "mangledName": "$s9KochavaUI5TopicC21description_parameterSSSgvg",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -9737,6 +10259,9 @@
                 "usr": "s:9KochavaUI5TopicC21description_parameterSSSgvs",
                 "mangledName": "$s9KochavaUI5TopicC21description_parameterSSSgvs",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -9755,6 +10280,9 @@
                 "mangledName": "$s9KochavaUI5TopicC21description_parameterSSSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -9785,6 +10313,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "AccessControl"
             ],
@@ -9815,6 +10344,9 @@
                 "mangledName": "$s9KochavaUI5TopicC24description_parameter_sfSSSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -9847,6 +10379,9 @@
                 "mangledName": "$s9KochavaUI5TopicC24description_parameter_sfSSSgvs",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -9865,6 +10400,9 @@
                 "mangledName": "$s9KochavaUI5TopicC24description_parameter_sfSSSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -9901,6 +10439,7 @@
             "mangledName": "$s9KochavaUI5TopicC22bodyViewableArray_mainSayAA0E0_s12IdentifiablepGSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "ProjectedValueProperty",
               "SetterAccess",
               "AccessControl",
@@ -9940,6 +10479,9 @@
                 "mangledName": "$s9KochavaUI5TopicC22bodyViewableArray_mainSayAA0E0_s12IdentifiablepGSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -9961,6 +10503,9 @@
             "mangledName": "$s9KochavaUI5TopicC23$bodyViewableArray_main7Combine9PublishedV9PublisherVySayAA0E0_s12IdentifiablepGSg_Gvp",
             "moduleName": "KochavaUI",
             "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -9979,6 +10524,9 @@
                 "mangledName": "$s9KochavaUI5TopicC23$bodyViewableArray_main7Combine9PublishedV9PublisherVySayAA0E0_s12IdentifiablepGSg_Gvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -10016,6 +10564,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "SetterAccess",
               "AccessControl"
@@ -10054,6 +10603,9 @@
                 "mangledName": "$s9KochavaUI5TopicC17bodyViewableArraySayAA0E0_s12IdentifiablepGSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -10090,6 +10642,7 @@
             "mangledName": "$s9KochavaUI5TopicC27bodyViewableArray_parameterSayAA0E0_s12IdentifiablepGSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "accessors": [
@@ -10124,6 +10677,9 @@
                 "usr": "s:9KochavaUI5TopicC27bodyViewableArray_parameterSayAA0E0_s12IdentifiablepGSgvg",
                 "mangledName": "$s9KochavaUI5TopicC27bodyViewableArray_parameterSayAA0E0_s12IdentifiablepGSgvg",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -10162,6 +10718,9 @@
                 "usr": "s:9KochavaUI5TopicC27bodyViewableArray_parameterSayAA0E0_s12IdentifiablepGSgvs",
                 "mangledName": "$s9KochavaUI5TopicC27bodyViewableArray_parameterSayAA0E0_s12IdentifiablepGSgvs",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -10180,6 +10739,9 @@
                 "mangledName": "$s9KochavaUI5TopicC27bodyViewableArray_parameterSayAA0E0_s12IdentifiablepGSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -10217,6 +10779,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "AccessControl"
             ],
@@ -10254,6 +10817,9 @@
                 "mangledName": "$s9KochavaUI5TopicC30bodyViewableArray_parameter_sfSayAA0E0_s12IdentifiablepGSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -10293,6 +10859,9 @@
                 "mangledName": "$s9KochavaUI5TopicC30bodyViewableArray_parameter_sfSayAA0E0_s12IdentifiablepGSgvs",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -10311,6 +10880,9 @@
                 "mangledName": "$s9KochavaUI5TopicC30bodyViewableArray_parameter_sfSayAA0E0_s12IdentifiablepGSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -10340,6 +10912,7 @@
             "mangledName": "$s9KochavaUI5TopicC16reducedBool_mainSbSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "ProjectedValueProperty",
               "SetterAccess",
               "AccessControl",
@@ -10372,6 +10945,9 @@
                 "mangledName": "$s9KochavaUI5TopicC16reducedBool_mainSbSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -10393,6 +10969,9 @@
             "mangledName": "$s9KochavaUI5TopicC17$reducedBool_main7Combine9PublishedV9PublisherVySbSg_Gvp",
             "moduleName": "KochavaUI",
             "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -10411,6 +10990,9 @@
                 "mangledName": "$s9KochavaUI5TopicC17$reducedBool_main7Combine9PublishedV9PublisherVySbSg_Gvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -10441,6 +11023,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "SetterAccess",
               "AccessControl"
@@ -10472,6 +11055,9 @@
                 "mangledName": "$s9KochavaUI5TopicC11reducedBoolSbSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -10501,6 +11087,7 @@
             "mangledName": "$s9KochavaUI5TopicC21reducedBool_parameterSbSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "accessors": [
@@ -10528,6 +11115,9 @@
                 "usr": "s:9KochavaUI5TopicC21reducedBool_parameterSbSgvg",
                 "mangledName": "$s9KochavaUI5TopicC21reducedBool_parameterSbSgvg",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -10559,6 +11149,9 @@
                 "usr": "s:9KochavaUI5TopicC21reducedBool_parameterSbSgvs",
                 "mangledName": "$s9KochavaUI5TopicC21reducedBool_parameterSbSgvs",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -10577,6 +11170,9 @@
                 "mangledName": "$s9KochavaUI5TopicC21reducedBool_parameterSbSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -10607,6 +11203,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "AccessControl"
             ],
@@ -10637,6 +11234,9 @@
                 "mangledName": "$s9KochavaUI5TopicC24reducedBool_parameter_sfSbSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -10669,6 +11269,9 @@
                 "mangledName": "$s9KochavaUI5TopicC24reducedBool_parameter_sfSbSgvs",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -10687,6 +11290,9 @@
                 "mangledName": "$s9KochavaUI5TopicC24reducedBool_parameter_sfSbSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -10723,6 +11329,7 @@
             "mangledName": "$s9KochavaUI5TopicC26expandedViewableArray_mainSayAA0E0_s12IdentifiablepGSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "ProjectedValueProperty",
               "SetterAccess",
               "AccessControl",
@@ -10762,6 +11369,9 @@
                 "mangledName": "$s9KochavaUI5TopicC26expandedViewableArray_mainSayAA0E0_s12IdentifiablepGSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -10783,6 +11393,9 @@
             "mangledName": "$s9KochavaUI5TopicC27$expandedViewableArray_main7Combine9PublishedV9PublisherVySayAA0E0_s12IdentifiablepGSg_Gvp",
             "moduleName": "KochavaUI",
             "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -10801,6 +11414,9 @@
                 "mangledName": "$s9KochavaUI5TopicC27$expandedViewableArray_main7Combine9PublishedV9PublisherVySayAA0E0_s12IdentifiablepGSg_Gvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -10838,6 +11454,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "SetterAccess",
               "AccessControl"
@@ -10876,6 +11493,9 @@
                 "mangledName": "$s9KochavaUI5TopicC21expandedViewableArraySayAA0E0_s12IdentifiablepGSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -10912,6 +11532,7 @@
             "mangledName": "$s9KochavaUI5TopicC31expandedViewableArray_parameterSayAA0E0_s12IdentifiablepGSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "accessors": [
@@ -10946,6 +11567,9 @@
                 "usr": "s:9KochavaUI5TopicC31expandedViewableArray_parameterSayAA0E0_s12IdentifiablepGSgvg",
                 "mangledName": "$s9KochavaUI5TopicC31expandedViewableArray_parameterSayAA0E0_s12IdentifiablepGSgvg",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -10984,6 +11608,9 @@
                 "usr": "s:9KochavaUI5TopicC31expandedViewableArray_parameterSayAA0E0_s12IdentifiablepGSgvs",
                 "mangledName": "$s9KochavaUI5TopicC31expandedViewableArray_parameterSayAA0E0_s12IdentifiablepGSgvs",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -11002,6 +11629,9 @@
                 "mangledName": "$s9KochavaUI5TopicC31expandedViewableArray_parameterSayAA0E0_s12IdentifiablepGSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -11039,6 +11669,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "AccessControl"
             ],
@@ -11076,6 +11707,9 @@
                 "mangledName": "$s9KochavaUI5TopicC34expandedViewableArray_parameter_sfSayAA0E0_s12IdentifiablepGSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -11115,6 +11749,9 @@
                 "mangledName": "$s9KochavaUI5TopicC34expandedViewableArray_parameter_sfSayAA0E0_s12IdentifiablepGSgvs",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -11133,6 +11770,9 @@
                 "mangledName": "$s9KochavaUI5TopicC34expandedViewableArray_parameter_sfSayAA0E0_s12IdentifiablepGSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -11162,6 +11802,7 @@
             "mangledName": "$s9KochavaUI5TopicC19backgroundBool_mainSbSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "ProjectedValueProperty",
               "SetterAccess",
               "AccessControl",
@@ -11194,6 +11835,9 @@
                 "mangledName": "$s9KochavaUI5TopicC19backgroundBool_mainSbSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -11215,6 +11859,9 @@
             "mangledName": "$s9KochavaUI5TopicC20$backgroundBool_main7Combine9PublishedV9PublisherVySbSg_Gvp",
             "moduleName": "KochavaUI",
             "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -11233,6 +11880,9 @@
                 "mangledName": "$s9KochavaUI5TopicC20$backgroundBool_main7Combine9PublishedV9PublisherVySbSg_Gvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -11263,6 +11913,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "SetterAccess",
               "AccessControl"
@@ -11294,6 +11945,9 @@
                 "mangledName": "$s9KochavaUI5TopicC14backgroundBoolSbSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -11323,6 +11977,7 @@
             "mangledName": "$s9KochavaUI5TopicC24backgroundBool_parameterSbSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "accessors": [
@@ -11350,6 +12005,9 @@
                 "usr": "s:9KochavaUI5TopicC24backgroundBool_parameterSbSgvg",
                 "mangledName": "$s9KochavaUI5TopicC24backgroundBool_parameterSbSgvg",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -11381,6 +12039,9 @@
                 "usr": "s:9KochavaUI5TopicC24backgroundBool_parameterSbSgvs",
                 "mangledName": "$s9KochavaUI5TopicC24backgroundBool_parameterSbSgvs",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -11399,6 +12060,9 @@
                 "mangledName": "$s9KochavaUI5TopicC24backgroundBool_parameterSbSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -11429,6 +12093,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "AccessControl"
             ],
@@ -11459,6 +12124,9 @@
                 "mangledName": "$s9KochavaUI5TopicC27backgroundBool_parameter_sfSbSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -11491,6 +12159,9 @@
                 "mangledName": "$s9KochavaUI5TopicC27backgroundBool_parameter_sfSbSgvs",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -11509,6 +12180,9 @@
                 "mangledName": "$s9KochavaUI5TopicC27backgroundBool_parameter_sfSbSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -11538,6 +12212,7 @@
             "mangledName": "$s9KochavaUI5TopicC20backgroundColor_main05SwiftB00E0VSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "ProjectedValueProperty",
               "SetterAccess",
               "AccessControl",
@@ -11570,6 +12245,9 @@
                 "mangledName": "$s9KochavaUI5TopicC20backgroundColor_main05SwiftB00E0VSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -11591,6 +12269,9 @@
             "mangledName": "$s9KochavaUI5TopicC21$backgroundColor_main7Combine9PublishedV9PublisherVy05SwiftB00E0VSg_Gvp",
             "moduleName": "KochavaUI",
             "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -11609,6 +12290,9 @@
                 "mangledName": "$s9KochavaUI5TopicC21$backgroundColor_main7Combine9PublishedV9PublisherVy05SwiftB00E0VSg_Gvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -11639,6 +12323,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "SetterAccess",
               "AccessControl"
@@ -11670,6 +12355,9 @@
                 "mangledName": "$s9KochavaUI5TopicC15backgroundColor05SwiftB00E0VSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -11699,6 +12387,7 @@
             "mangledName": "$s9KochavaUI5TopicC25backgroundColor_parameter05SwiftB00E0VSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "accessors": [
@@ -11726,6 +12415,9 @@
                 "usr": "s:9KochavaUI5TopicC25backgroundColor_parameter05SwiftB00E0VSgvg",
                 "mangledName": "$s9KochavaUI5TopicC25backgroundColor_parameter05SwiftB00E0VSgvg",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -11757,6 +12449,9 @@
                 "usr": "s:9KochavaUI5TopicC25backgroundColor_parameter05SwiftB00E0VSgvs",
                 "mangledName": "$s9KochavaUI5TopicC25backgroundColor_parameter05SwiftB00E0VSgvs",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -11775,6 +12470,9 @@
                 "mangledName": "$s9KochavaUI5TopicC25backgroundColor_parameter05SwiftB00E0VSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -11805,6 +12503,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "AccessControl"
             ],
@@ -11835,6 +12534,9 @@
                 "mangledName": "$s9KochavaUI5TopicC28backgroundColor_parameter_sf05SwiftB00E0VSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -11867,6 +12569,9 @@
                 "mangledName": "$s9KochavaUI5TopicC28backgroundColor_parameter_sf05SwiftB00E0VSgvs",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -11885,6 +12590,9 @@
                 "mangledName": "$s9KochavaUI5TopicC28backgroundColor_parameter_sf05SwiftB00E0VSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -11914,6 +12622,7 @@
             "mangledName": "$s9KochavaUI5TopicC17dividersBool_mainSbSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "ProjectedValueProperty",
               "SetterAccess",
               "AccessControl",
@@ -11946,6 +12655,9 @@
                 "mangledName": "$s9KochavaUI5TopicC17dividersBool_mainSbSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -11967,6 +12679,9 @@
             "mangledName": "$s9KochavaUI5TopicC18$dividersBool_main7Combine9PublishedV9PublisherVySbSg_Gvp",
             "moduleName": "KochavaUI",
             "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -11985,6 +12700,9 @@
                 "mangledName": "$s9KochavaUI5TopicC18$dividersBool_main7Combine9PublishedV9PublisherVySbSg_Gvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -12015,6 +12733,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "SetterAccess",
               "AccessControl"
@@ -12046,6 +12765,9 @@
                 "mangledName": "$s9KochavaUI5TopicC12dividersBoolSbSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -12075,6 +12797,7 @@
             "mangledName": "$s9KochavaUI5TopicC22dividersBool_parameterSbSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "accessors": [
@@ -12102,6 +12825,9 @@
                 "usr": "s:9KochavaUI5TopicC22dividersBool_parameterSbSgvg",
                 "mangledName": "$s9KochavaUI5TopicC22dividersBool_parameterSbSgvg",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -12133,6 +12859,9 @@
                 "usr": "s:9KochavaUI5TopicC22dividersBool_parameterSbSgvs",
                 "mangledName": "$s9KochavaUI5TopicC22dividersBool_parameterSbSgvs",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -12151,6 +12880,9 @@
                 "mangledName": "$s9KochavaUI5TopicC22dividersBool_parameterSbSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -12181,6 +12913,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "AccessControl"
             ],
@@ -12211,6 +12944,9 @@
                 "mangledName": "$s9KochavaUI5TopicC25dividersBool_parameter_sfSbSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -12243,6 +12979,9 @@
                 "mangledName": "$s9KochavaUI5TopicC25dividersBool_parameter_sfSbSgvs",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -12261,6 +13000,9 @@
                 "mangledName": "$s9KochavaUI5TopicC25dividersBool_parameter_sfSbSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -12290,6 +13032,7 @@
             "mangledName": "$s9KochavaUI5TopicC43didSelectNavigationDestinationViewable_mainAA0H0_pSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "ProjectedValueProperty",
               "SetterAccess",
               "AccessControl",
@@ -12322,6 +13065,9 @@
                 "mangledName": "$s9KochavaUI5TopicC43didSelectNavigationDestinationViewable_mainAA0H0_pSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -12343,6 +13089,9 @@
             "mangledName": "$s9KochavaUI5TopicC44$didSelectNavigationDestinationViewable_main7Combine9PublishedV9PublisherVyAA0H0_pSg_Gvp",
             "moduleName": "KochavaUI",
             "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -12361,6 +13110,9 @@
                 "mangledName": "$s9KochavaUI5TopicC44$didSelectNavigationDestinationViewable_main7Combine9PublishedV9PublisherVyAA0H0_pSg_Gvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -12391,6 +13143,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "SetterAccess",
               "AccessControl"
@@ -12422,6 +13175,9 @@
                 "mangledName": "$s9KochavaUI5TopicC38didSelectNavigationDestinationViewableAA0H0_pSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -12451,6 +13207,7 @@
             "mangledName": "$s9KochavaUI5TopicC48didSelectNavigationDestinationViewable_parameterAA0H0_pSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "accessors": [
@@ -12478,6 +13235,9 @@
                 "usr": "s:9KochavaUI5TopicC48didSelectNavigationDestinationViewable_parameterAA0H0_pSgvg",
                 "mangledName": "$s9KochavaUI5TopicC48didSelectNavigationDestinationViewable_parameterAA0H0_pSgvg",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -12509,6 +13269,9 @@
                 "usr": "s:9KochavaUI5TopicC48didSelectNavigationDestinationViewable_parameterAA0H0_pSgvs",
                 "mangledName": "$s9KochavaUI5TopicC48didSelectNavigationDestinationViewable_parameterAA0H0_pSgvs",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -12527,6 +13290,9 @@
                 "mangledName": "$s9KochavaUI5TopicC48didSelectNavigationDestinationViewable_parameterAA0H0_pSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -12557,6 +13323,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "AccessControl"
             ],
@@ -12587,6 +13354,9 @@
                 "mangledName": "$s9KochavaUI5TopicC51didSelectNavigationDestinationViewable_parameter_sfAA0H0_pSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -12619,6 +13389,9 @@
                 "mangledName": "$s9KochavaUI5TopicC51didSelectNavigationDestinationViewable_parameter_sfAA0H0_pSgvs",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -12637,6 +13410,9 @@
                 "mangledName": "$s9KochavaUI5TopicC51didSelectNavigationDestinationViewable_parameter_sfAA0H0_pSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -12678,6 +13454,7 @@
             "mangledName": "$s9KochavaUI5TopicC20closure_execute_mainy05SwiftB04View_pcSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "ProjectedValueProperty",
               "SetterAccess",
               "AccessControl",
@@ -12722,6 +13499,9 @@
                 "mangledName": "$s9KochavaUI5TopicC20closure_execute_mainy05SwiftB04View_pcSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -12743,6 +13523,9 @@
             "mangledName": "$s9KochavaUI5TopicC21$closure_execute_main7Combine9PublishedV9PublisherVyy05SwiftB04View_pcSg_Gvp",
             "moduleName": "KochavaUI",
             "implicit": true,
+            "declAttributes": [
+              "Final"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -12761,6 +13544,9 @@
                 "mangledName": "$s9KochavaUI5TopicC21$closure_execute_main7Combine9PublishedV9PublisherVyy05SwiftB04View_pcSg_Gvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -12803,6 +13589,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "SetterAccess",
               "AccessControl"
@@ -12846,6 +13633,9 @@
                 "mangledName": "$s9KochavaUI5TopicC15closure_executey05SwiftB04View_pcSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               }
             ]
@@ -12887,6 +13677,7 @@
             "mangledName": "$s9KochavaUI5TopicC25closure_execute_parametery05SwiftB04View_pcSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "AccessControl"
             ],
             "accessors": [
@@ -12926,6 +13717,9 @@
                 "usr": "s:9KochavaUI5TopicC25closure_execute_parametery05SwiftB04View_pcSgvg",
                 "mangledName": "$s9KochavaUI5TopicC25closure_execute_parametery05SwiftB04View_pcSgvg",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -12969,6 +13763,9 @@
                 "usr": "s:9KochavaUI5TopicC25closure_execute_parametery05SwiftB04View_pcSgvs",
                 "mangledName": "$s9KochavaUI5TopicC25closure_execute_parametery05SwiftB04View_pcSgvs",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -12987,6 +13784,9 @@
                 "mangledName": "$s9KochavaUI5TopicC25closure_execute_parametery05SwiftB04View_pcSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -13029,6 +13829,7 @@
             "moduleName": "KochavaUI",
             "declAttributes": [
               "HasInitialValue",
+              "Final",
               "HasStorage",
               "AccessControl"
             ],
@@ -13071,6 +13872,9 @@
                 "mangledName": "$s9KochavaUI5TopicC28closure_execute_parameter_sfy05SwiftB04View_pcSgvg",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -13115,6 +13919,9 @@
                 "mangledName": "$s9KochavaUI5TopicC28closure_execute_parameter_sfy05SwiftB04View_pcSgvs",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -13133,6 +13940,9 @@
                 "mangledName": "$s9KochavaUI5TopicC28closure_execute_parameter_sfy05SwiftB04View_pcSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -13162,6 +13972,7 @@
             "mangledName": "$s9KochavaUI5TopicC8delegateAC8Delegate_pSgvp",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Final",
               "AccessControl",
               "RawDocComment"
             ],
@@ -13190,6 +14001,9 @@
                 "usr": "s:9KochavaUI5TopicC8delegateAC8Delegate_pSgvg",
                 "mangledName": "$s9KochavaUI5TopicC8delegateAC8Delegate_pSgvg",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "get"
               },
               {
@@ -13221,6 +14035,9 @@
                 "usr": "s:9KochavaUI5TopicC8delegateAC8Delegate_pSgvs",
                 "mangledName": "$s9KochavaUI5TopicC8delegateAC8Delegate_pSgvs",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "set"
               },
               {
@@ -13239,6 +14056,9 @@
                 "mangledName": "$s9KochavaUI5TopicC8delegateAC8Delegate_pSgvM",
                 "moduleName": "KochavaUI",
                 "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
                 "accessorKind": "_modify"
               }
             ]
@@ -13298,6 +14118,22 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              }
             ]
           },
           {
@@ -14673,6 +15509,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Executor",
                 "printedName": "Executor",
                 "usr": "s:17KochavaNetworking8ExecutorP",
@@ -14717,6 +15567,8 @@
                 "mangledName": "$s9KochavaUI5TopicC7TabViewV5topicAeCSg_tcfc",
                 "moduleName": "KochavaUI",
                 "declAttributes": [
+                  "Preconcurrency",
+                  "Custom",
                   "AccessControl"
                 ],
                 "init_kind": "Designated"
@@ -14745,6 +15597,7 @@
                 "mangledName": "$s9KochavaUI5TopicC7TabViewV4bodyQrvp",
                 "moduleName": "KochavaUI",
                 "declAttributes": [
+                  "Preconcurrency",
                   "Custom",
                   "AccessControl"
                 ],
@@ -14781,8 +15634,26 @@
             "usr": "s:9KochavaUI5TopicC7TabViewV",
             "mangledName": "$s9KochavaUI5TopicC7TabViewV",
             "moduleName": "KochavaUI",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom"
+            ],
             "isFromExtension": true,
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "View",
@@ -14811,6 +15682,13 @@
                 ],
                 "usr": "s:7SwiftUI4ViewP",
                 "mangledName": "$s7SwiftUI4ViewP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
               }
             ]
           },
@@ -14856,6 +15734,7 @@
                 "mangledName": "$s9KochavaUI5TopicC4ViewV5topic5tableAeC_AA5TableCSgtcfc",
                 "moduleName": "KochavaUI",
                 "declAttributes": [
+                  "Preconcurrency",
                   "Custom",
                   "AccessControl"
                 ],
@@ -14891,6 +15770,7 @@
                 "mangledName": "$s9KochavaUI5TopicC4ViewV7content18navigationLinkBoolQrSb_tF",
                 "moduleName": "KochavaUI",
                 "declAttributes": [
+                  "Preconcurrency",
                   "Custom",
                   "AccessControl"
                 ],
@@ -14920,6 +15800,7 @@
                 "mangledName": "$s9KochavaUI5TopicC4ViewV4bodyQrvp",
                 "moduleName": "KochavaUI",
                 "declAttributes": [
+                  "Preconcurrency",
                   "Custom",
                   "AccessControl"
                 ],
@@ -14957,10 +15838,25 @@
             "mangledName": "$s9KochavaUI5TopicC4ViewV",
             "moduleName": "KochavaUI",
             "declAttributes": [
+              "Preconcurrency",
               "Custom"
             ],
             "isFromExtension": true,
             "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
               {
                 "kind": "Conformance",
                 "name": "View",
@@ -14989,6 +15885,13 @@
                 ],
                 "usr": "s:7SwiftUI4ViewP",
                 "mangledName": "$s7SwiftUI4ViewP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Sendable",
+                "printedName": "Sendable",
+                "usr": "s:s8SendableP",
+                "mangledName": "$ss8SendableP"
               }
             ]
           }
@@ -14998,9 +15901,24 @@
         "mangledName": "$s9KochavaUI5TopicC",
         "moduleName": "KochavaUI",
         "declAttributes": [
+          "Final",
           "AccessControl"
         ],
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "DecodableFrom",
@@ -15265,6 +16183,22 @@
         "moduleName": "KochavaUI",
         "declAttributes": [
           "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
         ]
       },
       {
@@ -15351,6 +16285,8 @@
             "genericSig": "<τ_0_0, τ_1_0 where τ_0_0 : SwiftUI.View, τ_1_0 : SwiftUI.View>",
             "sugared_genericSig": "<Self, Content where Self : SwiftUI.View, Content : SwiftUI.View>",
             "declAttributes": [
+              "Preconcurrency",
+              "Custom",
               "Custom",
               "RawDocComment"
             ],
@@ -15361,7 +16297,7 @@
         "declKind": "Protocol",
         "usr": "s:7SwiftUI4ViewP",
         "mangledName": "$s7SwiftUI4ViewP",
-        "moduleName": "SwiftUI",
+        "moduleName": "SwiftUICore",
         "genericSig": "<τ_0_0.Body : SwiftUI.View>",
         "sugared_genericSig": "<Self.Body : SwiftUI.View>",
         "intro_Macosx": "10.15",
@@ -15369,13 +16305,35 @@
         "intro_tvOS": "13.0",
         "intro_watchOS": "6.0",
         "declAttributes": [
+          "Preconcurrency",
           "TypeEraser",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
           "Available",
           "Available",
           "Available",
-          "Available"
+          "Available",
+          "Custom"
         ],
-        "isExternal": true
+        "isExternal": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -16217,6 +17175,20 @@
             "conformances": [
               {
                 "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              },
+              {
+                "kind": "Conformance",
                 "name": "Badgable",
                 "printedName": "Badgable",
                 "usr": "s:9KochavaUI8BadgableP",
@@ -16351,10 +17323,10 @@
           },
           {
             "kind": "Conformance",
-            "name": "Logger_Provider",
-            "printedName": "Logger_Provider",
-            "usr": "s:17KochavaNetworking15Logger_ProviderP",
-            "mangledName": "$s17KochavaNetworking15Logger_ProviderP"
+            "name": "Provider",
+            "printedName": "Provider",
+            "usr": "s:2os6LoggerV17KochavaNetworkingE8ProviderP",
+            "mangledName": "$s2os6LoggerV17KochavaNetworkingE8ProviderP"
           },
           {
             "kind": "Conformance",
@@ -16362,6 +17334,20 @@
             "printedName": "Typed",
             "usr": "s:17KochavaNetworking5TypedP",
             "mangledName": "$s17KochavaNetworking5TypedP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -16545,6 +17531,20 @@
             "printedName": "Typed",
             "usr": "s:17KochavaNetworking5TypedP",
             "mangledName": "$s17KochavaNetworking5TypedP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -16799,8 +17799,26 @@
                 "usr": "s:17KochavaNetworking0A0C0A2UIE4ViewC5FrameC",
                 "mangledName": "$s17KochavaNetworking0A0C0A2UIE4ViewC5FrameC",
                 "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final",
+                  "AccessControl"
+                ],
                 "isFromExtension": true,
                 "conformances": [
+                  {
+                    "kind": "Conformance",
+                    "name": "Copyable",
+                    "printedName": "Copyable",
+                    "usr": "s:s8CopyableP",
+                    "mangledName": "$ss8CopyableP"
+                  },
+                  {
+                    "kind": "Conformance",
+                    "name": "Escapable",
+                    "printedName": "Escapable",
+                    "usr": "s:s9EscapableP",
+                    "mangledName": "$ss9EscapableP"
+                  },
                   {
                     "kind": "Conformance",
                     "name": "DecodableFrom",
@@ -16822,8 +17840,28 @@
             "usr": "s:17KochavaNetworking0A0C0A2UIE4ViewC",
             "mangledName": "$s17KochavaNetworking0A0C0A2UIE4ViewC",
             "moduleName": "KochavaUI",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
             "isFromExtension": true,
-            "hasMissingDesignatedInitializers": true
+            "hasMissingDesignatedInitializers": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           }
         ],
         "declKind": "Class",
@@ -16831,7 +17869,23 @@
         "mangledName": "$s17KochavaNetworking0A0C",
         "moduleName": "KochavaNetworking",
         "isExternal": true,
-        "hasMissingDesignatedInitializers": true
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -17001,6 +18055,20 @@
         ],
         "isExternal": true,
         "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
           {
             "kind": "Conformance",
             "name": "DecodableFrom",
@@ -17260,6 +18328,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -17304,13 +18379,6 @@
           },
           {
             "kind": "Conformance",
-            "name": "VectorArithmetic",
-            "printedName": "VectorArithmetic",
-            "usr": "s:7SwiftUI16VectorArithmeticP",
-            "mangledName": "$s7SwiftUI16VectorArithmeticP"
-          },
-          {
-            "kind": "Conformance",
             "name": "_FormatSpecifiable",
             "printedName": "_FormatSpecifiable",
             "children": [
@@ -17330,6 +18398,13 @@
             ],
             "usr": "s:7SwiftUI18_FormatSpecifiableP",
             "mangledName": "$s7SwiftUI18_FormatSpecifiableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "VectorArithmetic",
+            "printedName": "VectorArithmetic",
+            "usr": "s:7SwiftUI16VectorArithmeticP",
+            "mangledName": "$s7SwiftUI16VectorArithmeticP"
           },
           {
             "kind": "Conformance",
@@ -18134,19 +19209,39 @@
               "AccessControl"
             ],
             "isFromExtension": true,
-            "hasMissingDesignatedInitializers": true
+            "hasMissingDesignatedInitializers": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Copyable",
+                "printedName": "Copyable",
+                "usr": "s:s8CopyableP",
+                "mangledName": "$ss8CopyableP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Escapable",
+                "printedName": "Escapable",
+                "usr": "s:s9EscapableP",
+                "mangledName": "$ss9EscapableP"
+              }
+            ]
           }
         ],
         "declKind": "Struct",
         "usr": "s:7SwiftUI4TextV",
         "mangledName": "$s7SwiftUI4TextV",
-        "moduleName": "SwiftUI",
+        "moduleName": "SwiftUICore",
         "intro_Macosx": "10.15",
         "intro_iOS": "13.0",
         "intro_tvOS": "13.0",
         "intro_watchOS": "6.0",
         "declAttributes": [
           "Frozen",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
           "Available",
           "Available",
           "Available",
@@ -18167,6 +19262,20 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -18587,17 +19696,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Logger_Provider",
-            "printedName": "Logger_Provider",
-            "usr": "s:17KochavaNetworking15Logger_ProviderP",
-            "mangledName": "$s17KochavaNetworking15Logger_ProviderP"
+            "name": "Provider",
+            "printedName": "Provider",
+            "usr": "s:2os6LoggerV17KochavaNetworkingE8ProviderP",
+            "mangledName": "$s2os6LoggerV17KochavaNetworkingE8ProviderP"
           },
           {
             "kind": "Conformance",
-            "name": "Networking_Provider",
-            "printedName": "Networking_Provider",
-            "usr": "c:@M@KochavaNetworking@objc(pl)KVANetworking_Provider",
-            "mangledName": "$s17KochavaNetworking0B9_ProviderP"
+            "name": "Provider",
+            "printedName": "Provider",
+            "usr": "s:17KochavaNetworking0B0C8ProviderP",
+            "mangledName": "$s17KochavaNetworking0B0C8ProviderP"
           },
           {
             "kind": "Conformance",
@@ -18612,6 +19721,20 @@
             "printedName": "Typed",
             "usr": "s:17KochavaNetworking5TypedP",
             "mangledName": "$s17KochavaNetworking5TypedP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -18733,13 +19856,17 @@
         "declKind": "Struct",
         "usr": "s:7SwiftUI9AlignmentV",
         "mangledName": "$s7SwiftUI9AlignmentV",
-        "moduleName": "SwiftUI",
+        "moduleName": "SwiftUICore",
         "intro_Macosx": "10.15",
         "intro_iOS": "13.0",
         "intro_tvOS": "13.0",
         "intro_watchOS": "6.0",
         "declAttributes": [
           "Frozen",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
           "Available",
           "Available",
           "Available",
@@ -18753,6 +19880,20 @@
             "printedName": "Equatable",
             "usr": "s:SQ",
             "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -18774,6 +19915,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "BitwiseCopyable",
+            "printedName": "BitwiseCopyable",
+            "usr": "s:s15BitwiseCopyableP",
+            "mangledName": "$ss15BitwiseCopyableP"
           }
         ]
       },
@@ -19364,13 +20512,17 @@
         "declKind": "Struct",
         "usr": "s:7SwiftUI5ColorV",
         "mangledName": "$s7SwiftUI5ColorV",
-        "moduleName": "SwiftUI",
+        "moduleName": "SwiftUICore",
         "intro_Macosx": "10.15",
         "intro_iOS": "13.0",
         "intro_tvOS": "13.0",
         "intro_watchOS": "6.0",
         "declAttributes": [
           "Frozen",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
+          "OriginallyDefinedIn",
           "Available",
           "Available",
           "Available",
@@ -19408,38 +20560,17 @@
           },
           {
             "kind": "Conformance",
-            "name": "Transferable",
-            "printedName": "Transferable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "Representation",
-                "printedName": "Representation",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "OpaqueTypeArchetype",
-                    "printedName": "some CoreTransferable.TransferRepresentation",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "TransferRepresentation",
-                        "printedName": "CoreTransferable.TransferRepresentation",
-                        "usr": "s:16CoreTransferable22TransferRepresentationP"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Sendable",
-                        "printedName": "Swift.Sendable",
-                        "usr": "s:s8SendableP"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "usr": "s:16CoreTransferable0B0P",
-            "mangledName": "$s16CoreTransferable0B0P"
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
           },
           {
             "kind": "Conformance",
@@ -19484,6 +20615,35 @@
             ],
             "usr": "s:7SwiftUI4ViewP",
             "mangledName": "$s7SwiftUI4ViewP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Transferable",
+            "printedName": "Transferable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Representation",
+                "printedName": "Representation",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpaqueTypeArchetype",
+                    "printedName": "some CoreTransferable.TransferRepresentation",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "TransferRepresentation",
+                        "printedName": "CoreTransferable.TransferRepresentation",
+                        "usr": "s:16CoreTransferable22TransferRepresentationP"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "usr": "s:16CoreTransferable0B0P",
+            "mangledName": "$s16CoreTransferable0B0P"
           }
         ]
       }
@@ -19494,7 +20654,7 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Image.swift",
       "kind": "StringLiteral",
-      "offset": 2852,
+      "offset": 2840,
       "length": 17,
       "value": "\"KochavaUI.Image\""
     },
@@ -19725,14 +20885,63 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
       "kind": "StringLiteral",
-      "offset": 4087,
+      "offset": 2086,
+      "length": 4,
+      "value": "\"UI\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 2130,
+      "length": 9,
+      "value": "\"Kochava\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 2180,
+      "length": 23,
+      "value": "\"com.kochava.KochavaUI\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 2238,
+      "length": 10,
+      "value": "\"Apple.UI\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 2285,
+      "length": 7,
+      "value": "\"9.0.0\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 2332,
+      "length": 3,
+      "value": "\"8\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 2493,
+      "length": 20,
+      "value": "\"KVABuildDateString\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
+      "kind": "StringLiteral",
+      "offset": 3948,
       "length": 18,
       "value": "\"KochavaUI.Prouct\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
       "kind": "StringLiteral",
-      "offset": 4413,
+      "offset": 4274,
       "length": 33,
       "value": "\"UI.Product.executionTokenString\""
     },
@@ -19781,42 +20990,42 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.swift",
       "kind": "StringLiteral",
-      "offset": 5330,
+      "offset": 5336,
       "length": 17,
       "value": "\"KochavaUI.Topic\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.swift",
       "kind": "Array",
-      "offset": 5855,
+      "offset": 5861,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.swift",
       "kind": "StringLiteral",
-      "offset": 5940,
+      "offset": 5946,
       "length": 7,
       "value": "\"Topic\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.swift",
       "kind": "Array",
-      "offset": 7356,
+      "offset": 7362,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.swift",
       "kind": "Array",
-      "offset": 7771,
+      "offset": 7777,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.swift",
       "kind": "StringLiteral",
-      "offset": 8447,
+      "offset": 8453,
       "length": 12,
       "value": "\"Components\""
     },
@@ -20362,7 +21571,7 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Kochava.View.Frame.swift",
       "kind": "StringLiteral",
-      "offset": 1961,
+      "offset": 1967,
       "length": 22,
       "value": "\"KochavaUI.View.Frame\""
     },

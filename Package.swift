@@ -1,11 +1,11 @@
-// swift-tools-version:5.9
+// swift-tools-version:5.10
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 
 import PackageDescription
 
 let package = Package(
-    name: "KochavaUI",
-    platforms: 
+    name: "Apple-SwiftPackage-KochavaUI-XCFramework",
+    platforms:
     [
         .iOS(.v15),
         .macCatalyst(.v15),
@@ -28,15 +28,14 @@ let package = Package(
     ],
     dependencies:
     [
-        // Dependencies declare other packages that this package depends on.
-//        .package(
-//            name: "KochavaNetworking",
-//            path: "./../Apple-SwiftPackage-KochavaNetworking-XCFramework"
-//        )
         .package(
-            url: "https://github.com/Kochava/Apple-SwiftPackage-KochavaNetworking-XCFramework",
-            from: "8.4.1"
+            name: "Apple-SwiftPackage-KochavaNetworking-XCFramework",
+            path: "./../Apple-SwiftPackage-KochavaNetworking-XCFramework"
         )
+//        .package(
+//            url: "https://github.com/Kochava/Apple-SwiftPackage-KochavaNetworking-XCFramework",
+//            from: "9.0.0"
+//        )
     ],
     targets:
     [

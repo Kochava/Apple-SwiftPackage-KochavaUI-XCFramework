@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/KochavaUI-Swift.h</key>
 		<data>
-		4PwkfbydSFNnQxHOxpZbKd3+l70=
+		SwJPAfvdyaQg/3UqgQKyKDFVRUs=
 		</data>
 		<key>Headers/KochavaUI.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		8H8qMzhYF+I0tAJQ7Ltaxd9qGAU=
+		9DaYlTnBKeljOFTyBk0PA9Yiq6g=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-xros-simulator.abi.json</key>
 		<data>
-		tmWExAmw9e4mVaM1Ux69Dov/KRs=
+		wn1qr+pKqL0tz21ZpHRLmAJPekw=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-xros-simulator.private.swiftinterface</key>
 		<data>
-		SI23m3YpE5U7945WdjSurHLAWhQ=
+		ib+3gBlRF82/iv0VvJ2QnsN0GDg=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
 		<data>
-		Nddl3akMsazw1Y5g82uNpel7MiY=
+		ntMWi4Pm3Ij165LCtyFw3qYKPbM=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-xros-simulator.swiftinterface</key>
 		<data>
-		SI23m3YpE5U7945WdjSurHLAWhQ=
+		ib+3gBlRF82/iv0VvJ2QnsN0GDg=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
 		<data>
-		svflud70hzIYF7Ais3h4hYt1BbI=
+		fM0XZHDwzf3N5RkaQFpvYWU+hDI=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-xros-simulator.abi.json</key>
 		<data>
-		tmWExAmw9e4mVaM1Ux69Dov/KRs=
+		wn1qr+pKqL0tz21ZpHRLmAJPekw=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-xros-simulator.private.swiftinterface</key>
 		<data>
-		EBbWM/Yy+fbwfBPyTdlXYtvHCdg=
+		SRKx55FQXsBGzqmImkiL/Bff86Q=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-xros-simulator.swiftdoc</key>
 		<data>
-		nujGn4O4J7tMPEu0omF7RUjieKU=
+		rJrLiEdEzD3FfIM0DO4HNe8HhII=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-xros-simulator.swiftinterface</key>
 		<data>
-		EBbWM/Yy+fbwfBPyTdlXYtvHCdg=
+		SRKx55FQXsBGzqmImkiL/Bff86Q=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-xros-simulator.swiftmodule</key>
 		<data>
-		pLBG0+8hqfvKMgynv24QsBoAVjg=
+		uFAPp6RfVae77wSwuAlHEAZ0bDA=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QGvk3uN2EMO2fR4xDMxBoJNXQNmh/QnCnvK9I1iq/gM=
+			XDssEGpq6+LvAoAQOgPK1NM3locU6hTvKvZvyLS/iHA=
 			</data>
 		</dict>
 		<key>Headers/KochavaUI.h</key>
@@ -85,70 +85,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w8FEXPMXDsJ5d2V5zf8Kya+1qBOyzWoJuScpWT+C47Q=
+			tpefB1q5yXZib2BEtbT6PiCdZSghYF0KD8sWzg3I6uc=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-xros-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Sy6X0cPoybhxApAiI+8nsSh1WKJ5cc9laUf3TVOsvA=
+			wR+5t88oBabPD4cWWNfTlNIv0WWIuuoGPxB6vRBoERA=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-xros-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WU1RJ2cH6JBMOfsMqYI7c/xRJ+90ifJ0o0S6WOecAdQ=
+			lNYciJ8L+uWoS1Kk7XMwdFpIOROn5H9QSptGvAmFLY0=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-xros-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4Sy6X0cPoybhxApAiI+8nsSh1WKJ5cc9laUf3TVOsvA=
+			wR+5t88oBabPD4cWWNfTlNIv0WWIuuoGPxB6vRBoERA=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-xros-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PwTnhfSUA3Byc0YpUmP1cX4tPYNxXBDCmKC6f/6JDZo=
+			FAYYZAE+pn4uRXT57ebfZOa4yYEiFCpVxORyCtGxYeA=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-xros-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w8FEXPMXDsJ5d2V5zf8Kya+1qBOyzWoJuScpWT+C47Q=
+			tpefB1q5yXZib2BEtbT6PiCdZSghYF0KD8sWzg3I6uc=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-xros-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rJsYUG2TkDvXWBedPla9lCQHvwKBJpnsEnPeZUO/W1c=
+			lqpODi6WN8fIjLgcgCyU+uwsxnRXwJ0TxSHZ4AmnIL4=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-xros-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VtdqtMCl6Vz0mj91h/E8c+NQR8y3PwawqEiyTWaWmPg=
+			2TB9H6u2TKdRoXP8qnyUxmsj8Tru8dmkb4pIvu3/eek=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-xros-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rJsYUG2TkDvXWBedPla9lCQHvwKBJpnsEnPeZUO/W1c=
+			lqpODi6WN8fIjLgcgCyU+uwsxnRXwJ0TxSHZ4AmnIL4=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-xros-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			44D8w984R30/H3u+2Bl/4tbpvd/K+jqUPyEa904lotQ=
+			CCYIFbp35zojurb6hsShKDp0iur6QIUl8+uY8nk3no8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

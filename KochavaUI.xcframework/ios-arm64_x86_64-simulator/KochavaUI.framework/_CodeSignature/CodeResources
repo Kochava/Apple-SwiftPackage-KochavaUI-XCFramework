@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/KochavaUI-Swift.h</key>
 		<data>
-		4PwkfbydSFNnQxHOxpZbKd3+l70=
+		SwJPAfvdyaQg/3UqgQKyKDFVRUs=
 		</data>
 		<key>Headers/KochavaUI.h</key>
 		<data>
@@ -14,47 +14,47 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		UpySOCBWW2gbHT4I5YhilXxO+Gk=
+		kK5alop1RnczTS+NbGsF/RSLnH0=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		tmWExAmw9e4mVaM1Ux69Dov/KRs=
+		wn1qr+pKqL0tz21ZpHRLmAJPekw=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		PBoh0LhJbHsbJzeFaybkmGtYo88=
+		PQRrJz/VFEA6AFZtwn8bSPFlf20=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		8TpJ/BJrsPku1Zpje95cNU1fnFM=
+		1hjluO5S37XEizJGFB3/YgqORDw=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		PBoh0LhJbHsbJzeFaybkmGtYo88=
+		PQRrJz/VFEA6AFZtwn8bSPFlf20=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QwXd6smYNauhvC3bBaGiqA3H5gA=
+		bVtBJj3c33NzqEzxcxbvm6+dCW0=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		tmWExAmw9e4mVaM1Ux69Dov/KRs=
+		wn1qr+pKqL0tz21ZpHRLmAJPekw=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		wr851IfyKdgSQS66Rs1Vm1dTULY=
+		QFB2742s8O3NlQTOIL3/Sl19cP8=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		rBG2KSmMCHB23+guU3wot1FKDM0=
+		3fY3hDzTLuZaNZTv9h6NK9atPdU=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		wr851IfyKdgSQS66Rs1Vm1dTULY=
+		QFB2742s8O3NlQTOIL3/Sl19cP8=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		usVl6KavsjWVomQIqaND8keDmhE=
+		eM/lgzoR7Y/ZdaFCu4D8zYm6cNE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QGvk3uN2EMO2fR4xDMxBoJNXQNmh/QnCnvK9I1iq/gM=
+			XDssEGpq6+LvAoAQOgPK1NM3locU6hTvKvZvyLS/iHA=
 			</data>
 		</dict>
 		<key>Headers/KochavaUI.h</key>
@@ -85,70 +85,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w8FEXPMXDsJ5d2V5zf8Kya+1qBOyzWoJuScpWT+C47Q=
+			tpefB1q5yXZib2BEtbT6PiCdZSghYF0KD8sWzg3I6uc=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d3K+j/rR73YS5a6BzS5qvW0buj6vxKimPr97Jqiu1c4=
+			BNPitGKu2QLLcgSiP56FoHUdgKl0rzWdO4Ya5fp8o2M=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CukjNFVolFoR8MSHwo6LIRYDztG4Weorpww/YxTI/oE=
+			RgpjgGo1PXjWvJsfb+PbLK3r3ppHYV9gN5rjulBps7E=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			d3K+j/rR73YS5a6BzS5qvW0buj6vxKimPr97Jqiu1c4=
+			BNPitGKu2QLLcgSiP56FoHUdgKl0rzWdO4Ya5fp8o2M=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cy8eErWAm9HxsR6SJ2pMq+wAfY/pag2Ag7+tKO6PXbQ=
+			wHZkMcuIwU+RemiiXQ8msU8MhSEdpn6dt5MTohiFTVs=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w8FEXPMXDsJ5d2V5zf8Kya+1qBOyzWoJuScpWT+C47Q=
+			tpefB1q5yXZib2BEtbT6PiCdZSghYF0KD8sWzg3I6uc=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xt4gzGXvFtm1gLUx165Frz2E7jEjO1E8QqHjCztzCCg=
+			QeoZmWo6RuvmrVN1WUnjEdfPqky00YLrKzm3AOAV6cY=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CTqYgUMFD446rCf3nP5dle8OF12+nsFr7AotMYtGt54=
+			rfmsvnqhBbCoFEgkib3dFVQ9geaZjUPaPKEun8Mp5Wg=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Xt4gzGXvFtm1gLUx165Frz2E7jEjO1E8QqHjCztzCCg=
+			QeoZmWo6RuvmrVN1WUnjEdfPqky00YLrKzm3AOAV6cY=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fDVIjWb64coqOcru7Jsxdus4Eq4ZiTEchxZTR9LL/E4=
+			v8Q+/i7lkB487Fo7QW8mgnAtGJ/n96U0oXN8lcepMcw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
