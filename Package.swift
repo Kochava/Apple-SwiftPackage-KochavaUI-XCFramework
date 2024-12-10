@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "Apple-SwiftPackage-KochavaUI-XCFramework",
+    name: "KochavaUI", // the display name in the navigator
     platforms:
     [
         .iOS(.v15),
@@ -28,14 +28,14 @@ let package = Package(
     ],
     dependencies:
     [
-        .package(
-            name: "Apple-SwiftPackage-KochavaNetworking-XCFramework",
-            path: "./../Apple-SwiftPackage-KochavaNetworking-XCFramework"
-        )
 //        .package(
-//            url: "https://github.com/Kochava/Apple-SwiftPackage-KochavaNetworking-XCFramework",
-//            from: "9.0.0"
+//            name: "Apple-SwiftPackage-KochavaNetworking-XCFramework",
+//            path: "./../Apple-SwiftPackage-KochavaNetworking-XCFramework"
 //        )
+        .package(
+            url: "https://github.com/Kochava/Apple-SwiftPackage-KochavaNetworking-XCFramework",
+            from: "9.0.0"
+        )
     ],
     targets:
     [
