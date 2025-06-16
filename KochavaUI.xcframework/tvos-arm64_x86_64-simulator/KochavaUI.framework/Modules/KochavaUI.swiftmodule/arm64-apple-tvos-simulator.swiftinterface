@@ -211,11 +211,19 @@ extension KochavaUI.Topic {
   @objc override dynamic public init()
   @objc deinit
 }
+#if compiler(>=5.3) && $RetroactiveAttribute
+extension CoreFoundation.CGFloat : @retroactive KochavaNetworking.DecodableFrom, @retroactive KochavaNetworking.EncodableTo {
+  public static func from(_ object: Any?) -> CoreFoundation.CGFloat?
+  public func to(context: KochavaNetworking.Context?) -> Any?
+  public static let type_kochava: KochavaNetworking.Kochava_Type
+}
+#else
 extension CoreFoundation.CGFloat : KochavaNetworking.DecodableFrom, KochavaNetworking.EncodableTo {
   public static func from(_ object: Any?) -> CoreFoundation.CGFloat?
   public func to(context: KochavaNetworking.Context?) -> Any?
   public static let type_kochava: KochavaNetworking.Kochava_Type
 }
+#endif
 final public class Table : KochavaNetworking.DecodableFrom, Swift.Equatable, Swift.Identifiable, Foundation.ObservableObject, KochavaUI.Viewable {
   required public init(nameString: Swift.String?, sectionArray: [KochavaUI.Table.Section]?, lightnessMode: KochavaUI.LightnessMode? = nil, pinToBottomBool: Swift.Bool? = nil)
   public static func from(_ object: Any?) -> Self?
@@ -264,10 +272,17 @@ final public class Separator : Swift.Identifiable, KochavaNetworking.DecodableFr
   public typealias ID = Swift.String
   @objc deinit
 }
+#if compiler(>=5.3) && $RetroactiveAttribute
+extension SwiftUICore.Alignment : @retroactive KochavaNetworking.DecodableFrom {
+  public static func from(_ object: Any?) -> SwiftUICore.Alignment?
+  public static let type_kochava: KochavaNetworking.Kochava_Type
+}
+#else
 extension SwiftUICore.Alignment : KochavaNetworking.DecodableFrom {
   public static func from(_ object: Any?) -> SwiftUICore.Alignment?
   public static let type_kochava: KochavaNetworking.Kochava_Type
 }
+#endif
 final public class Topic : KochavaNetworking.DecodableFrom, KochavaNetworking.Executor, Swift.Identifiable, Combine.ObservableObject, KochavaNetworking.Typed, KochavaUI.Viewable {
   required public init(iconImage: KochavaUI.Topic.IconImage? = nil, title: KochavaUI.Topic.Title? = nil, subtitle: KochavaUI.Topic.Subtitle? = nil, microtitle: KochavaUI.Topic.Microtitle? = nil, info: KochavaUI.Topic.Info? = nil, description: KochavaUI.Topic.Description? = nil, bodyViewableArray: KochavaUI.Topic.BodyViewableArray? = nil, reducedBool: Swift.Bool? = nil, expandedViewableArray: KochavaUI.Topic.ExpandedViewableArray? = nil, backgroundBool: Swift.Bool? = nil, backgroundColor: SwiftUICore.Color? = nil, dividersBool: Swift.Bool? = nil, didSelectNavigationDestinationViewable: (any KochavaUI.Viewable)? = nil, delegate: (any KochavaUI.Topic.Delegate)? = nil, closure_execute: KochavaUI.Topic.Closure_Execute? = nil)
   public static func from(_ object: Any?) -> Self?

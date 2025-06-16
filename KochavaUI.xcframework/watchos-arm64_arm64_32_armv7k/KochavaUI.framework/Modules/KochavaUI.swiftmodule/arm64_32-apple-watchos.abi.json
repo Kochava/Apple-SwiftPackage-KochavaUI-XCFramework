@@ -20731,7 +20731,7 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 2738,
+      "offset": 2745,
       "length": 5,
       "value": "false"
     },
@@ -20829,49 +20829,49 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Table.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 8781,
+      "offset": 8788,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Table.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 8849,
+      "offset": 8856,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Table.View.swift",
       "kind": "StringLiteral",
-      "offset": 8933,
+      "offset": 8940,
       "length": 14,
       "value": "\"New Messages\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Table.View.swift",
       "kind": "StringLiteral",
-      "offset": 10946,
+      "offset": 10953,
       "length": 6,
       "value": "\"some\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Table.View.swift",
       "kind": "StringLiteral",
-      "offset": 11187,
+      "offset": 11194,
       "length": 10,
       "value": "\"My Table\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Table.View.swift",
       "kind": "StringLiteral",
-      "offset": 11270,
+      "offset": 11277,
       "length": 12,
       "value": "\"My Section\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Table.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 11521,
+      "offset": 11528,
       "length": 5,
       "value": "false"
     },
@@ -20915,7 +20915,7 @@
       "kind": "StringLiteral",
       "offset": 2285,
       "length": 7,
-      "value": "\"9.0.0\""
+      "value": "\"9.1.0\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
@@ -20948,7 +20948,7 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.CGFloat+UI.swift",
       "kind": "StringLiteral",
-      "offset": 2431,
+      "offset": 2457,
       "length": 9,
       "value": "\"CGFloat\""
     },
@@ -20962,14 +20962,14 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Text+UI.swift",
       "kind": "StringLiteral",
-      "offset": 4739,
+      "offset": 4746,
       "length": 4,
       "value": "\"<$\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Text+UI.swift",
       "kind": "StringLiteral",
-      "offset": 4802,
+      "offset": 4809,
       "length": 4,
       "value": "\"$>\""
     },
@@ -20983,49 +20983,49 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Alignment+UI.swift",
       "kind": "StringLiteral",
-      "offset": 1749,
+      "offset": 1773,
       "length": 19,
       "value": "\"SwiftUI.Alignment\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.swift",
       "kind": "StringLiteral",
-      "offset": 5336,
+      "offset": 5343,
       "length": 17,
       "value": "\"KochavaUI.Topic\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.swift",
       "kind": "Array",
-      "offset": 5861,
+      "offset": 5868,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.swift",
       "kind": "StringLiteral",
-      "offset": 5946,
+      "offset": 5953,
       "length": 7,
       "value": "\"Topic\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.swift",
       "kind": "Array",
-      "offset": 7362,
+      "offset": 7369,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.swift",
       "kind": "Array",
-      "offset": 7777,
+      "offset": 7784,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.swift",
       "kind": "StringLiteral",
-      "offset": 8453,
+      "offset": 8460,
       "length": 12,
       "value": "\"Components\""
     },
@@ -21039,539 +21039,539 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Text.Vew.swift",
       "kind": "StringLiteral",
-      "offset": 2023,
+      "offset": 2030,
       "length": 10,
       "value": "\"My Title\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Text.Vew.swift",
       "kind": "StringLiteral",
-      "offset": 2093,
+      "offset": 2100,
       "length": 14,
       "value": "\"My Heading 1\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Text.Vew.swift",
       "kind": "StringLiteral",
-      "offset": 2194,
+      "offset": 2201,
       "length": 14,
       "value": "\"My Heading 2\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Text.Vew.swift",
       "kind": "StringLiteral",
-      "offset": 2297,
+      "offset": 2304,
       "length": 86,
       "value": "\"This is some normal text.  This is some extra text so I can try to see it word wrap.\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "IntegerLiteral",
-      "offset": 451,
+      "offset": 458,
       "length": 4,
       "value": "0x23"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 458,
+      "offset": 465,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "IntegerLiteral",
-      "offset": 480,
+      "offset": 487,
       "length": 4,
       "value": "0x1F"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 487,
+      "offset": 494,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "IntegerLiteral",
-      "offset": 508,
+      "offset": 515,
       "length": 4,
       "value": "0x20"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 515,
+      "offset": 522,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "IntegerLiteral",
-      "offset": 591,
+      "offset": 598,
       "length": 4,
       "value": "0x03"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 598,
+      "offset": 605,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "IntegerLiteral",
-      "offset": 620,
+      "offset": 627,
       "length": 4,
       "value": "0xB3"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 627,
+      "offset": 634,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "IntegerLiteral",
-      "offset": 648,
+      "offset": 655,
       "length": 4,
       "value": "0xE3"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 655,
+      "offset": 662,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "IntegerLiteral",
-      "offset": 732,
+      "offset": 739,
       "length": 4,
       "value": "0x61"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 739,
+      "offset": 746,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "IntegerLiteral",
-      "offset": 761,
+      "offset": 768,
       "length": 4,
       "value": "0xA6"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 768,
+      "offset": 775,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "IntegerLiteral",
-      "offset": 789,
+      "offset": 796,
       "length": 4,
       "value": "0x0E"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 796,
+      "offset": 803,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "IntegerLiteral",
-      "offset": 872,
-      "length": 4,
-      "value": "0x45"
-    },
-    {
-      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
-      "kind": "FloatLiteral",
       "offset": 879,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
-      "kind": "IntegerLiteral",
-      "offset": 901,
       "length": 4,
       "value": "0x45"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
+      "offset": 886,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
+      "kind": "IntegerLiteral",
       "offset": 908,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
-      "kind": "IntegerLiteral",
-      "offset": 929,
       "length": 4,
       "value": "0x45"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 936,
+      "offset": 915,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "IntegerLiteral",
-      "offset": 1010,
+      "offset": 936,
+      "length": 4,
+      "value": "0x45"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
+      "kind": "FloatLiteral",
+      "offset": 943,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1017,
       "length": 4,
       "value": "0xEB"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1017,
+      "offset": 1024,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "IntegerLiteral",
-      "offset": 1039,
+      "offset": 1046,
       "length": 4,
       "value": "0x5F"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1046,
+      "offset": 1053,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "IntegerLiteral",
-      "offset": 1067,
+      "offset": 1074,
       "length": 4,
       "value": "0x00"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1074,
+      "offset": 1081,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "IntegerLiteral",
-      "offset": 1149,
+      "offset": 1156,
       "length": 4,
       "value": "0xBE"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1156,
+      "offset": 1163,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "IntegerLiteral",
-      "offset": 1178,
+      "offset": 1185,
       "length": 4,
       "value": "0x20"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1185,
+      "offset": 1192,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "IntegerLiteral",
-      "offset": 1206,
+      "offset": 1213,
       "length": 4,
       "value": "0x2E"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1213,
+      "offset": 1220,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "IntegerLiteral",
-      "offset": 1286,
-      "length": 4,
-      "value": "0xFF"
-    },
-    {
-      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
-      "kind": "FloatLiteral",
       "offset": 1293,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1315,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
+      "offset": 1300,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
+      "kind": "IntegerLiteral",
       "offset": 1322,
-      "length": 5,
-      "value": "255.0"
-    },
-    {
-      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
-      "kind": "IntegerLiteral",
-      "offset": 1343,
       "length": 4,
       "value": "0xFF"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
+      "offset": 1329,
+      "length": 5,
+      "value": "255.0"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
+      "kind": "IntegerLiteral",
       "offset": 1350,
+      "length": 4,
+      "value": "0xFF"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
+      "kind": "FloatLiteral",
+      "offset": 1357,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1496,
+      "offset": 1503,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1504,
+      "offset": 1511,
       "length": 5,
       "value": "0.333"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1528,
+      "offset": 1535,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1536,
+      "offset": 1543,
       "length": 5,
       "value": "0.333"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1559,
+      "offset": 1566,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1567,
+      "offset": 1574,
       "length": 5,
       "value": "0.333"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1644,
+      "offset": 1651,
       "length": 5,
       "value": "215.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1650,
+      "offset": 1657,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1674,
+      "offset": 1681,
       "length": 5,
       "value": "167.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1680,
+      "offset": 1687,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1703,
+      "offset": 1710,
       "length": 5,
       "value": "131.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1709,
+      "offset": 1716,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1785,
+      "offset": 1792,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1791,
+      "offset": 1798,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1815,
+      "offset": 1822,
       "length": 5,
       "value": "211.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1821,
+      "offset": 1828,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1844,
+      "offset": 1851,
       "length": 5,
       "value": "133.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1850,
+      "offset": 1857,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1926,
+      "offset": 1933,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1932,
+      "offset": 1939,
       "length": 5,
       "value": "0.667"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1956,
+      "offset": 1963,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1962,
+      "offset": 1969,
       "length": 5,
       "value": "0.667"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1985,
+      "offset": 1992,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 1991,
+      "offset": 1998,
       "length": 5,
       "value": "0.667"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 2065,
+      "offset": 2072,
       "length": 4,
       "value": "33.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 2070,
+      "offset": 2077,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 2094,
+      "offset": 2101,
       "length": 4,
       "value": "33.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 2099,
+      "offset": 2106,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 2122,
+      "offset": 2129,
       "length": 4,
       "value": "33.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Color+UI.swift",
       "kind": "FloatLiteral",
-      "offset": 2127,
+      "offset": 2134,
       "length": 5,
       "value": "255.0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Kochava.View.Frame.swift",
       "kind": "StringLiteral",
-      "offset": 1967,
+      "offset": 1974,
       "length": 22,
       "value": "\"KochavaUI.View.Frame\""
     },
@@ -21858,14 +21858,14 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 16215,
+      "offset": 16222,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Topic.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 16273,
+      "offset": 16280,
       "length": 5,
       "value": "false"
     },
