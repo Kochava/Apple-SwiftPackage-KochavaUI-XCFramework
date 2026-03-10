@@ -1,142 +1,256 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
-// swift-module-flags: -target arm64-apple-macos12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name KochavaUI
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.2.1 effective-5.10 (swiftlang-6.2.1.4.8 clang-1700.4.4.1)
+// swift-module-flags: -target arm64-apple-macos14.6 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name KochavaUI
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.1
 import AppKit
-import Combine
 import Foundation
 import KochavaNetworking
 @_exported import KochavaUI
 import OSLog
+import Observation
 import Swift
 import SwiftUI
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public protocol Viewable {
-  func view(elementBool: Swift.Bool?, table: KochavaUI.Table?) -> SwiftUICore.AnyView
+extension KochavaNetworking.Collection {
+  @_Concurrency.MainActor @preconcurrency public struct View : SwiftUICore.View, KochavaNetworking.Dismissible, KochavaNetworking.Typed {
+    @_Concurrency.MainActor @preconcurrency public init(collection: KochavaNetworking.Collection, context context_raw: KochavaUI.ViewableContext)
+    @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+      get
+    }
+    #if compiler(>=5.3) && $NonescapableTypes
+    @_Concurrency.MainActor @preconcurrency public func defaultBackgroundColor() -> SwiftUICore.Color?
+    #endif
+    @_Concurrency.MainActor @preconcurrency public static let type_kochava: KochavaNetworking.Kochava_Type
+    @_Concurrency.MainActor @preconcurrency public func cancel()
+    @_Concurrency.MainActor @preconcurrency public func save()
+    @_Concurrency.MainActor @preconcurrency public func executing()
+    @_Concurrency.MainActor @preconcurrency public func dismiss()
+    @_Concurrency.MainActor @preconcurrency public func dismiss_usingPresentationMode()
+    public typealias Body = @_opaqueReturnTypeOf("$s17KochavaNetworking10CollectionC0A2UIE4ViewV4bodyQrvp", 0) __
+  }
 }
-@_hasMissingDesignatedInitializers final public class Viewable_Conforming {
-  public static func view(entity: Any?, elementBool: Swift.Bool?, table: KochavaUI.Table?) -> SwiftUICore.AnyView?
-  @objc deinit
+extension KochavaUI.Text {
+  @_hasMissingDesignatedInitializers final public class Style : KochavaNetworking.DecodableFrom, KochavaNetworking.EncodableTo {
+    public static let normal: KochavaUI.Text.Style
+    public static let headline: KochavaUI.Text.Style
+    public static let title: KochavaUI.Text.Style
+    public static let subtitle: KochavaUI.Text.Style
+    public static let heading1: KochavaUI.Text.Style
+    public static let heading2: KochavaUI.Text.Style
+    public static let heading2WhenSubtitleFollows: KochavaUI.Text.Style
+    public static let heading2Subtitle: KochavaUI.Text.Style
+    public static let heading3: KochavaUI.Text.Style
+    public static let heading4: KochavaUI.Text.Style
+    #if compiler(>=5.3) && $NonescapableTypes
+    public static func from(_ object: Any?) -> Self?
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    final public func to(context: KochavaNetworking.Context?) -> Any?
+    #endif
+    public static let type_kochava: KochavaNetworking.Kochava_Type
+    #if compiler(>=5.3) && $NonescapableTypes
+    final public func spacingAfterPointCountCGFloat(fontSizeCGFloat: CoreFoundation.CGFloat?, lineSpacingCGFloat: CoreFoundation.CGFloat) -> CoreFoundation.CGFloat
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    final public func spacingBeforePointCountCGFloat(fontSizeCGFloat: CoreFoundation.CGFloat?, lineSpacingCGFloat: CoreFoundation.CGFloat?) -> CoreFoundation.CGFloat
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    final public func textColor(lightnessMode lightnessMode_parameter: KochavaUI.LightnessMode? = nil) -> SwiftUICore.Color
+    #endif
+    final public let identifier: KochavaUI.Text.Style.Identifier
+    public typealias Identifier = Swift.String
+    final public let universalIdentifier: KochavaUI.Text.Style.UniversalIdentifier
+    public typealias UniversalIdentifier = Swift.String
+    final public let fontSizeCGFloat: CoreFoundation.CGFloat
+    final public let separatorLineAfterBool: Swift.Bool
+    @objc deinit
+  }
 }
-final public class Image : Swift.Identifiable, KochavaNetworking.DecodableFrom, Combine.ObservableObject, KochavaUI.Viewable {
-  public init(systemName: KochavaUI.Image.SystemName? = nil, foregroundColor: SwiftUICore.Color? = nil, urlString: Swift.String? = nil, accessabilityTextString: Swift.String? = nil, fontSizeFloat: CoreFoundation.CGFloat? = nil, frame: KochavaNetworking.Kochava.View.Frame? = nil)
+final public class Text : KochavaNetworking.DecodableFrom, KochavaNetworking.Executor, Swift.Identifiable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  required public init(string: Swift.String? = nil, binding: SwiftUICore.Binding<Swift.String>? = nil, style: KochavaUI.Text.Style? = nil, alignment: SwiftUICore.Alignment? = nil, spacingBeforePointCountCGFloat: CoreFoundation.CGFloat? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func from(_ object: Any?) -> Self?
-  final public func view(elementBool: Swift.Bool?, table: KochavaUI.Table?) -> SwiftUICore.AnyView
+  #endif
   final public let id: Swift.String
   public static let type_kochava: KochavaNetworking.Kochava_Type
   final public var execution: KochavaNetworking.Execution {
     get
   }
-  final public func image(closure_didComplete: ((_ image: SwiftUICore.Image?) -> Swift.Void)?)
-  final public var systemName: KochavaUI.Image.SystemName? {
-    get
-  }
-  final public var systemName_parameter: KochavaUI.Image.SystemName? {
-    get
-  }
-  public typealias SystemName = Swift.String
-  final public var foregroundColor: SwiftUICore.Color? {
-    get
-  }
-  final public var foregroundColor_parameter: SwiftUICore.Color? {
-    get
-  }
-  final public var urlString: Swift.String? {
-    get
-  }
-  final public var accessabilityTextString: Swift.String? {
-    get
-  }
-  final public var frame: KochavaNetworking.Kochava.View.Frame? {
-    get
-  }
-  final public var swiftUI: SwiftUICore.Image? {
-    get
-  }
-  final public var swiftUI_sf_memory: SwiftUICore.Image? {
-    get
-  }
-  @Combine.Published @_projectedValueProperty($swiftUI_main) final public var swiftUI_main: SwiftUICore.Image? {
-    get
-  }
-  final public var $swiftUI_main: Combine.Published<SwiftUICore.Image?>.Publisher {
-    get
-  }
-  public typealias OSImage = AppKit.NSImage
-  public typealias ID = Swift.String
-  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
-  @objc deinit
-}
-extension SwiftUICore.View {
-  @_Concurrency.MainActor @preconcurrency public func `if`<Content>(_ condition: Swift.Bool, transform: (Self) -> Content) -> some SwiftUICore.View where Content : SwiftUICore.View
-  
-}
-final public class LightnessMode : KochavaNetworking.DecodableFrom {
-  public static let dark: KochavaUI.LightnessMode
-  public static let light: KochavaUI.LightnessMode
-  public init(universalIdentifier: Swift.String, colorScheme: SwiftUICore.ColorScheme, defaultBackgroundColor: SwiftUICore.Color, defaultForegroundColor: SwiftUICore.Color, mutedForegroundColor: SwiftUICore.Color, moderatelyMutedForegroundColor: SwiftUICore.Color, veryMutedForegroundColor: SwiftUICore.Color)
-  public static func from(_ object: Any?) -> Self?
-  public static let type_kochava: KochavaNetworking.Kochava_Type
-  public static var current: KochavaUI.LightnessMode
-  final public let universalIdentifier: KochavaUI.LightnessMode.UniversalIdentifier
-  public typealias UniversalIdentifier = Swift.String
-  final public let colorScheme: SwiftUICore.ColorScheme
-  final public let defaultBackgroundColor: SwiftUICore.Color
-  final public let defaultForegroundColor: SwiftUICore.Color
-  final public let mutedForegroundColor: SwiftUICore.Color
-  final public let moderatelyMutedForegroundColor: SwiftUICore.Color
-  final public let veryMutedForegroundColor: SwiftUICore.Color
-  @objc deinit
-}
-final public class Text : KochavaNetworking.DecodableFrom, Swift.Identifiable, KochavaUI.Viewable {
-  required public init(string: Swift.String? = nil, style: KochavaUI.Text.Style? = nil, alignment: SwiftUICore.Alignment? = nil)
-  public static func from(_ object: Any?) -> Self?
-  final public func view(elementBool: Swift.Bool?, table: KochavaUI.Table?) -> SwiftUICore.AnyView
-  final public let id: Swift.String
-  public static let type_kochava: KochavaNetworking.Kochava_Type
   final public func alignment() -> SwiftUICore.Alignment
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func text() -> SwiftUICore.Text?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func foregroundColor(lightnessMode: KochavaUI.LightnessMode? = nil) -> SwiftUICore.Color
+  #endif
   final public func font() -> SwiftUICore.Font
   final public func separatorLineAfterBool() -> Swift.Bool
   final public func separatorLineHeightCGFloat() -> CoreFoundation.CGFloat
   final public func spacingBeforePointCountCGFloat() -> CoreFoundation.CGFloat
   final public func spacingAfterPointCountCGFloat() -> CoreFoundation.CGFloat
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var string: Swift.String? {
+    get
+    set
+    _modify
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var binding: SwiftUICore.Binding<Swift.String>! {
+    get
+    set
+    _modify
+  }
+  #endif
   public typealias ID = Swift.String
   @objc deinit
 }
+extension KochavaUI.Text : nonisolated Observation.Observable {
+}
+extension KochavaNetworking.Adapter : KochavaNetworking.Topic.ComposingAndViewable {
+}
+final public class ViewableContext : Foundation.NSCopying, KochavaNetworking.DecodableFrom, KochavaNetworking.Executor, Swift.Identifiable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  required public init(object_source: Any? = nil, object_model: Any? = nil, object_unmodified: Any? = nil, embedBool: Swift.Bool? = nil, embedDepthCount: Swift.Int? = nil, lightnessMode: KochavaUI.LightnessMode? = nil, listConsumedBool: Swift.Bool? = nil, navigationConsumedBool: Swift.Bool? = nil, proxy: Any? = nil, presentedModallyBool: Swift.Bool? = nil, newBool: Swift.Bool? = nil, closure_dismiss: KochavaUI.ViewableContext.Closure_Dismiss? = nil, closure_cancel_did: KochavaUI.ViewableContext.Closure_Cancel_Did? = nil, closure_save_did: KochavaUI.ViewableContext.Closure_Save_Did? = nil, closure_execute_did: KochavaUI.ViewableContext.Closure_Execute_Did? = nil, closure_dismiss_did: KochavaUI.ViewableContext.Closure_Dismiss_Did? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc final public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func from(_ object: Any?) -> Self?
+  #endif
+  public static let type_kochava: KochavaNetworking.Kochava_Type
+  final public var execution: KochavaNetworking.Execution {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func appending(context: KochavaUI.ViewableContext, anotherContext: KochavaUI.ViewableContext?) -> KochavaUI.ViewableContext
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func appending(anotherContext: KochavaUI.ViewableContext?) -> KochavaUI.ViewableContext
+  #endif
+  final public func view_created()
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var object_source: Any? {
+    get
+    set(object_source)
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var object_source_sf_memory: Any? {
+    get
+    set
+    _modify
+  }
+  #endif
+  final public var object_source_didMutateObserver: Any?
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var object_model: Any? {
+    get
+    set(object_model)
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var object_model_sf_memory: Any? {
+    get
+    set
+    _modify
+  }
+  #endif
+  final public var object_model_didMutateObserver: Any?
+  final public func object_model_modifiedBool() -> Swift.Bool
+  final public var object_unmodified: Any?
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var embedBool: Swift.Bool? {
+    get
+    set
+    _modify
+  }
+  #endif
+  final public var embedDepthCount: Swift.Int?
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var lightnessMode: KochavaUI.LightnessMode? {
+    get
+    set
+    _modify
+  }
+  #endif
+  final public let listConsumedBool: Swift.Bool?
+  final public let navigationConsumedBool: Swift.Bool?
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var proxy: Any? {
+    get
+    set(proxy)
+  }
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var proxy_sf_memory: Any? {
+    get
+    set
+    _modify
+  }
+  #endif
+  final public var proxy_didMutateObserver: Any?
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var presentedModallyBool: Swift.Bool? {
+    get
+    set
+    _modify
+  }
+  #endif
+  final public var newBool: Swift.Bool?
+  final public var closure_dismiss: KochavaUI.ViewableContext.Closure_Dismiss?
+  public typealias Closure_Dismiss = () -> Swift.Void
+  final public var closure_cancel_did: KochavaUI.ViewableContext.Closure_Cancel_Did?
+  public typealias Closure_Cancel_Did = (_ view: any SwiftUICore.View) -> Swift.Void
+  final public var closure_save_did: KochavaUI.ViewableContext.Closure_Save_Did?
+  public typealias Closure_Save_Did = (_ view: any SwiftUICore.View, _ context: KochavaUI.ViewableContext, _ savedAny: Any?) -> Swift.Void
+  final public var closure_execute_did: KochavaUI.ViewableContext.Closure_Execute_Did?
+  public typealias Closure_Execute_Did = (_ view: any SwiftUICore.View, _ context: KochavaUI.ViewableContext, _ executedAny: Any?, _ presentationMode: SwiftUICore.Binding<SwiftUI.PresentationMode>) -> Swift.Void
+  final public var closure_dismiss_did: KochavaUI.ViewableContext.Closure_Dismiss_Did?
+  public typealias Closure_Dismiss_Did = (_ view: any SwiftUICore.View) -> Swift.Void
+  public typealias ID = Swift.ObjectIdentifier
+  @objc deinit
+}
+extension KochavaUI.ViewableContext {
+  public protocol SaveObserver {
+    func viewableContext_didSave(_ viewableContext: KochavaUI.ViewableContext)
+  }
+}
+extension KochavaUI.ViewableContext : nonisolated Observation.Observable {
+}
 extension KochavaNetworking.Log.Console {
+  #if compiler(>=5.3) && $NonescapableTypes
   public func tabItemView(labelTitleKey: SwiftUICore.LocalizedStringKey? = nil, labelSystemImageNameString: Swift.String? = nil) -> some SwiftUICore.View
   
+  #endif
 }
 public var shared: KochavaNetworking.Product {
   get
 }
 extension KochavaNetworking.Log {
-  @_hasMissingDesignatedInitializers public class Console : KochavaUI.Badgable, KochavaNetworking.DecodableFrom, KochavaNetworking.Executor, Swift.Identifiable, Combine.ObservableObject, KochavaNetworking.Startable, KochavaNetworking.Stoppable, KochavaUI.Topic.Composing, KochavaUI.Topic.Delegate, KochavaUI.Viewable {
+  @_hasMissingDesignatedInitializers public class Console : KochavaUI.Badgable, KochavaNetworking.DecodableFrom, KochavaNetworking.Executor, Swift.Identifiable, KochavaNetworking.Startable, KochavaNetworking.Stoppable, KochavaNetworking.Topic.ComposingAndViewable {
     public static let shared: KochavaNetworking.Log.Console
     @objc deinit
+    #if compiler(>=5.3) && $NonescapableTypes
     public static func from(_ object: Any?) -> Self?
+    #endif
     public func start()
     public func stop()
-    public func view(elementBool: Swift.Bool?, table: KochavaUI.Table?) -> SwiftUICore.AnyView
-    @Combine.Published @_projectedValueProperty($badge_main) public var badge_main: Swift.Int {
+    #if compiler(>=5.3) && $NonescapableTypes
+    public func view(context: KochavaUI.ViewableContext) -> SwiftUICore.AnyView?
+    #endif
+    public var badge_main: Swift.Int {
       get
-      @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
       set
-      @available(iOS 13.0, tvOS 13.0, watchOS 6.0, macOS 10.15, *)
       _modify
     }
-    public var $badge_main: Combine.Published<Swift.Int>.Publisher {
-      get
-      @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
-      set
-    }
     final public let id: Swift.String
-    public func topic_didSelectNavigationDestinationViewable(closure_didComplete: @escaping ((_ viewable: (any KochavaUI.Viewable)?) -> Swift.Void))
-    public var topic: KochavaUI.Topic {
+    public var topic: KochavaNetworking.Topic {
       get
       set
     }
@@ -147,436 +261,57 @@ extension KochavaNetworking.Log {
     public var newMessageCount: Swift.Int {
       get
       set
+      _modify
     }
     public typealias ID = Swift.String
-    public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   }
+}
+extension KochavaNetworking.Log.Console : nonisolated Observation.Observable {
+}
+extension KochavaUI.ViewableContext : KochavaUI.Viewable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func view(context: KochavaUI.ViewableContext) -> SwiftUICore.AnyView?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func view_proxy(context: KochavaUI.ViewableContext) -> Any?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func view_transformedContext(context: KochavaUI.ViewableContext) -> KochavaUI.ViewableContext?
+  #endif
+}
+extension KochavaUI.Text : KochavaUI.Viewable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func view(context: KochavaUI.ViewableContext) -> SwiftUICore.AnyView?
+  #endif
 }
 extension KochavaNetworking.Log.Message : KochavaUI.Viewable {
-  final public func view(elementBool: Swift.Bool?, table: KochavaUI.Table?) -> SwiftUICore.AnyView
-}
-extension KochavaUI.Image {
-  @_Concurrency.MainActor @preconcurrency public struct View : SwiftUICore.View {
-    @_Concurrency.MainActor @preconcurrency public init(image: KochavaUI.Image, table: KochavaUI.Table? = nil)
-    @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-      get
-    }
-    public typealias Body = @_opaqueReturnTypeOf("$s9KochavaUI5ImageC4ViewV4bodyQrvp", 0) __
-  }
-}
-public typealias OSFont = AppKit.NSFont
-extension KochavaNetworking.Kochava {
-  @_hasMissingDesignatedInitializers final public class View {
-    @objc deinit
-  }
-}
-extension KochavaUI.Table {
-  @_Concurrency.MainActor @preconcurrency public struct View : SwiftUICore.View {
-    @_Concurrency.MainActor @preconcurrency public init(table: KochavaUI.Table)
-    @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-      get
-    }
-    public typealias Body = @_opaqueReturnTypeOf("$s9KochavaUI5TableC4ViewV4bodyQrvp", 0) __
-  }
-  @_Concurrency.MainActor @preconcurrency public struct BottomMarginView : SwiftUICore.View {
-    @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-      get
-    }
-    public typealias Body = @_opaqueReturnTypeOf("$s9KochavaUI5TableC16BottomMarginViewV4bodyQrvp", 0) __
-  }
-  @_Concurrency.MainActor @preconcurrency public struct TableView_Previews : SwiftUI.PreviewProvider {
-    @_Concurrency.MainActor @preconcurrency public static var previews: some SwiftUICore.View {
-      get
-    }
-    public typealias Previews = @_opaqueReturnTypeOf("$s9KochavaUI5TableC0C13View_PreviewsV8previewsQrvpZ", 0) __
-  }
-}
-extension KochavaUI.Topic {
-  @_Concurrency.MainActor @preconcurrency public struct TabView : SwiftUICore.View {
-    @_Concurrency.MainActor @preconcurrency public init(topic: KochavaUI.Topic? = nil)
-    @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-      get
-    }
-    public typealias Body = @_opaqueReturnTypeOf("$s9KochavaUI5TopicC7TabViewV4bodyQrvp", 0) __
-  }
-}
-@_inheritsConvenienceInitializers @objc(KochavaUI_Product) final public class Product : ObjectiveC.NSObject, os.Logger.Provider, KochavaNetworking.SharedInstanceProvider {
-  @objc public static var shared: KochavaNetworking.Product {
-    @objc get
-  }
-  public static var sharedInstance: Any {
-    get
-  }
-  public static let logger: os.Logger
-  @objc override dynamic public init()
-  @objc deinit
-}
-#if compiler(>=5.3) && $RetroactiveAttribute
-extension CoreFoundation.CGFloat : @retroactive KochavaNetworking.DecodableFrom, @retroactive KochavaNetworking.EncodableTo {
-  public static func from(_ object: Any?) -> CoreFoundation.CGFloat?
-  public func to(context: KochavaNetworking.Context?) -> Any?
-  public static let type_kochava: KochavaNetworking.Kochava_Type
-}
-#else
-extension CoreFoundation.CGFloat : KochavaNetworking.DecodableFrom, KochavaNetworking.EncodableTo {
-  public static func from(_ object: Any?) -> CoreFoundation.CGFloat?
-  public func to(context: KochavaNetworking.Context?) -> Any?
-  public static let type_kochava: KochavaNetworking.Kochava_Type
-}
-#endif
-final public class Table : KochavaNetworking.DecodableFrom, Swift.Equatable, Swift.Identifiable, Foundation.ObservableObject, KochavaUI.Viewable {
-  required public init(nameString: Swift.String?, sectionArray: [KochavaUI.Table.Section]?, lightnessMode: KochavaUI.LightnessMode? = nil, pinToBottomBool: Swift.Bool? = nil)
-  public static func from(_ object: Any?) -> Self?
-  public static func == (lhs: KochavaUI.Table, rhs: KochavaUI.Table) -> Swift.Bool
-  public static func != (lhs: KochavaUI.Table, rhs: KochavaUI.Table) -> Swift.Bool
-  final public func view(elementBool: Swift.Bool?, table: KochavaUI.Table?) -> SwiftUICore.AnyView
-  public static let type_kochava: KochavaNetworking.Kochava_Type
-  final public var execution: KochavaNetworking.Execution {
-    get
-  }
-  final public func section(atSectionInt sectionInt: Swift.Int) -> KochavaUI.Table.Section?
-  final public func sectionCount() -> Swift.Int
-  final public func appendSection(_ section: KochavaUI.Table.Section?)
-  final public func appendElement(_ elementObject: (any Swift.Identifiable)?)
-  final public func removeElement(atIndexPath: Foundation.IndexPath?)
-  final public func replaceElement(atIndexPath: Foundation.IndexPath?, withObject: any Swift.Identifiable)
-  final public func lastIndexPath() -> Foundation.IndexPath?
-  final public func removeAllSections()
-  final public var lightnessMode: KochavaUI.LightnessMode {
-    get
-  }
-  final public var nameString: Swift.String? {
-    get
-  }
-  public typealias ID = Swift.ObjectIdentifier
-  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
-  @objc deinit
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func view(context: KochavaUI.ViewableContext) -> SwiftUICore.AnyView?
+  #endif
 }
 extension SwiftUICore.Text {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(styleMarkupableString: Swift.String?, defaultStyle: SwiftUICore.Text.Style, lightnessMode: KochavaUI.LightnessMode? = nil)
+  #endif
 }
-extension KochavaNetworking.Adapter : KochavaUI.Topic.Delegate, KochavaUI.Viewable {
-  final public func view(elementBool: Swift.Bool?, table: KochavaUI.Table?) -> SwiftUICore.AnyView
-  final public func topic_title(closure_didComplete: @escaping ((KochavaUI.Topic.Title?) -> Swift.Void))
-  final public func topic_subtitle(closure_didComplete: @escaping ((KochavaUI.Topic.Subtitle?) -> Swift.Void))
-  final public func topic_microtitle(closure_didComplete: @escaping ((_ microtitle: KochavaUI.Topic.Microtitle?) -> Swift.Void))
-  final public func topic_info(closure_didComplete: @escaping ((KochavaUI.Topic.Info?) -> Swift.Void))
-  final public func topic_didSelectNavigationDestinationViewable(closure_didComplete: @escaping ((_ viewable: (any KochavaUI.Viewable)?) -> Swift.Void))
-}
-final public class Separator : Swift.Identifiable, KochavaNetworking.DecodableFrom, KochavaUI.Viewable {
-  required public init(headlineString: Swift.String?)
-  public static func from(_ object: Any?) -> Self?
-  final public func view(elementBool: Swift.Bool?, table: KochavaUI.Table?) -> SwiftUICore.AnyView
-  final public let id: Swift.String
-  public static let type_kochava: KochavaNetworking.Kochava_Type
-  public typealias ID = Swift.String
-  @objc deinit
-}
-#if compiler(>=5.3) && $RetroactiveAttribute
-extension SwiftUICore.Alignment : @retroactive KochavaNetworking.DecodableFrom {
-  public static func from(_ object: Any?) -> SwiftUICore.Alignment?
-  public static let type_kochava: KochavaNetworking.Kochava_Type
-}
-#else
-extension SwiftUICore.Alignment : KochavaNetworking.DecodableFrom {
-  public static func from(_ object: Any?) -> SwiftUICore.Alignment?
-  public static let type_kochava: KochavaNetworking.Kochava_Type
-}
-#endif
-final public class Topic : KochavaNetworking.DecodableFrom, KochavaNetworking.Executor, Swift.Identifiable, Combine.ObservableObject, KochavaNetworking.Typed, KochavaUI.Viewable {
-  required public init(iconImage: KochavaUI.Topic.IconImage? = nil, title: KochavaUI.Topic.Title? = nil, subtitle: KochavaUI.Topic.Subtitle? = nil, microtitle: KochavaUI.Topic.Microtitle? = nil, info: KochavaUI.Topic.Info? = nil, description: KochavaUI.Topic.Description? = nil, bodyViewableArray: KochavaUI.Topic.BodyViewableArray? = nil, reducedBool: Swift.Bool? = nil, expandedViewableArray: KochavaUI.Topic.ExpandedViewableArray? = nil, backgroundBool: Swift.Bool? = nil, backgroundColor: SwiftUICore.Color? = nil, dividersBool: Swift.Bool? = nil, didSelectNavigationDestinationViewable: (any KochavaUI.Viewable)? = nil, delegate: (any KochavaUI.Topic.Delegate)? = nil, closure_execute: KochavaUI.Topic.Closure_Execute? = nil)
-  public static func from(_ object: Any?) -> Self?
-  final public func view(elementBool: Swift.Bool?, table: KochavaUI.Table?) -> SwiftUICore.AnyView
-  final public let id: Swift.String
-  public static let type_kochava: KochavaNetworking.Kochava_Type
-  final public var execution: KochavaNetworking.Execution {
-    get
-  }
-  @Combine.Published @_projectedValueProperty($iconImage_main) final public var iconImage_main: KochavaUI.Topic.IconImage? {
-    get
-  }
-  final public var $iconImage_main: Combine.Published<KochavaUI.Topic.IconImage?>.Publisher {
-    get
-  }
-  final public var iconImage: KochavaUI.Topic.IconImage? {
-    get
-  }
-  final public var iconImage_parameter: KochavaUI.Topic.IconImage? {
-    get
-    set(iconImage_parameter)
-  }
-  final public var iconImage_parameter_sf: KochavaUI.Topic.IconImage?
-  public typealias IconImage = KochavaUI.Image
-  @Combine.Published @_projectedValueProperty($title_main) final public var title_main: KochavaUI.Topic.Title? {
-    get
-  }
-  final public var $title_main: Combine.Published<KochavaUI.Topic.Title?>.Publisher {
-    get
-  }
-  final public var title: KochavaUI.Topic.Title? {
-    get
-  }
-  final public var title_parameter: KochavaUI.Topic.Title? {
-    get
-    set(title_parameter)
-  }
-  final public var title_parameter_sf: KochavaUI.Topic.Title?
-  public typealias Title = Swift.String
-  @Combine.Published @_projectedValueProperty($subtitle_main) final public var subtitle_main: KochavaUI.Topic.Subtitle? {
-    get
-  }
-  final public var $subtitle_main: Combine.Published<KochavaUI.Topic.Subtitle?>.Publisher {
-    get
-  }
-  final public var subtitle: KochavaUI.Topic.Subtitle? {
-    get
-  }
-  final public var subtitle_parameter: KochavaUI.Topic.Subtitle? {
-    get
-    set(subtitle_parameter)
-  }
-  final public var subtitle_parameter_sf: KochavaUI.Topic.Subtitle?
-  public typealias Subtitle = Swift.String
-  @Combine.Published @_projectedValueProperty($microtitle_main) final public var microtitle_main: KochavaUI.Topic.Microtitle? {
-    get
-  }
-  final public var $microtitle_main: Combine.Published<KochavaUI.Topic.Microtitle?>.Publisher {
-    get
-  }
-  final public var microtitle: KochavaUI.Topic.Microtitle? {
-    get
-  }
-  final public var microtitle_parameter: KochavaUI.Topic.Microtitle? {
-    get
-    set(microtitle_parameter)
-  }
-  final public var microtitle_parameter_sf: KochavaUI.Topic.Microtitle?
-  public typealias Microtitle = Swift.String
-  @Combine.Published @_projectedValueProperty($info_main) final public var info_main: KochavaUI.Topic.Info? {
-    get
-  }
-  final public var $info_main: Combine.Published<KochavaUI.Topic.Info?>.Publisher {
-    get
-  }
-  final public var info: KochavaUI.Topic.Info? {
-    get
-  }
-  final public var info_parameter: KochavaUI.Topic.Info? {
-    get
-    set(info_parameter)
-  }
-  final public var info_parameter_sf: KochavaUI.Topic.Info?
-  public typealias Info = Swift.String
-  @Combine.Published @_projectedValueProperty($description_main) final public var description_main: KochavaUI.Topic.Description? {
-    get
-  }
-  final public var $description_main: Combine.Published<KochavaUI.Topic.Description?>.Publisher {
-    get
-  }
-  final public var description: KochavaUI.Topic.Description? {
-    get
-  }
-  final public var description_parameter: KochavaUI.Topic.Description? {
-    get
-    set(description_parameter)
-  }
-  final public var description_parameter_sf: KochavaUI.Topic.Description?
-  public typealias Description = Swift.String
-  @Combine.Published @_projectedValueProperty($bodyViewableArray_main) final public var bodyViewableArray_main: KochavaUI.Topic.BodyViewableArray? {
-    get
-  }
-  final public var $bodyViewableArray_main: Combine.Published<KochavaUI.Topic.BodyViewableArray?>.Publisher {
-    get
-  }
-  final public var bodyViewableArray: KochavaUI.Topic.BodyViewableArray? {
-    get
-  }
-  final public var bodyViewableArray_parameter: KochavaUI.Topic.BodyViewableArray? {
-    get
-    set(bodyViewableArray_parameter)
-  }
-  final public var bodyViewableArray_parameter_sf: KochavaUI.Topic.BodyViewableArray?
-  public typealias BodyViewableArray = [any KochavaUI.Viewable & Swift.Identifiable]
-  @Combine.Published @_projectedValueProperty($reducedBool_main) final public var reducedBool_main: Swift.Bool? {
-    get
-  }
-  final public var $reducedBool_main: Combine.Published<Swift.Bool?>.Publisher {
-    get
-  }
-  final public var reducedBool: Swift.Bool? {
-    get
-  }
-  final public var reducedBool_parameter: Swift.Bool? {
-    get
-    set(reducedBool_parameter)
-  }
-  final public var reducedBool_parameter_sf: Swift.Bool?
-  @Combine.Published @_projectedValueProperty($expandedViewableArray_main) final public var expandedViewableArray_main: KochavaUI.Topic.ExpandedViewableArray? {
-    get
-  }
-  final public var $expandedViewableArray_main: Combine.Published<KochavaUI.Topic.ExpandedViewableArray?>.Publisher {
-    get
-  }
-  final public var expandedViewableArray: KochavaUI.Topic.ExpandedViewableArray? {
-    get
-  }
-  final public var expandedViewableArray_parameter: KochavaUI.Topic.ExpandedViewableArray? {
-    get
-    set(expandedViewableArray_parameter)
-  }
-  final public var expandedViewableArray_parameter_sf: KochavaUI.Topic.ExpandedViewableArray?
-  public typealias ExpandedViewableArray = [any KochavaUI.Viewable & Swift.Identifiable]
-  @Combine.Published @_projectedValueProperty($backgroundBool_main) final public var backgroundBool_main: Swift.Bool? {
-    get
-  }
-  final public var $backgroundBool_main: Combine.Published<Swift.Bool?>.Publisher {
-    get
-  }
-  final public var backgroundBool: Swift.Bool? {
-    get
-  }
-  final public var backgroundBool_parameter: Swift.Bool? {
-    get
-    set(backgroundBool_parameter)
-  }
-  final public var backgroundBool_parameter_sf: Swift.Bool?
-  @Combine.Published @_projectedValueProperty($backgroundColor_main) final public var backgroundColor_main: SwiftUICore.Color? {
-    get
-  }
-  final public var $backgroundColor_main: Combine.Published<SwiftUICore.Color?>.Publisher {
-    get
-  }
-  final public var backgroundColor: SwiftUICore.Color? {
-    get
-  }
-  final public var backgroundColor_parameter: SwiftUICore.Color? {
-    get
-    set(backgroundColor_parameter)
-  }
-  final public var backgroundColor_parameter_sf: SwiftUICore.Color?
-  @Combine.Published @_projectedValueProperty($dividersBool_main) final public var dividersBool_main: Swift.Bool? {
-    get
-  }
-  final public var $dividersBool_main: Combine.Published<Swift.Bool?>.Publisher {
-    get
-  }
-  final public var dividersBool: Swift.Bool? {
-    get
-  }
-  final public var dividersBool_parameter: Swift.Bool? {
-    get
-    set(dividersBool_parameter)
-  }
-  final public var dividersBool_parameter_sf: Swift.Bool?
-  @Combine.Published @_projectedValueProperty($didSelectNavigationDestinationViewable_main) final public var didSelectNavigationDestinationViewable_main: (any KochavaUI.Viewable)? {
-    get
-  }
-  final public var $didSelectNavigationDestinationViewable_main: Combine.Published<(any KochavaUI.Viewable)?>.Publisher {
-    get
-  }
-  final public var didSelectNavigationDestinationViewable: (any KochavaUI.Viewable)? {
-    get
-  }
-  final public var didSelectNavigationDestinationViewable_parameter: (any KochavaUI.Viewable)? {
-    get
-    set(didSelectNavigationDestinationViewable_parameter)
-  }
-  final public var didSelectNavigationDestinationViewable_parameter_sf: (any KochavaUI.Viewable)?
-  public typealias DidSelectNavigationDestinationViewable = KochavaUI.Viewable
-  @Combine.Published @_projectedValueProperty($closure_execute_main) final public var closure_execute_main: KochavaUI.Topic.Closure_Execute? {
-    get
-  }
-  final public var $closure_execute_main: Combine.Published<KochavaUI.Topic.Closure_Execute?>.Publisher {
-    get
-  }
-  final public var closure_execute: KochavaUI.Topic.Closure_Execute? {
-    get
-  }
-  final public var closure_execute_parameter: KochavaUI.Topic.Closure_Execute? {
-    get
-    set(closure_execute_parameter)
-  }
-  final public var closure_execute_parameter_sf: KochavaUI.Topic.Closure_Execute?
-  public typealias Closure_Execute = (_ view: any SwiftUICore.View) -> Swift.Void
-  final public var delegate: (any KochavaUI.Topic.Delegate)? {
-    get
-    set(delegate)
-  }
-  public protocol Composing {
-    var topic: KochavaUI.Topic { get }
-  }
-  public protocol Delegate : KochavaNetworking.Executor {
-    func topic_iconImage(closure_didComplete: @escaping ((_ iconImage: KochavaUI.Topic.IconImage?) -> Swift.Void))
-    func topic_title(closure_didComplete: @escaping ((_ title: KochavaUI.Topic.Title?) -> Swift.Void))
-    func topic_subtitle(closure_didComplete: @escaping ((_ subtitle: KochavaUI.Topic.Subtitle?) -> Swift.Void))
-    func topic_microtitle(closure_didComplete: @escaping ((_ microtitle: KochavaUI.Topic.Microtitle?) -> Swift.Void))
-    func topic_info(closure_didComplete: @escaping ((_ info: KochavaUI.Topic.Info?) -> Swift.Void))
-    func topic_description(closure_didComplete: @escaping ((_ subtitle: KochavaUI.Topic.Description?) -> Swift.Void))
-    func topic_bodyViewableArray(closure_didComplete: @escaping ((_ bodyViewableArray: KochavaUI.Topic.BodyViewableArray?) -> Swift.Void))
-    func topic_reducedBool(closure_didComplete: @escaping ((_ reducedBool: Swift.Bool?) -> Swift.Void))
-    func topic_expandedViewableArray(closure_didComplete: @escaping ((_ expandedViewableArray: KochavaUI.Topic.ExpandedViewableArray?) -> Swift.Void))
-    func topic_backgroundBool(closure_didComplete: @escaping ((_ backgroundBool: Swift.Bool?) -> Swift.Void))
-    func topic_backgroundColor(closure_didComplete: @escaping ((_ backgroundColor: SwiftUICore.Color?) -> Swift.Void))
-    func topic_dividersBool(closure_didComplete: @escaping ((_ dividersBool: Swift.Bool?) -> Swift.Void))
-    func topic_didSelectNavigationDestinationViewable(closure_didComplete: @escaping ((_ viewable: (any KochavaUI.Viewable)?) -> Swift.Void))
-    func topic_closure_execute(closure_didComplete: @escaping ((_ closure_execute: KochavaUI.Topic.Closure_Execute?) -> Swift.Void))
-  }
-  public typealias ID = Swift.String
-  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
-  @objc deinit
-}
-extension KochavaUI.Topic.Delegate {
-  public func topic_iconImage(closure_didComplete: @escaping ((_ iconImage: KochavaUI.Topic.IconImage?) -> Swift.Void))
-  public func topic_title(closure_didComplete: @escaping ((_ title: KochavaUI.Topic.Title?) -> Swift.Void))
-  public func topic_subtitle(closure_didComplete: @escaping ((_ subtitle: KochavaUI.Topic.Subtitle?) -> Swift.Void))
-  public func topic_microtitle(closure_didComplete: @escaping ((_ microtitle: KochavaUI.Topic.Microtitle?) -> Swift.Void))
-  public func topic_info(closure_didComplete: @escaping ((_ info: KochavaUI.Topic.Info?) -> Swift.Void))
-  public func topic_description(closure_didComplete: @escaping ((_ subtitle: KochavaUI.Topic.Description?) -> Swift.Void))
-  public func topic_bodyViewableArray(closure_didComplete: @escaping ((_ bodyViewableArray: KochavaUI.Topic.BodyViewableArray?) -> Swift.Void))
-  public func topic_reducedBool(closure_didComplete: @escaping ((_ reducedBool: Swift.Bool?) -> Swift.Void))
-  public func topic_expandedViewableArray(closure_didComplete: @escaping ((_ expandedViewableArray: KochavaUI.Topic.ExpandedViewableArray?) -> Swift.Void))
-  public func topic_backgroundBool(closure_didComplete: @escaping ((_ backgroundBool: Swift.Bool?) -> Swift.Void))
-  public func topic_backgroundColor(closure_didComplete: @escaping ((_ backgroundColor: SwiftUICore.Color?) -> Swift.Void))
-  public func topic_dividersBool(closure_didComplete: @escaping ((_ reducedBool: Swift.Bool?) -> Swift.Void))
-  public func topic_didSelectNavigationDestinationViewable(closure_didComplete: @escaping ((_ viewable: (any KochavaUI.Viewable)?) -> Swift.Void))
-  public func topic_closure_execute(closure_didComplete: @escaping ((_ closure_execute: KochavaUI.Topic.Closure_Execute?) -> Swift.Void))
-}
-extension KochavaUI.Table {
-  final public class Section : KochavaNetworking.DecodableFrom, Swift.Equatable, Swift.Identifiable, Foundation.ObservableObject {
-    required public init(nameString: Swift.String? = nil, elementArray: [any Swift.Identifiable]? = nil)
-    public static func from(_ object: Any?) -> Self?
-    public static func == (lhs: KochavaUI.Table.Section, rhs: KochavaUI.Table.Section) -> Swift.Bool
-    public static func != (lhs: KochavaUI.Table.Section, rhs: KochavaUI.Table.Section) -> Swift.Bool
-    final public let id: Swift.String
-    public static let type_kochava: KochavaNetworking.Kochava_Type
-    final public var execution: KochavaNetworking.Execution {
-      get
-    }
-    final public func element(atRowInt rowInt: Swift.Int) -> Any?
-    final public func elementCount() -> Swift.Int
-    final public var nameString: Swift.String?
-    final public func elementArray_append(_ anyObject: (any Swift.Identifiable)?)
-    final public func elementArray_removeObject(at index: Swift.Int)
-    final public func elementArray_replaceObject(atIndex: Swift.Int, withObject: any Swift.Identifiable)
-    public typealias Element = Swift.Identifiable
-    public typealias ID = Swift.String
-    public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+extension SwiftUICore.Text {
+  @_hasMissingDesignatedInitializers final public class Style {
+    public static let normal: SwiftUICore.Text.Style
+    public static let normalMuted: SwiftUICore.Text.Style
+    public static let normalModeratelyMuted: SwiftUICore.Text.Style
+    public static let normalVeryMuted: SwiftUICore.Text.Style
+    public static let accent: SwiftUICore.Text.Style
+    public static let goldLight: SwiftUICore.Text.Style
+    public static let goldMedium: SwiftUICore.Text.Style
+    public static let goldMediumMuted: SwiftUICore.Text.Style
+    public static let warning: SwiftUICore.Text.Style
+    #if compiler(>=5.3) && $NonescapableTypes
+    final public func color(lightnessMode lightnessMode_parameter: KochavaUI.LightnessMode? = nil) -> SwiftUICore.Color?
+    #endif
+    final public let darkModeColor: SwiftUICore.Color?
+    final public let lightModeColor: SwiftUICore.Color?
+    final public let markupTokenString: Swift.String
     @objc deinit
-  }
-}
-extension KochavaUI.Text {
-  @_Concurrency.MainActor @preconcurrency public struct View : SwiftUICore.View {
-    @_Concurrency.MainActor @preconcurrency public init(text: KochavaUI.Text, table: KochavaUI.Table?)
-    @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
-      get
-    }
-    public typealias Body = @_opaqueReturnTypeOf("$s9KochavaUI4TextC4ViewV4bodyQrvp", 0) __
-  }
-  @_Concurrency.MainActor @preconcurrency public struct View_Previews : SwiftUI.PreviewProvider {
-    @_Concurrency.MainActor @preconcurrency public static var previews: some SwiftUICore.View {
-      get
-    }
-    public typealias Previews = @_opaqueReturnTypeOf("$s9KochavaUI4TextC13View_PreviewsV8previewsQrvpZ", 0) __
   }
 }
 public typealias OSColor = AppKit.NSColor
@@ -594,94 +329,640 @@ extension SwiftUICore.Color {
   public static let lightGray: SwiftUICore.Color
   public static let macLead: SwiftUICore.Color
 }
-extension KochavaNetworking.Kochava.View {
-  final public class Frame : KochavaNetworking.DecodableFrom {
-    required public init(minWidth: CoreFoundation.CGFloat? = nil, idealWidth: CoreFoundation.CGFloat? = nil, maxWidth: CoreFoundation.CGFloat? = nil, minHeight: CoreFoundation.CGFloat? = nil, idealHeight: CoreFoundation.CGFloat? = nil, maxHeight: CoreFoundation.CGFloat? = nil, alignment: SwiftUICore.Alignment? = nil)
-    public static func from(_ object: Any?) -> Self?
-    public static let type_kochava: KochavaNetworking.Kochava_Type
+extension SwiftUICore.Alignment : @retroactive KochavaNetworking.DecodableFrom {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func from(_ object: Any?) -> SwiftUICore.Alignment?
+  #endif
+  public static let type_kochava: KochavaNetworking.Kochava_Type
+}
+final public class LightnessMode : KochavaNetworking.DecodableFrom {
+  public static let dark: KochavaUI.LightnessMode
+  public static let light: KochavaUI.LightnessMode
+  public init(universalIdentifier: Swift.String, colorScheme: SwiftUICore.ColorScheme, defaultBackgroundColor: SwiftUICore.Color, defaultForegroundColor: SwiftUICore.Color, mutedForegroundColor: SwiftUICore.Color, moderatelyMutedForegroundColor: SwiftUICore.Color, veryMutedForegroundColor: SwiftUICore.Color, selectableBackgroundColor: SwiftUICore.Color)
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func from(_ object: Any?) -> Self?
+  #endif
+  public static let type_kochava: KochavaNetworking.Kochava_Type
+  public static var current: KochavaUI.LightnessMode
+  final public let universalIdentifier: KochavaUI.LightnessMode.UniversalIdentifier
+  public typealias UniversalIdentifier = Swift.String
+  final public let colorScheme: SwiftUICore.ColorScheme
+  final public let defaultBackgroundColor: SwiftUICore.Color
+  final public let defaultForegroundColor: SwiftUICore.Color
+  final public let mutedForegroundColor: SwiftUICore.Color
+  final public let moderatelyMutedForegroundColor: SwiftUICore.Color
+  final public let veryMutedForegroundColor: SwiftUICore.Color
+  final public let selectableBackgroundColor: SwiftUICore.Color
+  @objc deinit
+}
+public typealias OSFont = AppKit.NSFont
+extension SwiftUICore.View {
+  @_Concurrency.MainActor @preconcurrency public func `if`<Content>(_ condition: Swift.Bool, transform: (Self) -> Content) -> some SwiftUICore.View where Content : SwiftUICore.View
+  
+}
+extension KochavaNetworking.Topic {
+  @_Concurrency.MainActor final public class Observable : Swift.Identifiable {
+    @_Concurrency.MainActor public init(topic: KochavaNetworking.Topic)
+    #if compiler(>=5.3) && $NonescapableTypes
+    @_Concurrency.MainActor final public var title_main: Swift.String? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    @_Concurrency.MainActor final public var supertitle_main: Swift.String? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    @_Concurrency.MainActor final public var description_main: Swift.String? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    @_Concurrency.MainActor final public var iconImage_main: KochavaUI.Image? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    @_Concurrency.MainActor final public var subtitle_main: Swift.String? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    @_Concurrency.MainActor final public var microtitle_main: KochavaNetworking.Topic.UI_Microtitle? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    @_Concurrency.MainActor final public var info_main: Swift.String? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    @_Concurrency.MainActor final public var bodyHeadingViewableCollection_main: KochavaNetworking.Collection? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    @_Concurrency.MainActor final public var bodyViewableCollection_main: KochavaNetworking.Collection? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    @_Concurrency.MainActor final public var backgroundBool_main: Swift.Bool? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    @_Concurrency.MainActor final public var backgroundColor_main: SwiftUICore.Color? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    @_Concurrency.MainActor final public var dividersBool_main: Swift.Bool? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    @_Concurrency.MainActor final public var reducedBool_main: Swift.Bool? {
+      get
+    }
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    @_Concurrency.MainActor final public var didSelectNavigationDestinationViewable_main: Any? {
+      get
+    }
+    #endif
+    public typealias ID = Swift.ObjectIdentifier
     @objc deinit
   }
 }
-extension KochavaUI.Separator {
+extension KochavaNetworking.Topic.Observable : nonisolated Observation.Observable {
+}
+extension CoreFoundation.CGFloat : @retroactive KochavaNetworking.DecodableFrom, @retroactive KochavaNetworking.EncodableTo {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func from(_ object: Any?) -> CoreFoundation.CGFloat?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func to(context: KochavaNetworking.Context?) -> Any?
+  #endif
+  public static let type_kochava: KochavaNetworking.Kochava_Type
+}
+extension KochavaUI.Image {
+  @_Concurrency.MainActor @preconcurrency public struct View : SwiftUICore.View {
+    @_Concurrency.MainActor @preconcurrency public init(image: KochavaUI.Image, context: KochavaUI.ViewableContext)
+    @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+      get
+    }
+    public typealias Body = @_opaqueReturnTypeOf("$s9KochavaUI5ImageC4ViewV4bodyQrvp", 0) __
+  }
+}
+@_inheritsConvenienceInitializers @objc(KochavaUI_Product) final public class Product : ObjectiveC.NSObject, os.Logger.Provider, KochavaNetworking.SharedInstanceProvider {
+  @objc public static var shared: KochavaNetworking.Product {
+    @objc get
+  }
+  public static var sharedInstance: Any {
+    get
+  }
+  public static let logger: os.Logger
+  @objc override dynamic public init()
+  @objc deinit
+}
+public protocol Viewable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  func view(context: KochavaUI.ViewableContext) -> SwiftUICore.AnyView?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func view_proxy(context: KochavaUI.ViewableContext) -> Any?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  func view_transformedContext(context: KochavaUI.ViewableContext) -> KochavaUI.ViewableContext?
+  #endif
+}
+extension KochavaUI.Viewable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func view_proxy(context: KochavaUI.ViewableContext) -> Any?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func view_transformedContext(context: KochavaUI.ViewableContext) -> KochavaUI.ViewableContext?
+  #endif
+}
+@_hasMissingDesignatedInitializers final public class Viewable_Conforming {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func view(entity: Any?, context: KochavaUI.ViewableContext) -> SwiftUICore.AnyView?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func view_proxy(entity: Any?, context: KochavaUI.ViewableContext) -> Any?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func view_transformedContext(entity: Any?, context: KochavaUI.ViewableContext) -> KochavaUI.ViewableContext?
+  #endif
+  @objc deinit
+}
+extension KochavaUI.Text {
+  @_Concurrency.MainActor @preconcurrency public struct FieldView : SwiftUICore.View {
+    @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+      get
+    }
+    public typealias Body = @_opaqueReturnTypeOf("$s9KochavaUI4TextC9FieldViewV4bodyQrvp", 0) __
+  }
+}
+extension KochavaUI.Divider {
   @_Concurrency.MainActor @preconcurrency public struct View : SwiftUICore.View {
     @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
       get
     }
-    public typealias Body = @_opaqueReturnTypeOf("$s9KochavaUI9SeparatorC4ViewV4bodyQrvp", 0) __
-  }
-  @_Concurrency.MainActor @preconcurrency public struct View_Previews : SwiftUI.PreviewProvider {
-    @_Concurrency.MainActor @preconcurrency public static var previews: some SwiftUICore.View {
-      get
-    }
-    public typealias Previews = @_opaqueReturnTypeOf("$s9KochavaUI9SeparatorC13View_PreviewsV8previewsQrvpZ", 0) __
-  }
-}
-extension SwiftUICore.Text {
-  @_hasMissingDesignatedInitializers final public class Style {
-    public static let normal: SwiftUICore.Text.Style
-    public static let normalMuted: SwiftUICore.Text.Style
-    public static let normalModeratelyMuted: SwiftUICore.Text.Style
-    public static let normalVeryMuted: SwiftUICore.Text.Style
-    public static let accent: SwiftUICore.Text.Style
-    public static let goldLight: SwiftUICore.Text.Style
-    public static let goldMedium: SwiftUICore.Text.Style
-    public static let goldMediumMuted: SwiftUICore.Text.Style
-    public static let warning: SwiftUICore.Text.Style
-    final public func color(lightnessMode lightnessMode_parameter: KochavaUI.LightnessMode? = nil) -> SwiftUICore.Color?
-    final public let darkModeColor: SwiftUICore.Color?
-    final public let lightModeColor: SwiftUICore.Color?
-    final public let markupTokenString: Swift.String
-    @objc deinit
+    public typealias Body = @_opaqueReturnTypeOf("$s9KochavaUI7DividerC4ViewV4bodyQrvp", 0) __
   }
 }
 public protocol Badgable {
   var badge_main: Swift.Int { get }
 }
-extension KochavaUI.Topic {
+extension KochavaNetworking.Topic {
+  public protocol ComposingAndViewable : KochavaUI.Viewable, KochavaNetworking.Topic.Composing {
+  }
+}
+extension KochavaNetworking.Topic.ComposingAndViewable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func view(context: KochavaUI.ViewableContext) -> SwiftUICore.AnyView?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func view_transformedContext(context: KochavaUI.ViewableContext) -> KochavaUI.ViewableContext?
+  #endif
+}
+extension KochavaNetworking.Topic : KochavaUI.Viewable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func view(context: KochavaUI.ViewableContext) -> SwiftUICore.AnyView?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func view_transformedContext(context: KochavaUI.ViewableContext) -> KochavaUI.ViewableContext?
+  #endif
+}
+extension KochavaNetworking.Collection : KochavaNetworking.Topic.ComposingAndViewable {
+}
+extension KochavaNetworking.Topic {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor final public var ui_main: KochavaNetworking.Topic.UI? {
+    get
+  }
+  #endif
+  final public var ui: KochavaNetworking.Topic.UI {
+    get
+  }
+}
+final public class Image : Swift.Identifiable, KochavaNetworking.DecodableFrom {
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(systemName: KochavaUI.Image.SystemName? = nil, foregroundColor: SwiftUICore.Color? = nil, urlString: Swift.String? = nil, accessabilityTextString: Swift.String? = nil, fontSizeFloat: CoreFoundation.CGFloat? = nil, frame: KochavaNetworking.Kochava.View.Frame? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func from(_ object: Any?) -> Self?
+  #endif
+  final public let id: Swift.String
+  public static let type_kochava: KochavaNetworking.Kochava_Type
+  final public var execution: KochavaNetworking.Execution {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func image(closure_didComplete: ((_ image: SwiftUICore.Image?) -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var systemName: KochavaUI.Image.SystemName? {
+    get
+  }
+  #endif
+  final public var systemName_parameter: KochavaUI.Image.SystemName? {
+    get
+  }
+  public typealias SystemName = Swift.String
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var foregroundColor: SwiftUICore.Color? {
+    get
+  }
+  #endif
+  final public var foregroundColor_parameter: SwiftUICore.Color? {
+    get
+  }
+  final public var urlString: Swift.String? {
+    get
+  }
+  final public var accessabilityTextString: Swift.String? {
+    get
+  }
+  final public var fontSizeFloat: CoreFoundation.CGFloat?
+  final public var frame: KochavaNetworking.Kochava.View.Frame? {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public var swiftUI: SwiftUICore.Image? {
+    get
+  }
+  #endif
+  final public var swiftUI_sf_memory: SwiftUICore.Image? {
+    get
+  }
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor final public var swiftUI_main: SwiftUICore.Image? {
+    get
+  }
+  #endif
+  public typealias OSImage = AppKit.NSImage
+  public typealias ID = Swift.String
+  @objc deinit
+}
+extension KochavaUI.Image : nonisolated Observation.Observable {
+}
+extension KochavaUI.Image : KochavaUI.Viewable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func view(context: KochavaUI.ViewableContext) -> SwiftUICore.AnyView?
+  #endif
+}
+extension KochavaNetworking.Topic {
   @_Concurrency.MainActor @preconcurrency public struct View : SwiftUICore.View {
-    @_Concurrency.MainActor @preconcurrency public init(topic: KochavaUI.Topic, table: KochavaUI.Table?)
-    @_Concurrency.MainActor @preconcurrency public func content(navigationLinkBool: Swift.Bool) -> some SwiftUICore.View
+    @_Concurrency.MainActor @preconcurrency public init(topic: KochavaNetworking.Topic, context: KochavaUI.ViewableContext)
+    #if compiler(>=5.3) && $NonescapableTypes
+    @_Concurrency.MainActor @preconcurrency public func resolvedTitle(navigationLinkBool: Swift.Bool, image: KochavaUI.Image?) -> some SwiftUICore.View
+    
+    #endif
+    @_Concurrency.MainActor @preconcurrency public func content(context: KochavaUI.ViewableContext, navigationLinkBool: Swift.Bool) -> some SwiftUICore.View
     
     @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
       get
     }
-    public typealias Body = @_opaqueReturnTypeOf("$s9KochavaUI5TopicC4ViewV4bodyQrvp", 0) __
+    public typealias Body = @_opaqueReturnTypeOf("$s17KochavaNetworking5TopicC0A2UIE4ViewV4bodyQrvp", 0) __
   }
 }
+extension KochavaNetworking.Topic {
+  @_Concurrency.MainActor @preconcurrency public struct TabView : SwiftUICore.View {
+    #if compiler(>=5.3) && $NonescapableTypes
+    @_Concurrency.MainActor @preconcurrency public init(topic: KochavaNetworking.Topic? = nil, context: KochavaUI.ViewableContext)
+    #endif
+    @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+      get
+    }
+    public typealias Body = @_opaqueReturnTypeOf("$s17KochavaNetworking5TopicC0A2UIE7TabViewV4bodyQrvp", 0) __
+  }
+}
+extension KochavaUI.Divider : KochavaUI.Viewable {
+  #if compiler(>=5.3) && $NonescapableTypes
+  final public func view(context: KochavaUI.ViewableContext) -> SwiftUICore.AnyView?
+  #endif
+}
 extension KochavaUI.Text {
-  @_hasMissingDesignatedInitializers final public class Style : KochavaNetworking.DecodableFrom, KochavaNetworking.EncodableTo {
-    public static let normal: KochavaUI.Text.Style
-    public static let headline: KochavaUI.Text.Style
-    public static let title: KochavaUI.Text.Style
-    public static let subtitle: KochavaUI.Text.Style
-    public static let heading1: KochavaUI.Text.Style
-    public static let heading2: KochavaUI.Text.Style
-    public static let heading2WhenSubtitleFollows: KochavaUI.Text.Style
-    public static let heading2Subtitle: KochavaUI.Text.Style
-    public static let heading3: KochavaUI.Text.Style
-    public static let heading4: KochavaUI.Text.Style
+  @_Concurrency.MainActor @preconcurrency public struct View : SwiftUICore.View {
+    @_Concurrency.MainActor @preconcurrency public init(text: KochavaUI.Text, context: KochavaUI.ViewableContext)
+    @_Concurrency.MainActor @preconcurrency public var body: some SwiftUICore.View {
+      get
+    }
+    public typealias Body = @_opaqueReturnTypeOf("$s9KochavaUI4TextC4ViewV4bodyQrvp", 0) __
+  }
+  @_Concurrency.MainActor @preconcurrency public struct View_Previews : SwiftUI.PreviewProvider {
+    @_Concurrency.MainActor @preconcurrency public static var previews: some SwiftUICore.View {
+      get
+    }
+    public typealias Previews = @_opaqueReturnTypeOf("$s9KochavaUI4TextC13View_PreviewsV8previewsQrvpZ", 0) __
+  }
+}
+extension KochavaNetworking.Topic {
+  final public class UI : KochavaNetworking.DecodableFrom, KochavaNetworking.Executor, Swift.Identifiable, KochavaNetworking.Topic.UIProto, KochavaNetworking.Typed {
+    #if compiler(>=5.3) && $NonescapableTypes
+    required public init(iconImage: KochavaNetworking.Topic.UI.IconImage? = nil, subtitle: KochavaNetworking.Topic.UI.Subtitle? = nil, microtitle: KochavaNetworking.Topic.UI_Microtitle? = nil, info: KochavaNetworking.Topic.UI.Info? = nil, bodyHeadingViewableCollection: KochavaNetworking.Collection? = nil, reducedBool: Swift.Bool? = nil, bodyViewableCollection: KochavaNetworking.Collection? = nil, backgroundBool: Swift.Bool? = nil, backgroundColor: SwiftUICore.Color? = nil, dividersBool: Swift.Bool? = nil, didSelectNavigationDestinationViewable: Any? = nil, closure_iconImage_collectSynchronously: KochavaNetworking.Topic.Closure_UI_IconImage_CollectSynchronously? = nil, closure_iconImage_collectAsynchronously: KochavaNetworking.Topic.Closure_UI_IconImage_CollectAsynchronously? = nil, closure_subtitle_collectSynchronously: KochavaNetworking.Topic.Closure_UI_Subtitle_CollectSynchronously? = nil, closure_subtitle_collectAsynchronously: KochavaNetworking.Topic.Closure_UI_Subtitle_CollectAsynchronously? = nil, closure_microtitle_collectSynchronously: KochavaNetworking.Topic.Closure_UI_Microtitle_CollectSynchronously? = nil, closure_microtitle_collectAsynchronously: KochavaNetworking.Topic.Closure_UI_Microtitle_CollectAsynchronously? = nil, closure_info_collectSynchronously: KochavaNetworking.Topic.Closure_UI_Info_CollectSynchronously? = nil, closure_info_collectAsynchronously: KochavaNetworking.Topic.Closure_UI_Info_CollectAsynchronously? = nil, closure_bodyHeadingViewableCollection_collectSynchronously: KochavaNetworking.Topic.Closure_UI_BodyHeadingViewableCollection_CollectSynchronously? = nil, closure_bodyHeadingViewableCollection_collectAsynchronously: KochavaNetworking.Topic.Closure_UI_BodyHeadingViewableCollection_CollectAsynchronously? = nil, closure_reducedBool_collectSynchronously: KochavaNetworking.Topic.Closure_UI_ReducedBool_CollectSynchronously? = nil, closure_reducedBool_collectAsynchronously: KochavaNetworking.Topic.Closure_UI_ReducedBool_CollectAsynchronously? = nil, closure_bodyViewableCollection_collectSynchronously: KochavaNetworking.Topic.Closure_UI_BodyViewableCollection_CollectSynchronously? = nil, closure_bodyViewableCollection_collectAsynchronously: KochavaNetworking.Topic.Closure_UI_BodyViewableCollection_CollectAsynchronously? = nil, closure_backgroundBool_collectSynchronously: KochavaNetworking.Topic.Closure_UI_BackgroundBool_CollectSynchronously? = nil, closure_backgroundBool_collectAsynchronously: KochavaNetworking.Topic.Closure_UI_BackgroundBool_CollectAsynchronously? = nil, closure_backgroundColor_collectSynchronously: KochavaNetworking.Topic.UI.Closure_UI_BackgroundColor_CollectSynchronously? = nil, closure_backgroundColor_collectAsynchronously: KochavaNetworking.Topic.UI.Closure_UI_BackgroundColor_CollectAsynchronously? = nil, closure_dividersBool_collectSynchronously: KochavaNetworking.Topic.Closure_UI_DividersBool_CollectSynchronously? = nil, closure_dividersBool_collectAsynchronously: KochavaNetworking.Topic.Closure_UI_DividersBool_CollectAsynchronously? = nil, closure_didSelectNavigationDestinationViewable_collectSynchronously: KochavaNetworking.Topic.Closure_UI_DidSelectNavigationDestinationViewable_CollectSynchronously? = nil, closure_didSelectNavigationDestinationViewable_collectAsynchronously: KochavaNetworking.Topic.Closure_UI_DidSelectNavigationDestinationViewable_CollectAsynchronously? = nil, closure_execute: KochavaNetworking.Topic.UI.Closure_Execute? = nil, closure_execute_collectSynchronously: KochavaNetworking.Topic.UI.Closure_Execute_CollectSynchronously? = nil, closure_execute_collectAsynchronously: KochavaNetworking.Topic.UI.Closure_Execute_CollectAsynchronously? = nil)
+    #endif
+    @objc deinit
+    #if compiler(>=5.3) && $NonescapableTypes
     public static func from(_ object: Any?) -> Self?
-    final public func to(context: KochavaNetworking.Context?) -> Any?
+    #endif
+    final public func configure()
+    final public let id: Swift.String
     public static let type_kochava: KochavaNetworking.Kochava_Type
-    final public func spacingAfterPointCountCGFloat(fontSizeCGFloat: CoreFoundation.CGFloat?, lineSpacingCGFloat: CoreFoundation.CGFloat) -> CoreFoundation.CGFloat
-    final public func spacingBeforePointCountCGFloat(fontSizeCGFloat: CoreFoundation.CGFloat?, lineSpacingCGFloat: CoreFoundation.CGFloat?) -> CoreFoundation.CGFloat
-    final public func textColor(lightnessMode lightnessMode_parameter: KochavaUI.LightnessMode? = nil) -> SwiftUICore.Color
-    final public let identifier: KochavaUI.Text.Style.Identifier
-    public typealias Identifier = Swift.String
-    final public let universalIdentifier: KochavaUI.Text.Style.UniversalIdentifier
-    public typealias UniversalIdentifier = Swift.String
-    final public let fontSizeCGFloat: CoreFoundation.CGFloat
-    final public let separatorLineAfterBool: Swift.Bool
+    final public var execution: KochavaNetworking.Execution {
+      get
+    }
+    final public func topic_didSetUIProto(topic: KochavaNetworking.Topic)
+    final public func topic_didConfigure(initialConfigurationCompleteBool: Swift.Bool)
+    #if compiler(>=5.3) && $NonescapableTypes
+    final public func topic_supertitle_didSet(supertitle: KochavaNetworking.Topic.Supertitle?, initialConfigurationCompleteBool: Swift.Bool)
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    final public func topic_title_didSet(title: KochavaNetworking.Topic.Title?, initialConfigurationCompleteBool: Swift.Bool)
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    final public func topic_description_didSet(description: KochavaNetworking.Topic.Description?, initialConfigurationCompleteBool: Swift.Bool)
+    #endif
+    public class EmptyDelegate : KochavaNetworking.Topic.Delegate, KochavaNetworking.Executor {
+      public init()
+      public var execution: KochavaNetworking.Execution {
+        get
+      }
+      @objc deinit
+    }
+    final public var viewableCollection: KochavaNetworking.Collection {
+      get
+    }
+    final public var viewableCollection_sf_memory: KochavaNetworking.Collection?
+    weak final public var topic: KochavaNetworking.Topic?
+    final public var iconImage_main: KochavaNetworking.Topic.UI.IconImage? {
+      get
+    }
+    final public var iconImage: KochavaNetworking.Topic.UI.IconImage? {
+      get
+    }
+    #if compiler(>=5.3) && $NonescapableTypes
+    final public var iconImage_parameter: KochavaNetworking.Topic.UI.IconImage? {
+      get
+      set(iconImage_parameter)
+    }
+    #endif
+    public typealias IconImage = KochavaUI.Image
+    final public var supertitle_main: KochavaNetworking.Topic.Supertitle? {
+      get
+    }
+    final public var title_main: KochavaNetworking.Topic.Title? {
+      get
+    }
+    final public var subtitle_main: KochavaNetworking.Topic.UI.Subtitle? {
+      get
+    }
+    final public var subtitle: KochavaNetworking.Topic.UI.Subtitle? {
+      get
+    }
+    #if compiler(>=5.3) && $NonescapableTypes
+    final public var subtitle_parameter: KochavaNetworking.Topic.UI.Subtitle? {
+      get
+      set(subtitle_parameter)
+    }
+    #endif
+    public typealias Subtitle = Swift.String
+    final public var microtitle_main: KochavaNetworking.Topic.UI_Microtitle? {
+      get
+    }
+    final public var microtitle: KochavaNetworking.Topic.UI_Microtitle? {
+      get
+    }
+    #if compiler(>=5.3) && $NonescapableTypes
+    final public var microtitle_parameter: KochavaNetworking.Topic.UI_Microtitle? {
+      get
+      set(microtitle_parameter)
+    }
+    #endif
+    final public var info_main: KochavaNetworking.Topic.UI.Info? {
+      get
+    }
+    final public var info: KochavaNetworking.Topic.UI.Info? {
+      get
+    }
+    #if compiler(>=5.3) && $NonescapableTypes
+    final public var info_parameter: KochavaNetworking.Topic.UI.Info? {
+      get
+      set(info_parameter)
+    }
+    #endif
+    public typealias Info = Swift.String
+    final public var description_main: KochavaNetworking.Topic.Description? {
+      get
+    }
+    final public var bodyHeadingViewableCollection_main: KochavaNetworking.Collection? {
+      get
+    }
+    final public var bodyHeadingViewableCollection: KochavaNetworking.Collection? {
+      get
+    }
+    final public var bodyHeadingViewableCollection_embeddedViewableContext: KochavaUI.ViewableContext?
+    #if compiler(>=5.3) && $NonescapableTypes
+    final public var bodyHeadingViewableCollection_parameter: KochavaNetworking.Collection? {
+      get
+      set(bodyHeadingViewableCollection_parameter)
+    }
+    #endif
+    final public var bodyViewableCollection_main: KochavaNetworking.Collection? {
+      get
+    }
+    final public var bodyViewableCollection: KochavaNetworking.Collection? {
+      get
+    }
+    final public var bodyViewableCollection_embeddedViewableContext: KochavaUI.ViewableContext?
+    #if compiler(>=5.3) && $NonescapableTypes
+    final public var bodyViewableCollection_parameter: KochavaNetworking.Collection? {
+      get
+      set(bodyViewableCollection_parameter)
+    }
+    #endif
+    final public var closure_bodyViewableCollection_collectSynchronously: KochavaNetworking.Topic.Closure_UI_BodyViewableCollection_CollectSynchronously?
+    final public var backgroundBool_main: Swift.Bool? {
+      get
+    }
+    final public var backgroundBool: Swift.Bool? {
+      get
+    }
+    #if compiler(>=5.3) && $NonescapableTypes
+    final public var backgroundBool_parameter: Swift.Bool? {
+      get
+      set(backgroundBool_parameter)
+    }
+    #endif
+    final public var backgroundColor_main: SwiftUICore.Color? {
+      get
+    }
+    final public var backgroundColor: SwiftUICore.Color? {
+      get
+    }
+    #if compiler(>=5.3) && $NonescapableTypes
+    final public var backgroundColor_parameter: SwiftUICore.Color? {
+      get
+      set(backgroundColor_parameter)
+    }
+    #endif
+    public typealias Closure_UI_BackgroundColor_CollectAsynchronously = (@escaping (_ closure_didComplete: SwiftUICore.Color?) -> Swift.Void) -> Swift.Void
+    public typealias Closure_UI_BackgroundColor_CollectSynchronously = () -> SwiftUICore.Color?
+    final public var dividersBool_main: Swift.Bool? {
+      get
+    }
+    final public var dividersBool: Swift.Bool? {
+      get
+    }
+    #if compiler(>=5.3) && $NonescapableTypes
+    final public var dividersBool_parameter: Swift.Bool? {
+      get
+      set(dividersBool_parameter)
+    }
+    #endif
+    final public var reducedBool_main: Swift.Bool? {
+      get
+    }
+    final public var reducedBool: Swift.Bool? {
+      get
+    }
+    #if compiler(>=5.3) && $NonescapableTypes
+    final public var reducedBool_parameter: Swift.Bool? {
+      get
+      set(reducedBool_parameter)
+    }
+    #endif
+    final public var didSelectNavigationDestinationViewable_main: Any? {
+      get
+    }
+    final public var didSelectNavigationDestinationViewable: Any? {
+      get
+    }
+    #if compiler(>=5.3) && $NonescapableTypes
+    final public var didSelectNavigationDestinationViewable_parameter: Any? {
+      get
+      set(didSelectNavigationDestinationViewable_parameter)
+    }
+    #endif
+    final public var closure_execute_main: KochavaNetworking.Topic.UI.Closure_Execute? {
+      get
+    }
+    final public var closure_execute: KochavaNetworking.Topic.UI.Closure_Execute? {
+      get
+    }
+    #if compiler(>=5.3) && $NonescapableTypes
+    final public var closure_execute_parameter: KochavaNetworking.Topic.UI.Closure_Execute? {
+      get
+      set(closure_execute_parameter)
+    }
+    #endif
+    public typealias Closure_Execute_CollectAsynchronously = (@escaping (_ closure_didComplete: KochavaNetworking.Topic.UI.Closure_Execute?) -> Swift.Void) -> Swift.Void
+    public typealias Closure_Execute_CollectSynchronously = () -> KochavaNetworking.Topic.UI.Closure_Execute?
+    public typealias Closure_Execute = (_ view: any SwiftUICore.View, _ context: KochavaUI.ViewableContext, _ executedAny: Any?, _ presentationMode: SwiftUICore.Binding<SwiftUI.PresentationMode>) -> Swift.Void
+    final public var observable: KochavaNetworking.Topic.Observable?
+    public protocol Composing {
+      var topic: KochavaNetworking.Topic { get }
+    }
+    public typealias ID = Swift.String
+  }
+}
+final public class Divider : Swift.Identifiable, KochavaNetworking.DecodableFrom {
+  #if compiler(>=5.3) && $NonescapableTypes
+  required public init(headlineString: Swift.String? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public static func from(_ object: Any?) -> Self?
+  #endif
+  final public let id: Swift.String
+  public static let type_kochava: KochavaNetworking.Kochava_Type
+  final public let headlineString: Swift.String?
+  public typealias ID = Swift.String
+  @objc deinit
+}
+extension KochavaNetworking.Value : KochavaNetworking.Topic.ComposingAndViewable {
+}
+extension KochavaNetworking.Kochava {
+  @_hasMissingDesignatedInitializers final public class View {
     @objc deinit
   }
 }
+extension KochavaNetworking.Kochava.View {
+  final public class Frame : KochavaNetworking.DecodableFrom {
+    #if compiler(>=5.3) && $NonescapableTypes
+    required public init(minWidth: CoreFoundation.CGFloat? = nil, idealWidth: CoreFoundation.CGFloat? = nil, maxWidth: CoreFoundation.CGFloat? = nil, minHeight: CoreFoundation.CGFloat? = nil, idealHeight: CoreFoundation.CGFloat? = nil, maxHeight: CoreFoundation.CGFloat? = nil, alignment: SwiftUICore.Alignment? = nil)
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public static func from(_ object: Any?) -> Self?
+    #endif
+    public static let type_kochava: KochavaNetworking.Kochava_Type
+    final public let minWidth: CoreFoundation.CGFloat?
+    final public let idealWidth: CoreFoundation.CGFloat?
+    final public let maxWidth: CoreFoundation.CGFloat?
+    final public let minHeight: CoreFoundation.CGFloat?
+    final public let idealHeight: CoreFoundation.CGFloat?
+    final public let maxHeight: CoreFoundation.CGFloat?
+    final public let alignment: SwiftUICore.Alignment?
+    @objc deinit
+  }
+}
+extension KochavaNetworking.Collection {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @_Concurrency.MainActor final public var ui_main: KochavaNetworking.Collection.UI? {
+    get
+  }
+  #endif
+  final public var ui: KochavaNetworking.Collection.UI {
+    get
+  }
+}
+extension KochavaNetworking.Collection {
+  final public class UI : KochavaNetworking.Collection.UIProto, Foundation.NSCopying, KochavaNetworking.DecodableFrom, Swift.Identifiable, KochavaNetworking.Invalidatable, KochavaNetworking.Typed {
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init(pinToBottomBool: Swift.Bool? = nil)
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    @objc final public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
+    #endif
+    #if compiler(>=5.3) && $NonescapableTypes
+    public static func from(_ object: Any?) -> Self?
+    #endif
+    final public let id: Swift.String
+    public static let type_kochava: KochavaNetworking.Kochava_Type
+    final public func invalidate()
+    final public func collection_didSetUIProto(collection: KochavaNetworking.Collection)
+    final public func collection_didInsertElement(element: Any, index: Swift.Int)
+    final public func collection_didUpdateElement(element: Any, index: Swift.Int)
+    final public func collection_didRemoveElement(index: Swift.Int)
+    final public func collection_didBulkReplace(elementObjectArray: [Any])
+    final public func collection_elementDidMutate()
+    final public var elementObjectArray_main: [Any] {
+      get
+    }
+    @_Concurrency.MainActor final public var insertionMutationUUIDString_main: Swift.String {
+      get
+      set
+      _modify
+    }
+    final public var pinToBottomBool: Swift.Bool {
+      get
+    }
+    public typealias ID = Swift.String
+    @objc deinit
+  }
+}
+extension KochavaNetworking.Collection.UI : nonisolated Observation.Observable {
+}
+extension KochavaNetworking.Collection.View : Swift.Sendable {}
+extension KochavaNetworking.Topic.Observable : Swift.Sendable {}
 extension KochavaUI.Image.View : Swift.Sendable {}
-extension KochavaUI.Table.View : Swift.Sendable {}
-extension KochavaUI.Table.BottomMarginView : Swift.Sendable {}
-extension KochavaUI.Table.TableView_Previews : Swift.Sendable {}
-extension KochavaUI.Topic.TabView : Swift.Sendable {}
+extension KochavaUI.Text.FieldView : Swift.Sendable {}
+extension KochavaUI.Divider.View : Swift.Sendable {}
+extension KochavaNetworking.Topic.View : Swift.Sendable {}
+extension KochavaNetworking.Topic.TabView : Swift.Sendable {}
 extension KochavaUI.Text.View : Swift.Sendable {}
 extension KochavaUI.Text.View_Previews : Swift.Sendable {}
-extension KochavaUI.Separator.View : Swift.Sendable {}
-extension KochavaUI.Separator.View_Previews : Swift.Sendable {}
-extension KochavaUI.Topic.View : Swift.Sendable {}

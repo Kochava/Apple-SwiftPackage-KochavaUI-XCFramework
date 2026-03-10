@@ -7,12 +7,12 @@ let package = Package(
     name: "KochavaUI", // the display name in the navigator
     platforms:
     [
-        .iOS(.v15),
-        .macCatalyst(.v15),
-        .macOS(.v12),
-        .tvOS(.v16),
+        .iOS(.v17),
+        .macCatalyst(.v17),
+        .macOS(.v14),
+        .tvOS(.v17),
         .visionOS(.v1),
-        .watchOS(.v8)
+        .watchOS(.v10)
     ],
     products:
     [
@@ -34,7 +34,7 @@ let package = Package(
 //        )
         .package(
             url: "https://github.com/Kochava/Apple-SwiftPackage-KochavaNetworking-XCFramework",
-            from: "9.1.0"
+            from: "10.0.0"
         )
     ],
     targets:
