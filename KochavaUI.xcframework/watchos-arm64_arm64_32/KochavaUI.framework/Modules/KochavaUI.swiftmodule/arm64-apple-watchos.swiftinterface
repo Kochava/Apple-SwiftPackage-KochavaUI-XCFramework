@@ -119,6 +119,7 @@ final public class ViewableContext : Foundation.NSCopying, KochavaNetworking.Dec
   #if compiler(>=5.3) && $NonescapableTypes
   required public init(object_source: Any? = nil, object_model: Any? = nil, object_unmodified: Any? = nil, embedBool: Swift.Bool? = nil, embedDepthCount: Swift.Int? = nil, lightnessMode: KochavaUI.LightnessMode? = nil, listConsumedBool: Swift.Bool? = nil, navigationConsumedBool: Swift.Bool? = nil, proxy: Any? = nil, presentedModallyBool: Swift.Bool? = nil, newBool: Swift.Bool? = nil, closure_dismiss: KochavaUI.ViewableContext.Closure_Dismiss? = nil, closure_cancel_did: KochavaUI.ViewableContext.Closure_Cancel_Did? = nil, closure_save_did: KochavaUI.ViewableContext.Closure_Save_Did? = nil, closure_execute_did: KochavaUI.ViewableContext.Closure_Execute_Did? = nil, closure_dismiss_did: KochavaUI.ViewableContext.Closure_Dismiss_Did? = nil)
   #endif
+  @objc deinit
   #if compiler(>=5.3) && $NonescapableTypes
   @objc final public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
   #endif
@@ -216,7 +217,6 @@ final public class ViewableContext : Foundation.NSCopying, KochavaNetworking.Dec
   final public var closure_dismiss_did: KochavaUI.ViewableContext.Closure_Dismiss_Did?
   public typealias Closure_Dismiss_Did = (_ view: any SwiftUICore.View) -> Swift.Void
   public typealias ID = Swift.ObjectIdentifier
-  @objc deinit
 }
 extension KochavaUI.ViewableContext {
   public protocol SaveObserver {
@@ -365,6 +365,7 @@ extension SwiftUICore.View {
 extension KochavaNetworking.Topic {
   @_Concurrency.MainActor final public class Observable : Swift.Identifiable {
     @_Concurrency.MainActor public init(topic: KochavaNetworking.Topic)
+    @objc deinit
     #if compiler(>=5.3) && $NonescapableTypes
     @_Concurrency.MainActor final public var title_main: Swift.String? {
       get
@@ -436,7 +437,6 @@ extension KochavaNetworking.Topic {
     }
     #endif
     public typealias ID = Swift.ObjectIdentifier
-    @objc deinit
   }
 }
 extension KochavaNetworking.Topic.Observable : nonisolated Observation.Observable {
