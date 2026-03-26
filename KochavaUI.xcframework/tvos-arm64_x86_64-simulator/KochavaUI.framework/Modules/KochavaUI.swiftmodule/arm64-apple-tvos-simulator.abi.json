@@ -2438,7 +2438,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(object_source:object_model:object_unmodified:embedBool:embedDepthCount:lightnessMode:listConsumedBool:navigationConsumedBool:proxy:presentedModallyBool:newBool:closure_dismiss:closure_cancel_did:closure_save_did:closure_execute_did:closure_dismiss_did:)",
+            "printedName": "init(object_source:object_model:object_unmodified:embedBool:embedDepthCount:lightnessMode:listConsumedBool:navigationConsumedBool:navigationStackProvidedBool:proxy:presentedModallyBool:newBool:closure_dismiss:closure_cancel_did:closure_save_did:closure_execute_did:closure_dismiss_did:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2528,6 +2528,21 @@
                     "name": "LightnessMode",
                     "printedName": "KochavaUI.LightnessMode",
                     "usr": "s:9KochavaUI13LightnessModeC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
                   }
                 ],
                 "hasDefaultArg": true,
@@ -2809,8 +2824,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:9KochavaUI15ViewableContextC13object_source0E6_model0E11_unmodified9embedBool0I10DepthCount13lightnessMode012listConsumedJ0010navigationpJ05proxy016presentedModallyJ003newJ015closure_dismiss0V11_cancel_did0v6_save_Y00v9_execute_Y00v1_w1_Y0ACypSg_A2TSbSgSiSgAA09LightnessN0CSgA2ut2UyycSgy05SwiftB04View_pcSgyA_A0__p_AcTtcSgyA_A0__p_AcTA_7BindingVyA_012PresentationN0VGtcSgA1_tcfc",
-            "mangledName": "$s9KochavaUI15ViewableContextC13object_source0E6_model0E11_unmodified9embedBool0I10DepthCount13lightnessMode012listConsumedJ0010navigationpJ05proxy016presentedModallyJ003newJ015closure_dismiss0V11_cancel_did0v6_save_Y00v9_execute_Y00v1_w1_Y0ACypSg_A2TSbSgSiSgAA09LightnessN0CSgA2ut2UyycSgy05SwiftB04View_pcSgyA_A0__p_AcTtcSgyA_A0__p_AcTA_7BindingVyA_012PresentationN0VGtcSgA1_tcfc",
+            "usr": "s:9KochavaUI15ViewableContextC13object_source0E6_model0E11_unmodified9embedBool0I10DepthCount13lightnessMode012listConsumedJ0010navigationpJ00q13StackProvidedJ05proxy016presentedModallyJ003newJ015closure_dismiss0X11_cancel_did0X9_save_did0X12_execute_did0x1_Y4_didACypSg_A2USbSgSiSgAA09LightnessN0CSgA3vu2VyycSgy05SwiftB04View_pcSgyA0_A1__p_AcUtcSgyA0_A1__p_AcUA0_7BindingVyA0_012PresentationN0VGtcSgA2_tcfc",
+            "mangledName": "$s9KochavaUI15ViewableContextC13object_source0E6_model0E11_unmodified9embedBool0I10DepthCount13lightnessMode012listConsumedJ0010navigationpJ00q13StackProvidedJ05proxy016presentedModallyJ003newJ015closure_dismiss0X11_cancel_did0X9_save_did0X12_execute_did0x1_Y4_didACypSg_A2USbSgSiSgAA09LightnessN0CSgA3vu2VyycSgy05SwiftB04View_pcSgyA0_A1__p_AcUtcSgyA0_A1__p_AcUA0_7BindingVyA0_012PresentationN0VGtcSgA2_tcfc",
             "moduleName": "KochavaUI",
             "declAttributes": [
               "Required",
@@ -2901,6 +2916,56 @@
               "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI15ViewableContextC2idSSvp",
+            "mangledName": "$s9KochavaUI15ViewableContextC2idSSvp",
+            "moduleName": "KochavaUI",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI15ViewableContextC2idSSvg",
+                "mangledName": "$s9KochavaUI15ViewableContextC2idSSvg",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Var",
@@ -3332,124 +3397,6 @@
           },
           {
             "kind": "Var",
-            "name": "object_source_didMutateObserver",
-            "printedName": "object_source_didMutateObserver",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Any?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9KochavaUI15ViewableContextC31object_source_didMutateObserverypSgvp",
-            "mangledName": "$s9KochavaUI15ViewableContextC31object_source_didMutateObserverypSgvp",
-            "moduleName": "KochavaUI",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "Custom"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Any?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9KochavaUI15ViewableContextC31object_source_didMutateObserverypSgvg",
-                "mangledName": "$s9KochavaUI15ViewableContextC31object_source_didMutateObserverypSgvg",
-                "moduleName": "KochavaUI",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Any?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9KochavaUI15ViewableContextC31object_source_didMutateObserverypSgvs",
-                "mangledName": "$s9KochavaUI15ViewableContextC31object_source_didMutateObserverypSgvs",
-                "moduleName": "KochavaUI",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9KochavaUI15ViewableContextC31object_source_didMutateObserverypSgvM",
-                "mangledName": "$s9KochavaUI15ViewableContextC31object_source_didMutateObserverypSgvM",
-                "moduleName": "KochavaUI",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
             "name": "object_model",
             "printedName": "object_model",
             "children": [
@@ -3666,124 +3613,6 @@
                 "usr": "s:9KochavaUI15ViewableContextC22object_model_sf_memoryypSgvM",
                 "mangledName": "$s9KochavaUI15ViewableContextC22object_model_sf_memoryypSgvM",
                 "moduleName": "KochavaUI",
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "object_model_didMutateObserver",
-            "printedName": "object_model_didMutateObserver",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Any?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9KochavaUI15ViewableContextC30object_model_didMutateObserverypSgvp",
-            "mangledName": "$s9KochavaUI15ViewableContextC30object_model_didMutateObserverypSgvp",
-            "moduleName": "KochavaUI",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "Custom"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Any?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9KochavaUI15ViewableContextC30object_model_didMutateObserverypSgvg",
-                "mangledName": "$s9KochavaUI15ViewableContextC30object_model_didMutateObserverypSgvg",
-                "moduleName": "KochavaUI",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Any?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9KochavaUI15ViewableContextC30object_model_didMutateObserverypSgvs",
-                "mangledName": "$s9KochavaUI15ViewableContextC30object_model_didMutateObserverypSgvs",
-                "moduleName": "KochavaUI",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9KochavaUI15ViewableContextC30object_model_didMutateObserverypSgvM",
-                "mangledName": "$s9KochavaUI15ViewableContextC30object_model_didMutateObserverypSgvM",
-                "moduleName": "KochavaUI",
-                "implicit": true,
                 "declAttributes": [
                   "Final"
                 ],
@@ -4418,6 +4247,71 @@
           },
           {
             "kind": "Var",
+            "name": "navigationStackProvidedBool",
+            "printedName": "navigationStackProvidedBool",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI15ViewableContextC27navigationStackProvidedBoolSbSgvp",
+            "mangledName": "$s9KochavaUI15ViewableContextC27navigationStackProvidedBoolSbSgvp",
+            "moduleName": "KochavaUI",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI15ViewableContextC27navigationStackProvidedBoolSbSgvg",
+                "mangledName": "$s9KochavaUI15ViewableContextC27navigationStackProvidedBoolSbSgvg",
+                "moduleName": "KochavaUI",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "proxy",
             "printedName": "proxy",
             "children": [
@@ -4634,124 +4528,6 @@
                 "usr": "s:9KochavaUI15ViewableContextC15proxy_sf_memoryypSgvM",
                 "mangledName": "$s9KochavaUI15ViewableContextC15proxy_sf_memoryypSgvM",
                 "moduleName": "KochavaUI",
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "_modify"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "proxy_didMutateObserver",
-            "printedName": "proxy_didMutateObserver",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "Any?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  }
-                ],
-                "usr": "s:Sq"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:9KochavaUI15ViewableContextC23proxy_didMutateObserverypSgvp",
-            "mangledName": "$s9KochavaUI15ViewableContextC23proxy_didMutateObserverypSgvp",
-            "moduleName": "KochavaUI",
-            "declAttributes": [
-              "HasInitialValue",
-              "Final",
-              "HasStorage",
-              "AccessControl",
-              "Custom"
-            ],
-            "hasStorage": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Any?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9KochavaUI15ViewableContextC23proxy_didMutateObserverypSgvg",
-                "mangledName": "$s9KochavaUI15ViewableContextC23proxy_didMutateObserverypSgvg",
-                "moduleName": "KochavaUI",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "get"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Set",
-                "printedName": "Set()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "Any?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9KochavaUI15ViewableContextC23proxy_didMutateObserverypSgvs",
-                "mangledName": "$s9KochavaUI15ViewableContextC23proxy_didMutateObserverypSgvs",
-                "moduleName": "KochavaUI",
-                "implicit": true,
-                "declAttributes": [
-                  "Final"
-                ],
-                "accessorKind": "set"
-              },
-              {
-                "kind": "Accessor",
-                "name": "Modify",
-                "printedName": "Modify()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:9KochavaUI15ViewableContextC23proxy_didMutateObserverypSgvM",
-                "mangledName": "$s9KochavaUI15ViewableContextC23proxy_didMutateObserverypSgvM",
-                "moduleName": "KochavaUI",
-                "implicit": true,
                 "declAttributes": [
                   "Final"
                 ],
@@ -6206,9 +5982,9 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "ObjectIdentifier",
-                    "printedName": "Swift.ObjectIdentifier",
-                    "usr": "s:SO"
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
                   }
                 ]
               }
@@ -7650,6 +7426,51 @@
         "name": "Viewable",
         "printedName": "Viewable",
         "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:9KochavaUI8ViewableP2idSSvp",
+            "mangledName": "$s9KochavaUI8ViewableP2idSSvp",
+            "moduleName": "KochavaUI",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:9KochavaUI8ViewableP2idSSvg",
+                "mangledName": "$s9KochavaUI8ViewableP2idSSvg",
+                "moduleName": "KochavaUI",
+                "genericSig": "<τ_0_0 where τ_0_0 : KochavaUI.Viewable>",
+                "sugared_genericSig": "<Self where Self : KochavaUI.Viewable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
           {
             "kind": "Function",
             "name": "view",
@@ -10814,7 +10635,7 @@
               {
                 "kind": "Constructor",
                 "name": "init",
-                "printedName": "init(pinToBottomBool:)",
+                "printedName": "init(pinToBottomBool:reversedBool:visibilityTrackingEnabledBool:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -10836,11 +10657,41 @@
                     ],
                     "hasDefaultArg": true,
                     "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C15pinToBottomBoolAFSbSg_tcfc",
-                "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C15pinToBottomBoolAFSbSg_tcfc",
+                "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C15pinToBottomBool08reversedH0025visibilityTrackingEnabledH0AFSbSg_A2Jtcfc",
+                "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C15pinToBottomBool08reversedH0025visibilityTrackingEnabledH0AFSbSg_A2Jtcfc",
                 "moduleName": "KochavaUI",
                 "declAttributes": [
                   "AccessControl",
@@ -11085,8 +10936,8 @@
               },
               {
                 "kind": "Function",
-                "name": "collection_didInsertElement",
-                "printedName": "collection_didInsertElement(element:index:)",
+                "name": "collection_didMutate",
+                "printedName": "collection_didMutate(_:)",
                 "children": [
                   {
                     "kind": "TypeNominal",
@@ -11095,133 +10946,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
+                    "name": "UIProto_Mutation",
+                    "printedName": "KochavaNetworking.Collection.UIProto_Mutation",
+                    "usr": "s:17KochavaNetworking10CollectionC16UIProto_MutationO"
                   }
                 ],
                 "declKind": "Func",
-                "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C27collection_didInsertElement7element5indexyyp_SitF",
-                "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C27collection_didInsertElement7element5indexyyp_SitF",
-                "moduleName": "KochavaUI",
-                "declAttributes": [
-                  "Final",
-                  "AccessControl"
-                ],
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Function",
-                "name": "collection_didUpdateElement",
-                "printedName": "collection_didUpdateElement(element:index:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "ProtocolComposition",
-                    "printedName": "Any"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C27collection_didUpdateElement7element5indexyyp_SitF",
-                "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C27collection_didUpdateElement7element5indexyyp_SitF",
-                "moduleName": "KochavaUI",
-                "declAttributes": [
-                  "Final",
-                  "AccessControl"
-                ],
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Function",
-                "name": "collection_didRemoveElement",
-                "printedName": "collection_didRemoveElement(index:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C27collection_didRemoveElement5indexySi_tF",
-                "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C27collection_didRemoveElement5indexySi_tF",
-                "moduleName": "KochavaUI",
-                "declAttributes": [
-                  "Final",
-                  "AccessControl"
-                ],
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Function",
-                "name": "collection_didBulkReplace",
-                "printedName": "collection_didBulkReplace(elementObjectArray:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Array",
-                    "printedName": "[Any]",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
-                      }
-                    ],
-                    "usr": "s:Sa"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C25collection_didBulkReplace18elementObjectArrayySayypG_tF",
-                "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C25collection_didBulkReplace18elementObjectArrayySayypG_tF",
-                "moduleName": "KochavaUI",
-                "declAttributes": [
-                  "Final",
-                  "AccessControl"
-                ],
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Function",
-                "name": "collection_elementDidMutate",
-                "printedName": "collection_elementDidMutate()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C27collection_elementDidMutateyyF",
-                "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C27collection_elementDidMutateyyF",
+                "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C20collection_didMutateyyAC16UIProto_MutationOF",
+                "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C20collection_didMutateyyAC16UIProto_MutationOF",
                 "moduleName": "KochavaUI",
                 "declAttributes": [
                   "Final",
@@ -11231,26 +10963,215 @@
               },
               {
                 "kind": "Var",
+                "name": "anyMutationAfterUUIDString_main",
+                "printedName": "anyMutationAfterUUIDString_main",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C31anyMutationAfterUUIDString_mainSSvp",
+                "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C31anyMutationAfterUUIDString_mainSSvp",
+                "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "Custom",
+                  "AccessControl",
+                  "Custom",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C31anyMutationAfterUUIDString_mainSSvg",
+                    "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C31anyMutationAfterUUIDString_mainSSvg",
+                    "moduleName": "KochavaUI",
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C31anyMutationAfterUUIDString_mainSSvs",
+                    "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C31anyMutationAfterUUIDString_mainSSvs",
+                    "moduleName": "KochavaUI",
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C31anyMutationAfterUUIDString_mainSSvM",
+                    "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C31anyMutationAfterUUIDString_mainSSvM",
+                    "moduleName": "KochavaUI",
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "anyMutationBeforeUUIDString_main",
+                "printedName": "anyMutationBeforeUUIDString_main",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C32anyMutationBeforeUUIDString_mainSSvp",
+                "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C32anyMutationBeforeUUIDString_mainSSvp",
+                "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "Custom",
+                  "AccessControl",
+                  "Custom",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C32anyMutationBeforeUUIDString_mainSSvg",
+                    "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C32anyMutationBeforeUUIDString_mainSSvg",
+                    "moduleName": "KochavaUI",
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C32anyMutationBeforeUUIDString_mainSSvs",
+                    "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C32anyMutationBeforeUUIDString_mainSSvs",
+                    "moduleName": "KochavaUI",
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C32anyMutationBeforeUUIDString_mainSSvM",
+                    "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C32anyMutationBeforeUUIDString_mainSSvM",
+                    "moduleName": "KochavaUI",
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
                 "name": "elementObjectArray_main",
                 "printedName": "elementObjectArray_main",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Array",
-                    "printedName": "[Any]",
+                    "printedName": "[any KochavaUI.Viewable]",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "ProtocolComposition",
-                        "printedName": "Any"
+                        "name": "Viewable",
+                        "printedName": "any KochavaUI.Viewable",
+                        "usr": "s:9KochavaUI8ViewableP"
                       }
                     ],
                     "usr": "s:Sa"
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C23elementObjectArray_mainSayypGvp",
-                "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C23elementObjectArray_mainSayypGvp",
+                "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C23elementObjectArray_mainSayAD8Viewable_pGvp",
+                "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C23elementObjectArray_mainSayAD8Viewable_pGvp",
                 "moduleName": "KochavaUI",
                 "declAttributes": [
                   "HasInitialValue",
@@ -11269,20 +11190,21 @@
                       {
                         "kind": "TypeNominal",
                         "name": "Array",
-                        "printedName": "[Any]",
+                        "printedName": "[any KochavaUI.Viewable]",
                         "children": [
                           {
                             "kind": "TypeNominal",
-                            "name": "ProtocolComposition",
-                            "printedName": "Any"
+                            "name": "Viewable",
+                            "printedName": "any KochavaUI.Viewable",
+                            "usr": "s:9KochavaUI8ViewableP"
                           }
                         ],
                         "usr": "s:Sa"
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C23elementObjectArray_mainSayypGvg",
-                    "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C23elementObjectArray_mainSayypGvg",
+                    "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C23elementObjectArray_mainSayAD8Viewable_pGvg",
+                    "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C23elementObjectArray_mainSayAD8Viewable_pGvg",
                     "moduleName": "KochavaUI",
                     "declAttributes": [
                       "Final"
@@ -11422,6 +11344,51 @@
                     "declKind": "Accessor",
                     "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C15pinToBottomBoolSbvg",
                     "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C15pinToBottomBoolSbvg",
+                    "moduleName": "KochavaUI",
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "reversedBool",
+                "printedName": "reversedBool",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C12reversedBoolSbvp",
+                "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C12reversedBoolSbvp",
+                "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Final",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17KochavaNetworking10CollectionC0A2UIE0D0C12reversedBoolSbvg",
+                    "mangledName": "$s17KochavaNetworking10CollectionC0A2UIE0D0C12reversedBoolSbvg",
                     "moduleName": "KochavaUI",
                     "declAttributes": [
                       "Final"
@@ -12004,89 +11971,6 @@
               },
               {
                 "kind": "Var",
-                "name": "badge_main",
-                "printedName": "badge_main",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:17KochavaNetworking3LogC0A2UIE7ConsoleC10badge_mainSivp",
-                "mangledName": "$s17KochavaNetworking3LogC0A2UIE7ConsoleC10badge_mainSivp",
-                "moduleName": "KochavaUI",
-                "declAttributes": [
-                  "HasInitialValue",
-                  "Custom",
-                  "AccessControl",
-                  "RawDocComment"
-                ],
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:17KochavaNetworking3LogC0A2UIE7ConsoleC10badge_mainSivg",
-                    "mangledName": "$s17KochavaNetworking3LogC0A2UIE7ConsoleC10badge_mainSivg",
-                    "moduleName": "KochavaUI",
-                    "accessorKind": "get"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Set",
-                    "printedName": "Set()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:17KochavaNetworking3LogC0A2UIE7ConsoleC10badge_mainSivs",
-                    "mangledName": "$s17KochavaNetworking3LogC0A2UIE7ConsoleC10badge_mainSivs",
-                    "moduleName": "KochavaUI",
-                    "accessorKind": "set"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Modify",
-                    "printedName": "Modify()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:17KochavaNetworking3LogC0A2UIE7ConsoleC10badge_mainSivM",
-                    "mangledName": "$s17KochavaNetworking3LogC0A2UIE7ConsoleC10badge_mainSivM",
-                    "moduleName": "KochavaUI",
-                    "accessorKind": "_modify"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
                 "name": "id",
                 "printedName": "id",
                 "children": [
@@ -12132,92 +12016,6 @@
                       "Final"
                     ],
                     "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "topic",
-                "printedName": "topic",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Topic",
-                    "printedName": "KochavaNetworking.Topic",
-                    "usr": "s:17KochavaNetworking5TopicC"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:17KochavaNetworking3LogC0A2UIE7ConsoleC5topicAA5TopicCvp",
-                "mangledName": "$s17KochavaNetworking3LogC0A2UIE7ConsoleC5topicAA5TopicCvp",
-                "moduleName": "KochavaUI",
-                "declAttributes": [
-                  "Lazy",
-                  "AccessControl",
-                  "Custom",
-                  "RawDocComment"
-                ],
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Topic",
-                        "printedName": "KochavaNetworking.Topic",
-                        "usr": "s:17KochavaNetworking5TopicC"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:17KochavaNetworking3LogC0A2UIE7ConsoleC5topicAA5TopicCvg",
-                    "mangledName": "$s17KochavaNetworking3LogC0A2UIE7ConsoleC5topicAA5TopicCvg",
-                    "moduleName": "KochavaUI",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Set",
-                    "printedName": "Set()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Topic",
-                        "printedName": "KochavaNetworking.Topic",
-                        "usr": "s:17KochavaNetworking5TopicC"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:17KochavaNetworking3LogC0A2UIE7ConsoleC5topicAA5TopicCvs",
-                    "mangledName": "$s17KochavaNetworking3LogC0A2UIE7ConsoleC5topicAA5TopicCvs",
-                    "moduleName": "KochavaUI",
-                    "implicit": true,
-                    "accessorKind": "set"
-                  },
-                  {
-                    "kind": "Accessor",
-                    "name": "Modify",
-                    "printedName": "Modify()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Void",
-                        "printedName": "()"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:17KochavaNetworking3LogC0A2UIE7ConsoleC5topicAA5TopicCvM",
-                    "mangledName": "$s17KochavaNetworking3LogC0A2UIE7ConsoleC5topicAA5TopicCvM",
-                    "moduleName": "KochavaUI",
-                    "implicit": true,
-                    "accessorKind": "_modify"
                   }
                 ]
               },
@@ -12316,6 +12114,217 @@
                     "moduleName": "KochavaUI",
                     "implicit": true,
                     "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "toggle",
+                "printedName": "toggle()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17KochavaNetworking3LogC0A2UIE7ConsoleC6toggleyyF",
+                "mangledName": "$s17KochavaNetworking3LogC0A2UIE7ConsoleC6toggleyyF",
+                "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Function",
+                "name": "clear",
+                "printedName": "clear()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:17KochavaNetworking3LogC0A2UIE7ConsoleC5clearyyF",
+                "mangledName": "$s17KochavaNetworking3LogC0A2UIE7ConsoleC5clearyyF",
+                "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "badge_main",
+                "printedName": "badge_main",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17KochavaNetworking3LogC0A2UIE7ConsoleC10badge_mainSivp",
+                "mangledName": "$s17KochavaNetworking3LogC0A2UIE7ConsoleC10badge_mainSivp",
+                "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Custom",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17KochavaNetworking3LogC0A2UIE7ConsoleC10badge_mainSivg",
+                    "mangledName": "$s17KochavaNetworking3LogC0A2UIE7ConsoleC10badge_mainSivg",
+                    "moduleName": "KochavaUI",
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17KochavaNetworking3LogC0A2UIE7ConsoleC10badge_mainSivs",
+                    "mangledName": "$s17KochavaNetworking3LogC0A2UIE7ConsoleC10badge_mainSivs",
+                    "moduleName": "KochavaUI",
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17KochavaNetworking3LogC0A2UIE7ConsoleC10badge_mainSivM",
+                    "mangledName": "$s17KochavaNetworking3LogC0A2UIE7ConsoleC10badge_mainSivM",
+                    "moduleName": "KochavaUI",
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "topic",
+                "printedName": "topic",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Topic",
+                    "printedName": "KochavaNetworking.Topic",
+                    "usr": "s:17KochavaNetworking5TopicC"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:17KochavaNetworking3LogC0A2UIE7ConsoleC5topicAA5TopicCvp",
+                "mangledName": "$s17KochavaNetworking3LogC0A2UIE7ConsoleC5topicAA5TopicCvp",
+                "moduleName": "KochavaUI",
+                "declAttributes": [
+                  "Lazy",
+                  "AccessControl",
+                  "Custom",
+                  "RawDocComment"
+                ],
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Topic",
+                        "printedName": "KochavaNetworking.Topic",
+                        "usr": "s:17KochavaNetworking5TopicC"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17KochavaNetworking3LogC0A2UIE7ConsoleC5topicAA5TopicCvg",
+                    "mangledName": "$s17KochavaNetworking3LogC0A2UIE7ConsoleC5topicAA5TopicCvg",
+                    "moduleName": "KochavaUI",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Topic",
+                        "printedName": "KochavaNetworking.Topic",
+                        "usr": "s:17KochavaNetworking5TopicC"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17KochavaNetworking3LogC0A2UIE7ConsoleC5topicAA5TopicCvs",
+                    "mangledName": "$s17KochavaNetworking3LogC0A2UIE7ConsoleC5topicAA5TopicCvs",
+                    "moduleName": "KochavaUI",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:17KochavaNetworking3LogC0A2UIE7ConsoleC5topicAA5TopicCvM",
+                    "mangledName": "$s17KochavaNetworking3LogC0A2UIE7ConsoleC5topicAA5TopicCvM",
+                    "moduleName": "KochavaUI",
+                    "implicit": true,
+                    "accessorKind": "_modify"
                   }
                 ]
               },
@@ -12689,46 +12698,6 @@
         "kind": "TypeDecl",
         "name": "Message",
         "printedName": "Message",
-        "children": [
-          {
-            "kind": "Function",
-            "name": "view",
-            "printedName": "view(context:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "SwiftUI.AnyView?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "AnyView",
-                    "printedName": "SwiftUI.AnyView",
-                    "usr": "s:7SwiftUI7AnyViewV"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "ViewableContext",
-                "printedName": "KochavaUI.ViewableContext",
-                "usr": "s:9KochavaUI15ViewableContextC"
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:17KochavaNetworking3LogC7MessageC0A2UIE4view7context05SwiftE07AnyViewVSgAF15ViewableContextC_tF",
-            "mangledName": "$s17KochavaNetworking3LogC7MessageC0A2UIE4view7context05SwiftE07AnyViewVSgAF15ViewableContextC_tF",
-            "moduleName": "KochavaUI",
-            "declAttributes": [
-              "Final",
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          }
-        ],
         "declKind": "Class",
         "usr": "s:17KochavaNetworking3LogC7MessageC",
         "mangledName": "$s17KochavaNetworking3LogC7MessageC",
@@ -12798,6 +12767,13 @@
           },
           {
             "kind": "Conformance",
+            "name": "Composing",
+            "printedName": "Composing",
+            "usr": "s:17KochavaNetworking5TopicC9ComposingP",
+            "mangledName": "$s17KochavaNetworking5TopicC9ComposingP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Typed",
             "printedName": "Typed",
             "usr": "s:17KochavaNetworking5TypedP",
@@ -12816,6 +12792,13 @@
             "printedName": "Escapable",
             "usr": "s:s9EscapableP",
             "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ComposingAndViewable",
+            "printedName": "ComposingAndViewable",
+            "usr": "s:17KochavaNetworking5TopicC0A2UIE20ComposingAndViewableP",
+            "mangledName": "$s17KochavaNetworking5TopicC0A2UIE20ComposingAndViewableP"
           },
           {
             "kind": "Conformance",
@@ -23441,6 +23424,28 @@
           },
           {
             "kind": "Conformance",
+            "name": "Identifiable",
+            "printedName": "Identifiable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ID",
+                "printedName": "ID",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12IdentifiableP",
+            "mangledName": "$ss12IdentifiableP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Provider",
             "printedName": "Provider",
             "usr": "s:2os6LoggerV17KochavaNetworkingE8ProviderP",
@@ -24285,91 +24290,98 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "StringLiteral",
-      "offset": 32002,
+      "offset": 35746,
       "length": 35,
       "value": "\"KochavaNetworking.Collection.View\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 34357,
+      "offset": 37975,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 34548,
+      "offset": 38166,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 34721,
+      "offset": 38213,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
+      "kind": "BooleanLiteral",
+      "offset": 38386,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "StringLiteral",
-      "offset": 34872,
+      "offset": 38537,
       "length": 14,
       "value": "\"New Messages\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 34939,
+      "offset": 38604,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 35002,
+      "offset": 38667,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "StringLiteral",
-      "offset": 37071,
+      "offset": 40641,
       "length": 6,
       "value": "\"some\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "StringLiteral",
-      "offset": 37391,
+      "offset": 40961,
       "length": 35,
       "value": "\"Collection.View.previewCollection\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "IntegerLiteral",
-      "offset": 37446,
+      "offset": 41016,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "StringLiteral",
-      "offset": 37546,
+      "offset": 41116,
       "length": 8,
       "value": "\"Text 1\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "StringLiteral",
-      "offset": 37627,
+      "offset": 41197,
       "length": 8,
       "value": "\"Text 2\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "StringLiteral",
-      "offset": 37708,
+      "offset": 41278,
       "length": 8,
       "value": "\"Text 3\""
     },
@@ -24677,93 +24689,163 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/ViewableContext.swift",
       "kind": "StringLiteral",
-      "offset": 5116,
+      "offset": 5015,
       "length": 27,
       "value": "\"KochavaUI.ViewableContext\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/ViewableContext.swift",
       "kind": "BooleanLiteral",
-      "offset": 17776,
+      "offset": 18786,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 2488,
+      "offset": 2757,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.swift",
+      "kind": "StringLiteral",
+      "offset": 3402,
+      "length": 31,
+      "value": "\"KochavaNetworking.Log.Console\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.swift",
       "kind": "IntegerLiteral",
-      "offset": 3380,
+      "offset": 7590,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11219,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.swift",
       "kind": "StringLiteral",
-      "offset": 3690,
+      "offset": 11397,
       "length": 5,
       "value": "\"Log\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.swift",
       "kind": "StringLiteral",
-      "offset": 3777,
+      "offset": 11484,
       "length": 23,
       "value": "\"square.and.arrow.down\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.swift",
       "kind": "FloatLiteral",
-      "offset": 3889,
+      "offset": 11596,
       "length": 4,
       "value": "1.60"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.swift",
-      "kind": "StringLiteral",
-      "offset": 4089,
-      "length": 31,
-      "value": "\"KochavaNetworking.Log.Console\""
+      "kind": "IntegerLiteral",
+      "offset": 12466,
+      "length": 7,
+      "value": "250000"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.swift",
       "kind": "BooleanLiteral",
-      "offset": 7950,
+      "offset": 13255,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13427,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.swift",
       "kind": "IntegerLiteral",
-      "offset": 9975,
+      "offset": 14315,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.swift",
       "kind": "StringLiteral",
-      "offset": 11093,
+      "offset": 15381,
       "length": 5,
       "value": "\"Log\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.swift",
       "kind": "BooleanLiteral",
-      "offset": 11164,
+      "offset": 15550,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15629,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15682,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.swift",
+      "kind": "BooleanLiteral",
+      "offset": 15737,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15933,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.swift",
+      "kind": "IntegerLiteral",
+      "offset": 20640,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20787,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.swift",
       "kind": "StringLiteral",
-      "offset": 12509,
+      "offset": 20866,
       "length": 20,
       "value": "\"Host.Log.didMutate\""
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Log.Console.swift",
+      "kind": "BooleanLiteral",
+      "offset": 21353,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Apple.SwiftUI.Text+UI.swift",
@@ -25734,84 +25816,84 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
       "kind": "StringLiteral",
-      "offset": 3266,
+      "offset": 3235,
       "length": 6,
       "value": "\"Time\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
       "kind": "StringLiteral",
-      "offset": 3657,
+      "offset": 3564,
       "length": 13,
       "value": "\"Meta Values\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
       "kind": "StringLiteral",
-      "offset": 4315,
+      "offset": 4191,
       "length": 4,
       "value": "\"UI\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
       "kind": "StringLiteral",
-      "offset": 4359,
+      "offset": 4235,
       "length": 9,
       "value": "\"Kochava\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
       "kind": "StringLiteral",
-      "offset": 4409,
+      "offset": 4285,
       "length": 23,
       "value": "\"com.kochava.KochavaUI\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
       "kind": "StringLiteral",
-      "offset": 4467,
+      "offset": 4343,
       "length": 10,
       "value": "\"Apple.UI\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
       "kind": "StringLiteral",
-      "offset": 4514,
+      "offset": 4390,
       "length": 8,
-      "value": "\"10.0.1\""
+      "value": "\"10.0.2\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
       "kind": "StringLiteral",
-      "offset": 4562,
+      "offset": 4438,
       "length": 4,
       "value": "\"10\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
       "kind": "StringLiteral",
-      "offset": 4724,
+      "offset": 4600,
       "length": 20,
       "value": "\"KVABuildDateString\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
       "kind": "StringLiteral",
-      "offset": 5427,
+      "offset": 5303,
       "length": 10,
       "value": "\"Viewable\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
       "kind": "StringLiteral",
-      "offset": 6387,
+      "offset": 6263,
       "length": 18,
       "value": "\"KochavaUI.Prouct\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
       "kind": "StringLiteral",
-      "offset": 6713,
+      "offset": 6589,
       "length": 33,
       "value": "\"UI.Product.executionTokenString\""
     },
@@ -25832,23 +25914,23 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Topic.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 23790,
+      "offset": 24158,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Topic.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 23848,
+      "offset": 24216,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Topic.TabView.swift",
-      "kind": "IntegerLiteral",
-      "offset": 4509,
-      "length": 1,
-      "value": "0"
+      "kind": "StringLiteral",
+      "offset": 4593,
+      "length": 2,
+      "value": "\"\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Text.View.swift",
@@ -25881,84 +25963,84 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Topic.UI.swift",
       "kind": "StringLiteral",
-      "offset": 14988,
+      "offset": 14715,
       "length": 28,
       "value": "\"KochavaNetworking.Topic.UI\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Topic.UI.swift",
       "kind": "BooleanLiteral",
-      "offset": 47707,
+      "offset": 47302,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Topic.UI.swift",
       "kind": "BooleanLiteral",
-      "offset": 47766,
+      "offset": 47361,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Topic.UI.swift",
       "kind": "BooleanLiteral",
-      "offset": 48136,
+      "offset": 47731,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Topic.UI.swift",
       "kind": "BooleanLiteral",
-      "offset": 48580,
+      "offset": 48175,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Topic.UI.swift",
       "kind": "BooleanLiteral",
-      "offset": 48726,
+      "offset": 48321,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Topic.UI.swift",
       "kind": "BooleanLiteral",
-      "offset": 55582,
+      "offset": 55457,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Topic.UI.swift",
       "kind": "BooleanLiteral",
-      "offset": 55641,
+      "offset": 55516,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Topic.UI.swift",
       "kind": "BooleanLiteral",
-      "offset": 55983,
+      "offset": 55858,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Topic.UI.swift",
       "kind": "BooleanLiteral",
-      "offset": 56399,
+      "offset": 56274,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Topic.UI.swift",
       "kind": "BooleanLiteral",
-      "offset": 56538,
+      "offset": 56413,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Topic.UI.swift",
       "kind": "BooleanLiteral",
-      "offset": 104673,
+      "offset": 102974,
       "length": 5,
       "value": "false"
     },
@@ -25979,16 +26061,135 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.UI.swift",
       "kind": "StringLiteral",
-      "offset": 2065,
+      "offset": 3208,
       "length": 33,
       "value": "\"KochavaNetworking.Collection.UI\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.UI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8653,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.UI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28129,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.UI.swift",
       "kind": "Array",
-      "offset": 4520,
+      "offset": 28485,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.UI.swift",
+      "kind": "Array",
+      "offset": 29010,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.UI.swift",
+      "kind": "Array",
+      "offset": 29652,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.UI.swift",
+      "kind": "FloatLiteral",
+      "offset": 31651,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.UI.swift",
+      "kind": "FloatLiteral",
+      "offset": 32504,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.UI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 34618,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.UI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 34976,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.UI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 35304,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.UI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 37451,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.UI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 38099,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.UI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 38649,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.UI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 39596,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.UI.swift",
+      "kind": "BooleanLiteral",
+      "offset": 40050,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.UI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 40384,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.UI.swift",
+      "kind": "FloatLiteral",
+      "offset": 40564,
+      "length": 3,
+      "value": "0.1"
+    },
+    {
+      "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.UI.swift",
+      "kind": "FloatLiteral",
+      "offset": 40713,
+      "length": 4,
+      "value": "0.25"
     }
   ]
 }

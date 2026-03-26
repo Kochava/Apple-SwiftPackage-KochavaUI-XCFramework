@@ -14,47 +14,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Apk3HpCNkmyAORfW2dYPpuf4cNQ=
+		2vwBoP0hrGTK/FaD3scfgADtPok=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		x+j8qE95HKBqgWHB2ZDCFNhfrSU=
+		2oFI9d5f6olNlUvZJeo2WIgJOpA=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		J7E/9xI3Lh9qF2VtjVvBxO8usXs=
+		VZGONiFPGv8eVNxoUBfea39T/5k=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		zCz1D15xvzB7mo/RasHd74BQTcA=
+		arZEuAmw1zjJ+cp/QhS5UsfqsEQ=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		J7E/9xI3Lh9qF2VtjVvBxO8usXs=
-		</data>
-		<key>Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		ZzvdMW69PATUDdn1Qh92CtcsnNA=
+		VZGONiFPGv8eVNxoUBfea39T/5k=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		x+j8qE95HKBqgWHB2ZDCFNhfrSU=
+		2oFI9d5f6olNlUvZJeo2WIgJOpA=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		qr+uWzIPJFs9AQdQWidvChrDvIk=
+		/dF3hu93FDW8TGEOTUFaozgYPRs=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		jm+tgoB0Xry3hWicCwEny1UkSDg=
+		+7z6vMoq8VLdBXnil3sruFC1wLY=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		qr+uWzIPJFs9AQdQWidvChrDvIk=
-		</data>
-		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<data>
-		zW0HQsKcfKFRSD7UEg1dtLj/0ec=
+		/dF3hu93FDW8TGEOTUFaozgYPRs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,70 +77,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			w5CCAapQyu6ykP2PcRANTAj8zA7edLGzzzPUFM2PlSA=
+			JH0WbFnE4a2kp0ZfWL/4rr8+tZBwBIpkMK9SGGgW/DM=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Twwiq+Tp+OZMnrUP349UjApp8u0Y9nDZGrovhc3fPBk=
+			h9Yt3UohuLmeymqBX+8CTTUo34GUhgVtTtfFPdQR5TU=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+eLjY1sAOdpT1MfKgiyNm/Ry+DqddWGqFY7U01GbOyU=
+			3x3lZ92NGzinVjBheMte8YND0mDV/1WdlRh5J0QZ/Pc=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Twwiq+Tp+OZMnrUP349UjApp8u0Y9nDZGrovhc3fPBk=
-			</data>
-		</dict>
-		<key>Modules/KochavaUI.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			GF4ewkzQV8CB7tsvDJrTtvOINwWarLsCXTe2CzC2DQo=
+			h9Yt3UohuLmeymqBX+8CTTUo34GUhgVtTtfFPdQR5TU=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w5CCAapQyu6ykP2PcRANTAj8zA7edLGzzzPUFM2PlSA=
+			JH0WbFnE4a2kp0ZfWL/4rr8+tZBwBIpkMK9SGGgW/DM=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FqI0nahN/w98qmUN++vJ475AhFFz4I2jwyQYaPDUrd8=
+			q9umNHozIXtUhasd/MDdEdfJZFpBLgBcZVwhbg3Cp28=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UTZV8Hodog+PMMiKM/V26iS5CRIoORPRn0tZB1DqlJc=
+			zvjT033o0JOPDXAdhpWdokMhkdJaLSkWGn+JKnz0aBQ=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FqI0nahN/w98qmUN++vJ475AhFFz4I2jwyQYaPDUrd8=
-			</data>
-		</dict>
-		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8iHm0tpCCIg4RVwfCyLpTGjB2NSl448mdAVPg/nVHuw=
+			q9umNHozIXtUhasd/MDdEdfJZFpBLgBcZVwhbg3Cp28=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -115,15 +115,15 @@ extension KochavaNetworking.Adapter : KochavaNetworking.Topic.ComposingAndViewab
 }
 final public class ViewableContext : Foundation.NSCopying, KochavaNetworking.DecodableFrom, KochavaNetworking.Executor, Swift.Identifiable {
   #if compiler(>=5.3) && $NonescapableTypes
-  required public init(object_source: Any? = nil, object_model: Any? = nil, object_unmodified: Any? = nil, embedBool: Swift.Bool? = nil, embedDepthCount: Swift.Int? = nil, lightnessMode: KochavaUI.LightnessMode? = nil, listConsumedBool: Swift.Bool? = nil, navigationConsumedBool: Swift.Bool? = nil, proxy: Any? = nil, presentedModallyBool: Swift.Bool? = nil, newBool: Swift.Bool? = nil, closure_dismiss: KochavaUI.ViewableContext.Closure_Dismiss? = nil, closure_cancel_did: KochavaUI.ViewableContext.Closure_Cancel_Did? = nil, closure_save_did: KochavaUI.ViewableContext.Closure_Save_Did? = nil, closure_execute_did: KochavaUI.ViewableContext.Closure_Execute_Did? = nil, closure_dismiss_did: KochavaUI.ViewableContext.Closure_Dismiss_Did? = nil)
+  required public init(object_source: Any? = nil, object_model: Any? = nil, object_unmodified: Any? = nil, embedBool: Swift.Bool? = nil, embedDepthCount: Swift.Int? = nil, lightnessMode: KochavaUI.LightnessMode? = nil, listConsumedBool: Swift.Bool? = nil, navigationConsumedBool: Swift.Bool? = nil, navigationStackProvidedBool: Swift.Bool? = nil, proxy: Any? = nil, presentedModallyBool: Swift.Bool? = nil, newBool: Swift.Bool? = nil, closure_dismiss: KochavaUI.ViewableContext.Closure_Dismiss? = nil, closure_cancel_did: KochavaUI.ViewableContext.Closure_Cancel_Did? = nil, closure_save_did: KochavaUI.ViewableContext.Closure_Save_Did? = nil, closure_execute_did: KochavaUI.ViewableContext.Closure_Execute_Did? = nil, closure_dismiss_did: KochavaUI.ViewableContext.Closure_Dismiss_Did? = nil)
   #endif
-  @objc deinit
   #if compiler(>=5.3) && $NonescapableTypes
   @objc final public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   public static func from(_ object: Any?) -> Self?
   #endif
+  final public let id: Swift.String
   public static let type_kochava: KochavaNetworking.Kochava_Type
   final public var execution: KochavaNetworking.Execution {
     get
@@ -148,7 +148,6 @@ final public class ViewableContext : Foundation.NSCopying, KochavaNetworking.Dec
     _modify
   }
   #endif
-  final public var object_source_didMutateObserver: Any?
   #if compiler(>=5.3) && $NonescapableTypes
   final public var object_model: Any? {
     get
@@ -162,7 +161,6 @@ final public class ViewableContext : Foundation.NSCopying, KochavaNetworking.Dec
     _modify
   }
   #endif
-  final public var object_model_didMutateObserver: Any?
   final public func object_model_modifiedBool() -> Swift.Bool
   final public var object_unmodified: Any?
   #if compiler(>=5.3) && $NonescapableTypes
@@ -182,6 +180,7 @@ final public class ViewableContext : Foundation.NSCopying, KochavaNetworking.Dec
   #endif
   final public let listConsumedBool: Swift.Bool?
   final public let navigationConsumedBool: Swift.Bool?
+  final public let navigationStackProvidedBool: Swift.Bool?
   #if compiler(>=5.3) && $NonescapableTypes
   final public var proxy: Any? {
     get
@@ -195,7 +194,6 @@ final public class ViewableContext : Foundation.NSCopying, KochavaNetworking.Dec
     _modify
   }
   #endif
-  final public var proxy_didMutateObserver: Any?
   #if compiler(>=5.3) && $NonescapableTypes
   final public var presentedModallyBool: Swift.Bool? {
     get
@@ -214,7 +212,8 @@ final public class ViewableContext : Foundation.NSCopying, KochavaNetworking.Dec
   public typealias Closure_Execute_Did = (_ view: any SwiftUICore.View, _ context: KochavaUI.ViewableContext, _ executedAny: Any?, _ presentationMode: SwiftUICore.Binding<SwiftUI.PresentationMode>) -> Swift.Void
   final public var closure_dismiss_did: KochavaUI.ViewableContext.Closure_Dismiss_Did?
   public typealias Closure_Dismiss_Did = (_ view: any SwiftUICore.View) -> Swift.Void
-  public typealias ID = Swift.ObjectIdentifier
+  public typealias ID = Swift.String
+  @objc deinit
 }
 extension KochavaUI.ViewableContext {
   public protocol SaveObserver {
@@ -235,7 +234,6 @@ public var shared: KochavaNetworking.Product {
 extension KochavaNetworking.Log {
   @_hasMissingDesignatedInitializers public class Console : KochavaUI.Badgable, KochavaNetworking.DecodableFrom, KochavaNetworking.Executor, Swift.Identifiable, KochavaNetworking.Startable, KochavaNetworking.Stoppable, KochavaNetworking.Topic.ComposingAndViewable {
     public static let shared: KochavaNetworking.Log.Console
-    @objc deinit
     #if compiler(>=5.3) && $NonescapableTypes
     public static func from(_ object: Any?) -> Self?
     #endif
@@ -244,19 +242,21 @@ extension KochavaNetworking.Log {
     #if compiler(>=5.3) && $NonescapableTypes
     public func view(context: KochavaUI.ViewableContext) -> SwiftUICore.AnyView?
     #endif
+    final public let id: Swift.String
+    public static let type_kochava: KochavaNetworking.Kochava_Type
+    public var execution: KochavaNetworking.Execution {
+      get
+    }
+    public func toggle()
+    public func clear()
     public var badge_main: Swift.Int {
       get
       set
       _modify
     }
-    final public let id: Swift.String
     public var topic: KochavaNetworking.Topic {
       get
       set
-    }
-    public static let type_kochava: KochavaNetworking.Kochava_Type
-    public var execution: KochavaNetworking.Execution {
-      get
     }
     public var newMessageCount: Swift.Int {
       get
@@ -264,6 +264,7 @@ extension KochavaNetworking.Log {
       _modify
     }
     public typealias ID = Swift.String
+    @objc deinit
   }
 }
 extension KochavaNetworking.Log.Console : nonisolated Observation.Observable {
@@ -284,10 +285,7 @@ extension KochavaUI.Text : KochavaUI.Viewable {
   final public func view(context: KochavaUI.ViewableContext) -> SwiftUICore.AnyView?
   #endif
 }
-extension KochavaNetworking.Log.Message : KochavaUI.Viewable {
-  #if compiler(>=5.3) && $NonescapableTypes
-  final public func view(context: KochavaUI.ViewableContext) -> SwiftUICore.AnyView?
-  #endif
+extension KochavaNetworking.Log.Message : KochavaNetworking.Topic.ComposingAndViewable {
 }
 extension SwiftUICore.Text {
   #if compiler(>=5.3) && $NonescapableTypes
@@ -363,7 +361,6 @@ extension SwiftUICore.View {
 extension KochavaNetworking.Topic {
   @_Concurrency.MainActor final public class Observable : Swift.Identifiable {
     @_Concurrency.MainActor public init(topic: KochavaNetworking.Topic)
-    @objc deinit
     #if compiler(>=5.3) && $NonescapableTypes
     @_Concurrency.MainActor final public var title_main: Swift.String? {
       get
@@ -435,6 +432,7 @@ extension KochavaNetworking.Topic {
     }
     #endif
     public typealias ID = Swift.ObjectIdentifier
+    @objc deinit
   }
 }
 extension KochavaNetworking.Topic.Observable : nonisolated Observation.Observable {
@@ -469,6 +467,7 @@ extension KochavaUI.Image {
   @objc deinit
 }
 public protocol Viewable {
+  var id: Swift.String { get }
   #if compiler(>=5.3) && $NonescapableTypes
   func view(context: KochavaUI.ViewableContext) -> SwiftUICore.AnyView?
   #endif
@@ -667,7 +666,6 @@ extension KochavaNetworking.Topic {
     #if compiler(>=5.3) && $NonescapableTypes
     required public init(iconImage: KochavaNetworking.Topic.UI.IconImage? = nil, subtitle: KochavaNetworking.Topic.UI.Subtitle? = nil, microtitle: KochavaNetworking.Topic.UI_Microtitle? = nil, info: KochavaNetworking.Topic.UI.Info? = nil, bodyHeadingViewableCollection: KochavaNetworking.Collection? = nil, reducedBool: Swift.Bool? = nil, bodyViewableCollection: KochavaNetworking.Collection? = nil, backgroundBool: Swift.Bool? = nil, backgroundColor: SwiftUICore.Color? = nil, dividersBool: Swift.Bool? = nil, didSelectNavigationDestinationViewable: Any? = nil, closure_iconImage_collectSynchronously: KochavaNetworking.Topic.Closure_UI_IconImage_CollectSynchronously? = nil, closure_iconImage_collectAsynchronously: KochavaNetworking.Topic.Closure_UI_IconImage_CollectAsynchronously? = nil, closure_subtitle_collectSynchronously: KochavaNetworking.Topic.Closure_UI_Subtitle_CollectSynchronously? = nil, closure_subtitle_collectAsynchronously: KochavaNetworking.Topic.Closure_UI_Subtitle_CollectAsynchronously? = nil, closure_microtitle_collectSynchronously: KochavaNetworking.Topic.Closure_UI_Microtitle_CollectSynchronously? = nil, closure_microtitle_collectAsynchronously: KochavaNetworking.Topic.Closure_UI_Microtitle_CollectAsynchronously? = nil, closure_info_collectSynchronously: KochavaNetworking.Topic.Closure_UI_Info_CollectSynchronously? = nil, closure_info_collectAsynchronously: KochavaNetworking.Topic.Closure_UI_Info_CollectAsynchronously? = nil, closure_bodyHeadingViewableCollection_collectSynchronously: KochavaNetworking.Topic.Closure_UI_BodyHeadingViewableCollection_CollectSynchronously? = nil, closure_bodyHeadingViewableCollection_collectAsynchronously: KochavaNetworking.Topic.Closure_UI_BodyHeadingViewableCollection_CollectAsynchronously? = nil, closure_reducedBool_collectSynchronously: KochavaNetworking.Topic.Closure_UI_ReducedBool_CollectSynchronously? = nil, closure_reducedBool_collectAsynchronously: KochavaNetworking.Topic.Closure_UI_ReducedBool_CollectAsynchronously? = nil, closure_bodyViewableCollection_collectSynchronously: KochavaNetworking.Topic.Closure_UI_BodyViewableCollection_CollectSynchronously? = nil, closure_bodyViewableCollection_collectAsynchronously: KochavaNetworking.Topic.Closure_UI_BodyViewableCollection_CollectAsynchronously? = nil, closure_backgroundBool_collectSynchronously: KochavaNetworking.Topic.Closure_UI_BackgroundBool_CollectSynchronously? = nil, closure_backgroundBool_collectAsynchronously: KochavaNetworking.Topic.Closure_UI_BackgroundBool_CollectAsynchronously? = nil, closure_backgroundColor_collectSynchronously: KochavaNetworking.Topic.UI.Closure_UI_BackgroundColor_CollectSynchronously? = nil, closure_backgroundColor_collectAsynchronously: KochavaNetworking.Topic.UI.Closure_UI_BackgroundColor_CollectAsynchronously? = nil, closure_dividersBool_collectSynchronously: KochavaNetworking.Topic.Closure_UI_DividersBool_CollectSynchronously? = nil, closure_dividersBool_collectAsynchronously: KochavaNetworking.Topic.Closure_UI_DividersBool_CollectAsynchronously? = nil, closure_didSelectNavigationDestinationViewable_collectSynchronously: KochavaNetworking.Topic.Closure_UI_DidSelectNavigationDestinationViewable_CollectSynchronously? = nil, closure_didSelectNavigationDestinationViewable_collectAsynchronously: KochavaNetworking.Topic.Closure_UI_DidSelectNavigationDestinationViewable_CollectAsynchronously? = nil, closure_execute: KochavaNetworking.Topic.UI.Closure_Execute? = nil, closure_execute_collectSynchronously: KochavaNetworking.Topic.UI.Closure_Execute_CollectSynchronously? = nil, closure_execute_collectAsynchronously: KochavaNetworking.Topic.UI.Closure_Execute_CollectAsynchronously? = nil)
     #endif
-    @objc deinit
     #if compiler(>=5.3) && $NonescapableTypes
     public static func from(_ object: Any?) -> Self?
     #endif
@@ -869,6 +867,7 @@ extension KochavaNetworking.Topic {
       var topic: KochavaNetworking.Topic { get }
     }
     public typealias ID = Swift.String
+    @objc deinit
   }
 }
 final public class Divider : Swift.Identifiable, KochavaNetworking.DecodableFrom {
@@ -923,7 +922,7 @@ extension KochavaNetworking.Collection {
 extension KochavaNetworking.Collection {
   final public class UI : KochavaNetworking.Collection.UIProto, Foundation.NSCopying, KochavaNetworking.DecodableFrom, Swift.Identifiable, KochavaNetworking.Invalidatable, KochavaNetworking.Typed {
     #if compiler(>=5.3) && $NonescapableTypes
-    public init(pinToBottomBool: Swift.Bool? = nil)
+    public init(pinToBottomBool: Swift.Bool? = nil, reversedBool: Swift.Bool? = nil, visibilityTrackingEnabledBool: Swift.Bool? = nil)
     #endif
     #if compiler(>=5.3) && $NonescapableTypes
     @objc final public func copy(with zone: ObjectiveC.NSZone? = nil) -> Any
@@ -935,12 +934,18 @@ extension KochavaNetworking.Collection {
     public static let type_kochava: KochavaNetworking.Kochava_Type
     final public func invalidate()
     final public func collection_didSetUIProto(collection: KochavaNetworking.Collection)
-    final public func collection_didInsertElement(element: Any, index: Swift.Int)
-    final public func collection_didUpdateElement(element: Any, index: Swift.Int)
-    final public func collection_didRemoveElement(index: Swift.Int)
-    final public func collection_didBulkReplace(elementObjectArray: [Any])
-    final public func collection_elementDidMutate()
-    final public var elementObjectArray_main: [Any] {
+    final public func collection_didMutate(_ mutation: KochavaNetworking.Collection.UIProto_Mutation)
+    @_Concurrency.MainActor final public var anyMutationAfterUUIDString_main: Swift.String {
+      get
+      set
+      _modify
+    }
+    @_Concurrency.MainActor final public var anyMutationBeforeUUIDString_main: Swift.String {
+      get
+      set
+      _modify
+    }
+    final public var elementObjectArray_main: [any KochavaUI.Viewable] {
       get
     }
     @_Concurrency.MainActor final public var insertionMutationUUIDString_main: Swift.String {
@@ -949,6 +954,9 @@ extension KochavaNetworking.Collection {
       _modify
     }
     final public var pinToBottomBool: Swift.Bool {
+      get
+    }
+    final public var reversedBool: Swift.Bool {
       get
     }
     public typealias ID = Swift.String

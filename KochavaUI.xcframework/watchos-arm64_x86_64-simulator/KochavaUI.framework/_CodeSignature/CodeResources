@@ -14,47 +14,39 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		U7mUPJNdUzsYgnHfWG1AWYuj3zc=
+		dCK6sTfCNnF4m4CqtfScgmTpQLo=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.abi.json</key>
 		<data>
-		rDqqBYQ2/Ko7qmBtHxB3hqxFPAI=
+		aAtS1ozi7oadnop260LTw8Nh0FE=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		YYXhovWSZmef6s9F4ASOtonky0s=
+		nzZY+yPh//K14CkQG9JT/awR2I8=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		KA3ME7f9ioCbE0L+lpotVTSmTnk=
+		uc6iYRcV07ikmMnZytTqWunKpBs=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		YYXhovWSZmef6s9F4ASOtonky0s=
-		</data>
-		<key>Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
-		<data>
-		PGkDJZKE/spvPOUiOFKzsex3Fb0=
+		nzZY+yPh//K14CkQG9JT/awR2I8=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<data>
-		rDqqBYQ2/Ko7qmBtHxB3hqxFPAI=
+		aAtS1ozi7oadnop260LTw8Nh0FE=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<data>
-		GMhhS8mjwTckTTHCDmKRjOAQQVU=
+		sHn4c1kxKSM0Ds953T3EkCzuaVo=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<data>
-		HqYtxnBOtyvoW8gklxXsTtriChA=
+		M7NALfV3HcrswCKVHCYGhM2J2KI=
 		</data>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<data>
-		GMhhS8mjwTckTTHCDmKRjOAQQVU=
-		</data>
-		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
-		<data>
-		mvnwCjwys2PWaHZs6ODCGBuwrlE=
+		sHn4c1kxKSM0Ds953T3EkCzuaVo=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -85,70 +77,56 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			u3WT3s9/Vej8KH6k/ya2d3JbYmrXgxpw0aSelSw+/XM=
+			uq58z58ist/3o97lZY7YWbVFUlPHDuZKVqQyhOXWWJE=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			I4i5+zkfNxrfey9vLPpmFBC1pEu4Offg/o36psVaLKg=
+			Iitkoza9kZ1JJ59g6s5Ys756Ip7fp+0Y15o4aPPAhNU=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bqkWp+j0gnJ2BrJHtD9sDk3wjdPl8/1FW58j7fq+Q64=
+			ocAs1uIbZZ+wrdIS2emZzl1ny9HbCImoS8o/HHxnCq0=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			I4i5+zkfNxrfey9vLPpmFBC1pEu4Offg/o36psVaLKg=
-			</data>
-		</dict>
-		<key>Modules/KochavaUI.swiftmodule/arm64-apple-watchos-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xcFI1Y1J02x9B3O8dNWlRUAonTo3ITOyEyhLQ3WkubQ=
+			Iitkoza9kZ1JJ59g6s5Ys756Ip7fp+0Y15o4aPPAhNU=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			u3WT3s9/Vej8KH6k/ya2d3JbYmrXgxpw0aSelSw+/XM=
+			uq58z58ist/3o97lZY7YWbVFUlPHDuZKVqQyhOXWWJE=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CPAFBEVYTpoktZhr2PFU4OsgGCBmgFor6P6ndgbleHo=
+			KJ/WypnHcMezZ/+/T9pObczLY0+BNiT9ZvYF/UcPIic=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hqULfi3Rv4nkZjLCMKkwkYeWJzuexeUnmJCvO27uHSw=
+			xtuFNsswsza14EpezFUwuaq2B9oY1flFXZTaSrCo4oI=
 			</data>
 		</dict>
 		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CPAFBEVYTpoktZhr2PFU4OsgGCBmgFor6P6ndgbleHo=
-			</data>
-		</dict>
-		<key>Modules/KochavaUI.swiftmodule/x86_64-apple-watchos-simulator.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			34luUO4kSPYHMGk+OcQBidK3a8kYztfldZM3TqfIznQ=
+			KJ/WypnHcMezZ/+/T9pObczLY0+BNiT9ZvYF/UcPIic=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
