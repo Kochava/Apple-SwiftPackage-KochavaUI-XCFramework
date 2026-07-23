@@ -24297,98 +24297,98 @@
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "StringLiteral",
-      "offset": 35746,
+      "offset": 36869,
       "length": 35,
       "value": "\"KochavaNetworking.Collection.View\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 37975,
+      "offset": 39098,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 38166,
+      "offset": 39289,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 38213,
+      "offset": 39336,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 38386,
+      "offset": 39509,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "StringLiteral",
-      "offset": 38537,
+      "offset": 39660,
       "length": 14,
       "value": "\"New Messages\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 38604,
+      "offset": 39727,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "BooleanLiteral",
-      "offset": 38667,
+      "offset": 39790,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "StringLiteral",
-      "offset": 40641,
+      "offset": 41764,
       "length": 6,
       "value": "\"some\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "StringLiteral",
-      "offset": 40961,
+      "offset": 42084,
       "length": 35,
       "value": "\"Collection.View.previewCollection\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "IntegerLiteral",
-      "offset": 41016,
+      "offset": 42139,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "StringLiteral",
-      "offset": 41116,
+      "offset": 42239,
       "length": 8,
       "value": "\"Text 1\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "StringLiteral",
-      "offset": 41197,
+      "offset": 42320,
       "length": 8,
       "value": "\"Text 2\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/@Kochava.Networking.Collection.View.swift",
       "kind": "StringLiteral",
-      "offset": 41278,
+      "offset": 42401,
       "length": 8,
       "value": "\"Text 3\""
     },
@@ -25867,7 +25867,7 @@
       "kind": "StringLiteral",
       "offset": 4390,
       "length": 8,
-      "value": "\"10.0.2\""
+      "value": "\"10.1.0\""
     },
     {
       "filePath": "\/Users\/johnbushnell\/Code\/Kochava\/Apple-SwiftPackage-KochavaUI\/Sources\/KochavaUI\/Product.swift",
